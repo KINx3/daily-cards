@@ -1,0 +1,59 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-08-04",
+    "dateLabel": "2026.08.04",
+    "weekday": 2,
+    "type": "book",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] book 2026-08-04",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "BOOK",
+        "heading": "도둑맞은 집중력",
+        "subheading": "요한 하리"
+      },
+      {
+        "kind": "item",
+        "heading": "도둑맞은 집중력",
+        "subheading": "요한 하리",
+        "body": "집중력 붕괴는 개인 탓이 아니라 시스템의 문제"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 1",
+        "heading": "멀티태스킹은 전환 비용으로 지능을 깎는다"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 2",
+        "heading": "몰입에는 방해 없는 긴 시간이 필요하다"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 3",
+        "heading": "환경과 시스템을 바꿔야 집중이 돌아온다"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] book 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
