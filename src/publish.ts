@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import { rawUrl, requireEnv } from "./github.js";
 import { findEntry, loadLedger, setIgMediaId } from "./ledger.js";
+import type { Topic } from "./topics/types.js";
 
 const GRAPH = "https://graph.instagram.com/v23.0";
 
@@ -10,28 +11,33 @@ interface PackageMeta {
   draft: { title: string };
 }
 
-/** out/<date>/ 패키지를 IG 캐러셀로 발행. 멱등(이미 발행 시 skip). */
-export async function publishFromPackage(dateISO: string, dryRun = false): Promise<void> {
-  const meta = JSON.parse(await readFile(`out/${dateISO}/draft.json`, "utf8")) as PackageMeta;
+/** out/<topic>/<date>/ 패키지를 IG 캐러셀로 발행. 멱등(이미 발행 시 skip). */
+export async function publishFromPackage(
+  topic: Topic,
+  dateISO: string,
+  dryRun = false,
+): Promise<void> {
+  const pkgDir = `out/${topic.id}/${dateISO}`;
+  const meta = JSON.parse(await readFile(`${pkgDir}/draft.json`, "utf8")) as PackageMeta;
   if (meta.mode !== "auto") {
-    console.log(`[publish] ${dateISO}는 mode=${meta.mode} — 발행하지 않습니다.`);
+    console.log(`[publish:${topic.id}] ${dateISO}는 mode=${meta.mode} — 발행하지 않습니다.`);
     return;
   }
-  const ledger = await loadLedger();
+  const ledger = await loadLedger(topic.id);
   const entry = findEntry(ledger, dateISO);
   if (!entry) throw new Error(`ledger에 ${dateISO} 항목이 없습니다. 먼저 generate를 실행하세요.`);
   if (entry.igMediaId) {
-    console.log(`[publish] ${dateISO}는 이미 발행됨 (${entry.igMediaId}) — skip`);
+    console.log(`[publish:${topic.id}] ${dateISO}는 이미 발행됨 (${entry.igMediaId}) — skip`);
     return;
   }
   if (entry.images.length < 2 || entry.images.length > 10) {
     throw new Error(`캐러셀은 2~10장이어야 합니다 (현재 ${entry.images.length}장).`);
   }
 
-  const caption = (await readFile(`out/${dateISO}/caption.txt`, "utf8")).trim();
+  const caption = (await readFile(`${pkgDir}/caption.txt`, "utf8")).trim();
   const urls = entry.images.map(rawUrl);
 
-  console.log(`[publish] 이미지 URL 공개 확인 중 (${urls.length}장)...`);
+  console.log(`[publish:${topic.id}] 이미지 URL 공개 확인 중 (${urls.length}장)...`);
   for (const url of urls) await waitPublic(url);
 
   if (dryRun) {
@@ -41,8 +47,10 @@ export async function publishFromPackage(dateISO: string, dryRun = false): Promi
     return;
   }
 
-  const token = requireEnv("IG_ACCESS_TOKEN");
-  const userId = requireEnv("IG_USER_ID");
+  // 토픽별 IG 계정: IG_ACCESS_TOKEN_ANI 등 우선, 없으면 공용 이름
+  const suffix = `_${topic.id.toUpperCase()}`;
+  const token = process.env[`IG_ACCESS_TOKEN${suffix}`] ?? requireEnv("IG_ACCESS_TOKEN");
+  const userId = process.env[`IG_USER_ID${suffix}`] ?? requireEnv("IG_USER_ID");
 
   console.log("[publish] 자식 컨테이너 생성...");
   const children: string[] = [];
@@ -71,8 +79,8 @@ export async function publishFromPackage(dateISO: string, dryRun = false): Promi
     access_token: token,
   });
 
-  await setIgMediaId(dateISO, mediaId);
-  console.log(`[publish] 완료 — media id ${mediaId}`);
+  await setIgMediaId(topic.id, dateISO, mediaId);
+  console.log(`[publish:${topic.id}] 완료 — media id ${mediaId}`);
 }
 
 /** POST → { id } */

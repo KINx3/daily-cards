@@ -3,7 +3,22 @@ import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium } from "playwright";
 import { CARD_HEIGHT, CARD_WIDTH, JPEG_QUALITY } from "./config.js";
+import type { TopicTheme } from "./topics/types.js";
 import type { ImageMap, PostDraft, RenderContext } from "./types.js";
+
+/** TopicTheme → card.html CSS 변수 맵 */
+export function themeVars(t: TopicTheme): Record<string, string> {
+  return {
+    "--accent": t.accent,
+    "--accent-soft": t.accentSoft,
+    "--accent-2": t.accent2,
+    "--highlight": t.highlight,
+    "--grad-title": t.gradTitle,
+    "--glow-a": t.glowA,
+    "--glow-b": t.glowB,
+    "--badge-grad": t.badgeGrad,
+  };
+}
 
 const TEMPLATE = pathToFileURL(resolve("template/card.html")).href;
 

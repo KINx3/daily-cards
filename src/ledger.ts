@@ -1,31 +1,31 @@
 import { readFile, writeFile } from "node:fs/promises";
-import type { ContentType, PublishMode } from "./types.js";
-
-const LEDGER_PATH = "data/posts.json";
+import type { LedgerViews } from "./topics/types.js";
+import type { PublishMode } from "./types.js";
 
 export interface LedgerEntry {
   date: string;
-  type: ContentType;
+  type: string;
   mode: PublishMode;
   igMediaId: string | null;
-  anilistIds: number[];
-  quoteId: string | null;
-  newsGuids: string[];
+  /** dedup 키 목록 (작품 id·인용 id·뉴스 guid 등 — 토픽이 의미 부여) */
+  featured: string[];
   images: string[];
 }
 
-export async function loadLedger(): Promise<LedgerEntry[]> {
+const ledgerPath = (topicId: string) => `data/${topicId}/posts.json`;
+
+export async function loadLedger(topicId: string): Promise<LedgerEntry[]> {
   try {
-    return JSON.parse(await readFile(LEDGER_PATH, "utf8")) as LedgerEntry[];
+    return JSON.parse(await readFile(ledgerPath(topicId), "utf8")) as LedgerEntry[];
   } catch {
     return [];
   }
 }
 
-export async function appendLedger(entry: LedgerEntry): Promise<void> {
-  const ledger = await loadLedger();
+export async function appendLedger(topicId: string, entry: LedgerEntry): Promise<void> {
+  const ledger = await loadLedger(topicId);
   ledger.push(entry);
-  await writeFile(LEDGER_PATH, JSON.stringify(ledger, null, 2) + "\n");
+  await writeFile(ledgerPath(topicId), JSON.stringify(ledger, null, 2) + "\n");
 }
 
 export function findEntry(ledger: LedgerEntry[], date: string): LedgerEntry | undefined {
@@ -33,28 +33,27 @@ export function findEntry(ledger: LedgerEntry[], date: string): LedgerEntry | un
 }
 
 /** 발행 완료 후 igMediaId 기록 (publish 단계) */
-export async function setIgMediaId(date: string, igMediaId: string): Promise<void> {
-  const ledger = await loadLedger();
+export async function setIgMediaId(
+  topicId: string,
+  date: string,
+  igMediaId: string,
+): Promise<void> {
+  const ledger = await loadLedger(topicId);
   const entry = findEntry(ledger, date);
-  if (!entry) throw new Error(`ledger에 ${date} 항목이 없습니다.`);
+  if (!entry) throw new Error(`[${topicId}] ledger에 ${date} 항목이 없습니다.`);
   entry.igMediaId = igMediaId;
-  await writeFile(LEDGER_PATH, JSON.stringify(ledger, null, 2) + "\n");
+  await writeFile(ledgerPath(topicId), JSON.stringify(ledger, null, 2) + "\n");
 }
 
-/** 최근 days일 내 피처링된 AniList id (trending/seasonal/classic 중복 방지) */
-export function recentAnilistIds(ledger: LedgerEntry[], days = 30): Set<number> {
-  const cutoff = Date.now() - days * 86400_000;
-  const ids = new Set<number>();
+export function ledgerViews(ledger: LedgerEntry[], recentDays = 30): LedgerViews {
+  const cutoff = Date.now() - recentDays * 86400_000;
+  const recent = new Set<string>();
+  const all = new Set<string>();
   for (const e of ledger) {
-    if (Date.parse(e.date) >= cutoff) for (const id of e.anilistIds) ids.add(id);
+    for (const id of e.featured) {
+      all.add(id);
+      if (Date.parse(e.date) >= cutoff) recent.add(id);
+    }
   }
-  return ids;
-}
-
-export function usedQuoteIds(ledger: LedgerEntry[]): Set<string> {
-  return new Set(ledger.flatMap((e) => (e.quoteId ? [e.quoteId] : [])));
-}
-
-export function usedNewsGuids(ledger: LedgerEntry[]): Set<string> {
-  return new Set(ledger.flatMap((e) => e.newsGuids));
+  return { recent, all };
 }

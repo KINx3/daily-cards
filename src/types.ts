@@ -1,15 +1,5 @@
 import { z } from "zod";
 
-export const CONTENT_TYPES = [
-  "trending",
-  "classic",
-  "news",
-  "quote",
-  "seasonal",
-  "schedule",
-] as const;
-export type ContentType = (typeof CONTENT_TYPES)[number];
-
 export type PublishMode = "auto" | "review";
 
 export const SlideSchema = z.object({
@@ -34,9 +24,11 @@ export type PostDraft = z.infer<typeof PostDraftSchema>;
 /** imageKey → data URI (렌더 결정성을 위해 fetch 단계에서 미리 다운로드) */
 export type ImageMap = Record<string, string>;
 
-/** 카드 상단/하단 크롬에 들어가는 컨텍스트 */
+/** 카드 상단/하단 크롬 + 테마 컨텍스트 */
 export interface RenderContext {
   brand: string;
   dateLabel: string;
   typeLabel: string;
+  /** 토픽 컬러 테마 (없으면 템플릿 기본값=바이올렛) */
+  theme?: Record<string, string>;
 }

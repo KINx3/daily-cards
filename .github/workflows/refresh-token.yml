@@ -1,4 +1,4 @@
-name: refresh-ig-token
+name: refresh-ig-tokens
 
 on:
   schedule:
@@ -9,21 +9,31 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: IG 장기 토큰 갱신 → repo secret 교체
+      - name: 토픽별 IG 장기 토큰 갱신 → repo secret 교체
         env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          T_ANI: ${{ secrets.IG_ACCESS_TOKEN_ANI }}
+          T_TECH: ${{ secrets.IG_ACCESS_TOKEN_TECH }}
+          T_GROWTH: ${{ secrets.IG_ACCESS_TOKEN_GROWTH }}
           GH_TOKEN: ${{ secrets.GH_PAT }} # fine-grained PAT (이 repo, Secrets R/W)
         run: |
-          if [ -z "$IG_ACCESS_TOKEN" ]; then
-            echo "IG_ACCESS_TOKEN 미설정 — 자동 발행 전이므로 skip"
-            exit 0
-          fi
-          resp=$(curl -fsS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_ACCESS_TOKEN}")
-          new=$(echo "$resp" | jq -r .access_token)
-          if [ -z "$new" ] || [ "$new" = "null" ]; then
-            echo "갱신 실패 응답: $resp"
-            exit 1
-          fi
-          echo "::add-mask::$new"
-          gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" --body "$new"
-          echo "갱신 완료 (만료 $(echo "$resp" | jq -r .expires_in)초 후)"
+          fail=0
+          refresh() {
+            name="$1"; tok="$2"
+            if [ -z "$tok" ]; then
+              echo "[$name] 미설정 — skip"
+              return 0
+            fi
+            resp=$(curl -fsS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${tok}") || { echo "[$name] 요청 실패"; return 1; }
+            new=$(echo "$resp" | jq -r .access_token)
+            if [ -z "$new" ] || [ "$new" = "null" ]; then
+              echo "[$name] 갱신 실패 응답: $resp"
+              return 1
+            fi
+            echo "::add-mask::$new"
+            gh secret set "$name" --repo "${{ github.repository }}" --body "$new"
+            echo "[$name] 갱신 완료 (만료 $(echo "$resp" | jq -r .expires_in)초 후)"
+          }
+          refresh IG_ACCESS_TOKEN_ANI "$T_ANI" || fail=1
+          refresh IG_ACCESS_TOKEN_TECH "$T_TECH" || fail=1
+          refresh IG_ACCESS_TOKEN_GROWTH "$T_GROWTH" || fail=1
+          exit $fail

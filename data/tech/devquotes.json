@@ -1,0 +1,20 @@
+[
+  { "id": "dq-knuth", "quote": "성급한 최적화는 만악의 근원이다.", "by": "도널드 커누스", "source": "The Art of Computer Programming", "verified": false },
+  { "id": "dq-hopper", "quote": "가장 위험한 말은 '우리는 늘 이렇게 해왔어'이다.", "by": "그레이스 호퍼", "source": "인터뷰 (1976)", "verified": false },
+  { "id": "dq-kay", "quote": "미래를 예측하는 가장 좋은 방법은 미래를 발명하는 것이다.", "by": "앨런 케이", "source": "PARC 시절 발언", "verified": false },
+  { "id": "dq-beck", "quote": "일단 돌아가게 만들고, 그다음 올바르게, 그다음 빠르게.", "by": "켄트 벡", "source": "Make it work, make it right, make it fast", "verified": false },
+  { "id": "dq-fowler", "quote": "컴퓨터가 이해하는 코드는 바보라도 짤 수 있다.\n좋은 프로그래머는 사람이 이해하는 코드를 짠다.", "by": "마틴 파울러", "source": "Refactoring", "verified": false },
+  { "id": "dq-karlton", "quote": "컴퓨터 과학에서 어려운 것은 딱 두 가지다.\n캐시 무효화, 그리고 이름 짓기.", "by": "필 칼튼", "source": "", "verified": false },
+  { "id": "dq-linus", "quote": "말은 쉽다. 코드를 보여줘.", "by": "리누스 토르발스", "source": "리눅스 커널 메일링리스트 (2000)", "verified": false },
+  { "id": "dq-dijkstra", "quote": "테스트는 버그의 존재를 보여줄 수 있을 뿐,\n버그의 부재를 증명하지 못한다.", "by": "에츠허르 데이크스트라", "source": "Notes on Structured Programming", "verified": false },
+  { "id": "dq-brooks", "quote": "늦어진 소프트웨어 프로젝트에 인력을 추가하면\n더 늦어진다.", "by": "프레드 브룩스", "source": "맨먼스 미신", "verified": false },
+  { "id": "dq-exupery", "quote": "완벽함이란 더할 것이 없을 때가 아니라,\n뺄 것이 없을 때 이루어진다.", "by": "앙투안 드 생텍쥐페리", "source": "인간의 대지", "verified": false },
+  { "id": "dq-woods", "quote": "당신의 코드를 유지보수할 사람이 당신의 집 주소를 아는\n난폭한 사이코패스라고 생각하고 코드를 짜라.", "by": "존 우즈", "source": "comp.lang.c++ (1991)", "verified": false },
+  { "id": "dq-pike", "quote": "측정하기 전에는 속도를 논하지 마라.\n병목은 늘 의외의 곳에 있다.", "by": "롭 파이크", "source": "Notes on Programming in C", "verified": false },
+  { "id": "dq-mckinley", "quote": "지루한 기술을 선택하라.", "by": "댄 매킨리", "source": "Choose Boring Technology (2015)", "verified": false },
+  { "id": "dq-kernighan", "quote": "디버깅은 코드를 짜는 것보다 두 배 어렵다.\n최대한 영리하게 짠 코드는, 정의상 당신이 디버깅할 수 없다.", "by": "브라이언 커니핸", "source": "The Elements of Programming Style", "verified": false },
+  { "id": "dq-cargill", "quote": "코드의 처음 90%가 개발 시간의 90%를 쓴다.\n남은 10%가 나머지 90%를 쓴다.", "by": "톰 카길", "source": "90-90 법칙", "verified": false },
+  { "id": "dq-hofstadter", "quote": "일은 언제나 예상보다 오래 걸린다.\n호프스태터의 법칙을 감안하더라도.", "by": "더글러스 호프스태터", "source": "괴델, 에셔, 바흐", "verified": false },
+  { "id": "dq-gates", "quote": "코드 줄 수로 개발 진척을 재는 것은\n무게로 비행기 제작 진척을 재는 것과 같다.", "by": "빌 게이츠", "source": "", "verified": false },
+  { "id": "dq-torvalds-taste", "quote": "좋은 프로그래머는 코드를 걱정하고,\n위대한 프로그래머는 자료구조와 그 관계를 걱정한다.", "by": "리누스 토르발스", "source": "git 메일링리스트 (2006)", "verified": false }
+]

@@ -5,13 +5,18 @@ on:
     - cron: "23 9 * * *" # UTC 09:23 = KST 18:23 (실제 실행은 drift로 수십 분 지연 가능)
   workflow_dispatch:
     inputs:
-      type:
-        description: "콘텐츠 타입 강제 (비우면 요일 캘린더)"
+      topic:
+        description: "type/mode 오버라이드를 적용할 토픽 (모든 토픽은 항상 실행되며, 이미 생성된 날은 자동 skip)"
         required: false
+        default: ""
         type: choice
-        options: ["", "trending", "classic", "news", "quote", "seasonal", "schedule"]
+        options: ["", "ani", "tech", "growth"]
+      type:
+        description: "콘텐츠 타입 강제 (topic 지정 시에만 적용)"
+        required: false
+        type: string
       mode:
-        description: "모드 강제 (비우면 PUBLISH_MODE 변수)"
+        description: "모드 강제 (topic 지정 시에만 적용)"
         required: false
         type: choice
         options: ["", "review", "auto"]
@@ -27,6 +32,14 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false # 한 토픽 실패가 다른 토픽 발행을 막지 않음
+      max-parallel: 1 #  토픽별 순차 실행 — push 경합 방지
+      matrix:
+        include:
+          - { topic: ani, up: ANI }
+          - { topic: tech, up: TECH }
+          - { topic: growth, up: GROWTH }
     steps:
       - uses: actions/checkout@v4
 
@@ -49,42 +62,46 @@ jobs:
         id: kst
         run: echo "date=$(TZ=Asia/Seoul date +%F)" >> "$GITHUB_OUTPUT"
 
-      - name: 카드뉴스 생성
+      - name: 카드뉴스 생성 (${{ matrix.topic }})
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          PUBLISH_MODE: ${{ vars.PUBLISH_MODE || 'review' }}
-          BRAND: ${{ vars.BRAND }}
+          PUBLISH_MODE: ${{ vars[format('PUBLISH_MODE_{0}', matrix.up)] || vars.PUBLISH_MODE || 'review' }}
+          BRAND: ${{ vars[format('BRAND_{0}', matrix.up)] || '' }}
         run: |
           ARGS=""
-          [ -n "${{ inputs.type }}" ] && ARGS="$ARGS --type ${{ inputs.type }}"
-          [ -n "${{ inputs.mode }}" ] && ARGS="$ARGS --mode ${{ inputs.mode }}"
-          npx tsx src/run.ts --date "${{ steps.kst.outputs.date }}" $ARGS
+          if [ "${{ inputs.topic }}" = "${{ matrix.topic }}" ]; then
+            [ -n "${{ inputs.type }}" ] && ARGS="$ARGS --type ${{ inputs.type }}"
+            [ -n "${{ inputs.mode }}" ] && ARGS="$ARGS --mode ${{ inputs.mode }}"
+          fi
+          npx tsx src/run.ts --topic ${{ matrix.topic }} --date "${{ steps.kst.outputs.date }}" $ARGS
 
       - name: 패키지 커밋·푸시 (이미지 공개 = IG용 raw URL)
         run: |
-          git config user.name "ani-cards-bot"
+          git config user.name "cards-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add out data
-          git commit -m "post: ${{ steps.kst.outputs.date }}" || echo "변경 없음"
+          git commit -m "post(${{ matrix.topic }}): ${{ steps.kst.outputs.date }}" || echo "변경 없음"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
 
       - name: 모드 판별
         id: mode
-        run: echo "mode=$(jq -r .mode "out/${{ steps.kst.outputs.date }}/draft.json")" >> "$GITHUB_OUTPUT"
+        run: echo "mode=$(jq -r .mode "out/${{ matrix.topic }}/${{ steps.kst.outputs.date }}/draft.json")" >> "$GITHUB_OUTPUT"
 
       - name: 자동 발행 (auto)
         if: steps.mode.outputs.mode == 'auto'
         env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets[format('IG_ACCESS_TOKEN_{0}', matrix.up)] }}
+          IG_USER_ID: ${{ secrets[format('IG_USER_ID_{0}', matrix.up)] }}
         run: |
-          npx tsx src/run.ts --publish --date "${{ steps.kst.outputs.date }}"
-          git add data/posts.json
-          git commit -m "post: ${{ steps.kst.outputs.date }} 발행 완료" || echo "변경 없음"
+          npx tsx src/run.ts --publish --topic ${{ matrix.topic }} --date "${{ steps.kst.outputs.date }}"
+          git add data
+          git commit -m "post(${{ matrix.topic }}): ${{ steps.kst.outputs.date }} 발행 완료" || echo "변경 없음"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
 
       - name: 리뷰 이슈 생성 (review)
         if: steps.mode.outputs.mode == 'review'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: npx tsx src/run.ts --review --date "${{ steps.kst.outputs.date }}"
+        run: npx tsx src/run.ts --review --topic ${{ matrix.topic }} --date "${{ steps.kst.outputs.date }}"
