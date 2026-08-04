@@ -1,0 +1,25 @@
+{
+  "name": "ani-cards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "tsx src/run.ts",
+    "render": "tsx src/run.ts --sample",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
+    "fast-xml-parser": "^5.10.0",
+    "playwright": "^1.62.0",
+    "zod": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

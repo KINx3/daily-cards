@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<title>ani-cards template</title>
+<style>
+  /* NotoSansKR: korean 파일을 먼저(전 범위), latin 파일을 나중에(라틴 범위만) 선언 */
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    src: url("fonts/nskr-korean-400.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-weight: 700;
+    src: url("fonts/nskr-korean-700.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-weight: 900;
+    src: url("fonts/nskr-korean-900.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    src: url("fonts/nskr-latin-400.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-weight: 700;
+    src: url("fonts/nskr-latin-700.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-weight: 900;
+    src: url("fonts/nskr-latin-900.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  :root {
+    --bg: #0a0a14;
+    --text: #ffffff;
+    --text-soft: #e2e8f0;
+    --text-body: #cbd5e1;
+    --muted: #64748b;
+    --accent: #818cf8;
+    --accent-soft: #a5b4fc;
+    --accent-pink: #c084fc;
+    --highlight: #facc15;
+    --border: rgba(129, 140, 248, 0.35);
+    --grad-title: linear-gradient(100deg, #ffffff 20%, #818cf8 60%, #c084fc 90%);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #000; }
+  body {
+    font-family: "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: var(--text);
+  }
+
+  #stage {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    background: var(--bg);
+    overflow: hidden;
+  }
+
+  /* ── 공통 배경 글로우 ── */
+  .glow { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; }
+  .glow.violet { width: 720px; height: 720px; top: -260px; left: -220px; background: rgba(124, 58, 237, 0.22); }
+  .glow.blue   { width: 640px; height: 640px; bottom: -240px; right: -200px; background: rgba(37, 99, 235, 0.16); }
+
+  /* ── 커버 아트 백드롭(cover 전용) ── */
+  .backdrop { position: absolute; inset: 0; }
+  .backdrop img {
+    width: 100%; height: 100%; object-fit: cover;
+    filter: blur(30px) brightness(0.45) saturate(1.15);
+    transform: scale(1.18);
+  }
+  .backdrop::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(10,10,20,0.30) 0%, rgba(10,10,20,0.55) 45%, rgba(10,10,20,0.94) 80%);
+  }
+
+  /* ── 상/하단 크롬 ── */
+  .chrome-top {
+    position: absolute; top: 64px; left: 72px; right: 72px;
+    display: flex; align-items: center; justify-content: space-between; z-index: 5;
+  }
+  .brand {
+    font-weight: 900; font-size: 28px; letter-spacing: 0.14em; color: var(--text-soft);
+  }
+  .brand::before {
+    content: "✦ "; color: var(--accent);
+  }
+  .type-pill {
+    font-weight: 700; font-size: 24px; color: var(--accent-soft);
+    border: 1.5px solid var(--border); background: rgba(129, 140, 248, 0.12);
+    padding: 10px 24px; border-radius: 999px; letter-spacing: 0.02em;
+  }
+  .chrome-bottom {
+    position: absolute; bottom: 56px; left: 72px; right: 72px;
+    display: flex; align-items: center; justify-content: space-between; z-index: 5;
+    font-size: 23px; color: var(--muted); font-weight: 400; letter-spacing: 0.06em;
+  }
+  .page-now { color: var(--accent-soft); font-weight: 700; }
+
+  /* ── 아트 카드 ── */
+  .art {
+    position: relative; border-radius: 24px; overflow: hidden;
+    border: 1.5px solid var(--border);
+    box-shadow: 0 30px 80px rgba(124, 58, 237, 0.35), 0 8px 24px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #1e1b4b 0%, #0a0a14 100%);
+  }
+  .art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .art .ph {
+    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 140px;
+    background: var(--grad-title); -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+
+  .grad-text {
+    background: var(--grad-title);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+
+  /* ══ cover ══ */
+  .cover-wrap {
+    position: absolute; inset: 0; z-index: 3;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 190px 96px 150px;
+  }
+  .cover-wrap .art { width: 400px; height: 570px; flex: none; }
+  .cover-title-block { margin-top: auto; text-align: center; width: 100%; }
+  .cover-badge {
+    display: inline-block; font-weight: 700; font-size: 26px; color: var(--highlight);
+    letter-spacing: 0.22em; margin-bottom: 26px;
+  }
+  .cover-heading {
+    font-weight: 900; font-size: 82px; line-height: 1.22; letter-spacing: -0.02em;
+    word-break: keep-all;
+  }
+  .cover-sub {
+    margin-top: 22px; font-weight: 400; font-size: 32px; color: var(--accent-soft); letter-spacing: 0.01em;
+  }
+  .cover-hint {
+    margin-top: 40px; font-size: 25px; color: var(--muted); font-weight: 400; letter-spacing: 0.08em;
+  }
+
+  /* ══ item ══ */
+  .item-wrap {
+    position: absolute; inset: 0; z-index: 3;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 170px 90px 140px;
+  }
+  .item-art-zone { position: relative; flex: none; }
+  .item-wrap .art { width: 440px; height: 626px; }
+  .item-badge {
+    position: absolute; top: -26px; left: -30px; z-index: 4;
+    font-weight: 900; font-size: 34px; color: #0a0a14;
+    background: linear-gradient(120deg, #facc15, #fb923c);
+    padding: 12px 28px; border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(250, 204, 21, 0.35);
+    letter-spacing: -0.01em;
+  }
+  .item-text { margin-top: 52px; text-align: center; width: 100%; }
+  .item-heading {
+    font-weight: 900; font-size: 58px; line-height: 1.25; letter-spacing: -0.02em;
+    color: var(--text); word-break: keep-all;
+  }
+  .item-sub { margin-top: 14px; font-size: 28px; font-weight: 400; color: #94a3b8; }
+  .item-meta {
+    margin-top: 26px; font-size: 26px; font-weight: 700; color: var(--accent-soft); letter-spacing: 0.02em;
+  }
+  .item-body {
+    margin-top: 26px; font-size: 30px; line-height: 1.62; font-weight: 400; color: var(--text-body);
+    word-break: keep-all; max-width: 860px; margin-left: auto; margin-right: auto;
+  }
+
+  /* ══ quote ══ */
+  .quote-wrap {
+    position: absolute; inset: 0; z-index: 3;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 180px 110px 170px; text-align: center;
+  }
+  .quote-mark {
+    font-weight: 900; font-size: 200px; line-height: 0.6; height: 110px;
+    color: rgba(129, 140, 248, 0.35); user-select: none;
+  }
+  .quote-text {
+    font-weight: 700; font-size: 54px; line-height: 1.55; letter-spacing: -0.01em;
+    color: var(--text); word-break: keep-all; max-width: 860px;
+  }
+  .quote-attr {
+    margin-top: 54px; font-size: 30px; font-weight: 400; color: var(--accent-soft);
+  }
+  .quote-attr b { font-weight: 700; }
+  .quote-attr::before { content: "— "; color: var(--highlight); font-weight: 700; }
+  .quote-wrap .art { width: 150px; height: 214px; margin-top: 44px; border-radius: 16px; }
+  .quote-wrap .art .ph { font-size: 60px; }
+
+  /* ══ news ══ */
+  .news-wrap {
+    position: absolute; inset: 0; z-index: 3;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 200px 100px 180px;
+  }
+  .news-badge {
+    font-weight: 900; font-size: 30px; color: var(--highlight); letter-spacing: 0.1em; margin-bottom: 30px;
+  }
+  .news-heading {
+    font-weight: 900; font-size: 64px; line-height: 1.3; letter-spacing: -0.02em;
+    word-break: keep-all; color: var(--text);
+  }
+  .news-body {
+    margin-top: 40px; font-size: 33px; line-height: 1.68; font-weight: 400; color: var(--text-body);
+    word-break: keep-all;
+  }
+  .news-meta { margin-top: 44px; font-size: 25px; color: var(--muted); }
+  .news-meta::before { content: "출처 · "; color: var(--muted); }
+
+  /* ══ schedule ══ */
+  .sched-wrap {
+    position: absolute; inset: 0; z-index: 3;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 190px 100px 170px; text-align: center;
+  }
+  .sched-day {
+    font-weight: 900; font-size: 96px; letter-spacing: -0.02em; line-height: 1.1;
+  }
+  .sched-sub { margin-top: 14px; font-size: 30px; color: var(--muted); letter-spacing: 0.12em; font-weight: 400; }
+  .sched-list { margin-top: 64px; display: flex; flex-direction: column; gap: 28px; width: 100%; }
+  .sched-item {
+    font-size: 40px; font-weight: 700; color: var(--text-soft); line-height: 1.4; word-break: keep-all;
+  }
+  .sched-item::before { content: "◆ "; color: var(--accent); font-size: 28px; vertical-align: 6px; }
+
+  /* ══ outro ══ */
+  .outro-wrap {
+    position: absolute; inset: 0; z-index: 3;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 200px 110px 180px; text-align: center;
+  }
+  .outro-logo { font-weight: 900; font-size: 46px; letter-spacing: 0.16em; color: var(--text-soft); }
+  .outro-logo::before { content: "✦ "; color: var(--accent); }
+  .outro-heading {
+    margin-top: 56px; font-weight: 900; font-size: 72px; line-height: 1.3; letter-spacing: -0.02em; word-break: keep-all;
+  }
+  .outro-body { margin-top: 36px; font-size: 33px; line-height: 1.6; color: var(--text-body); word-break: keep-all; }
+  .outro-cta {
+    margin-top: 70px; display: inline-block;
+    font-weight: 700; font-size: 30px; color: #0a0a14;
+    background: linear-gradient(120deg, #818cf8, #c084fc);
+    padding: 22px 54px; border-radius: 999px;
+    box-shadow: 0 16px 48px rgba(129, 140, 248, 0.4);
+  }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script>
+  let IMAGES = {};
+
+  function setImages(map) { IMAGES = map || {}; }
+
+  function esc(s) {
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    })[c]);
+  }
+  function br(s) { return esc(s).replace(/\n/g, "<br>"); }
+
+  function artEl(slide, extraClass) {
+    const src = slide.imageKey ? IMAGES[slide.imageKey] : null;
+    const inner = src
+      ? '<img src="' + src + '" alt="">'
+      : '<div class="ph">' + esc((slide.heading || "✦").trim().charAt(0)) + "</div>";
+    return '<div class="art ' + (extraClass || "") + '">' + inner + "</div>";
+  }
+
+  function chrome(ctx, index, total, opts) {
+    const topChrome = opts && opts.noTop
+      ? ""
+      : '<div class="chrome-top">' +
+          '<div class="brand">' + esc(ctx.brand) + "</div>" +
+          '<div class="type-pill">' + esc(ctx.typeLabel) + "</div>" +
+        "</div>";
+    return (
+      topChrome +
+      '<div class="chrome-bottom">' +
+        "<div>" + esc(ctx.dateLabel) + "</div>" +
+        '<div><span class="page-now">' + String(index + 1).padStart(2, "0") + "</span> / " +
+          String(total).padStart(2, "0") + "</div>" +
+      "</div>"
+    );
+  }
+
+  const LAYOUTS = {
+    cover(s, ctx) {
+      const backdropSrc = s.imageKey ? IMAGES[s.imageKey] : null;
+      return (
+        (backdropSrc ? '<div class="backdrop"><img src="' + backdropSrc + '" alt=""></div>' : glows()) +
+        '<div class="cover-wrap">' +
+          artEl(s) +
+          '<div class="cover-title-block">' +
+            (s.badge ? '<div class="cover-badge">' + esc(s.badge) + "</div>" : "") +
+            '<div class="cover-heading grad-text">' + br(s.heading) + "</div>" +
+            (s.subheading ? '<div class="cover-sub">' + esc(s.subheading) + "</div>" : "") +
+            '<div class="cover-hint">옆으로 넘겨보세요 →</div>' +
+          "</div>" +
+        "</div>"
+      );
+    },
+    item(s) {
+      return (
+        glows() +
+        '<div class="item-wrap">' +
+          '<div class="item-art-zone">' +
+            artEl(s) +
+            (s.badge ? '<div class="item-badge">' + esc(s.badge) + "</div>" : "") +
+          "</div>" +
+          '<div class="item-text">' +
+            '<div class="item-heading">' + br(s.heading) + "</div>" +
+            (s.subheading ? '<div class="item-sub">' + esc(s.subheading) + "</div>" : "") +
+            (s.meta ? '<div class="item-meta">' + esc(s.meta) + "</div>" : "") +
+            (s.body ? '<div class="item-body">' + br(s.body) + "</div>" : "") +
+          "</div>" +
+        "</div>"
+      );
+    },
+    quote(s) {
+      return (
+        glows() +
+        '<div class="quote-wrap">' +
+          '<div class="quote-mark">“</div>' +
+          '<div class="quote-text">' + br(s.body) + "</div>" +
+          '<div class="quote-attr"><b>' + esc(s.heading) + "</b>" +
+            (s.subheading ? ", 「" + esc(s.subheading) + "」" : "") + "</div>" +
+          artEl(s) +
+        "</div>"
+      );
+    },
+    news(s) {
+      return (
+        glows() +
+        '<div class="news-wrap">' +
+          (s.badge ? '<div class="news-badge">' + esc(s.badge) + "</div>" : "") +
+          '<div class="news-heading">' + br(s.heading) + "</div>" +
+          (s.body ? '<div class="news-body">' + br(s.body) + "</div>" : "") +
+          (s.meta ? '<div class="news-meta">' + esc(s.meta) + "</div>" : "") +
+        "</div>"
+      );
+    },
+    schedule(s) {
+      const items = (s.body || "")
+        .split("\n").filter(Boolean)
+        .map((t) => '<div class="sched-item">' + esc(t) + "</div>")
+        .join("");
+      return (
+        glows() +
+        '<div class="sched-wrap">' +
+          '<div class="sched-day grad-text">' + esc(s.heading) + "</div>" +
+          (s.subheading ? '<div class="sched-sub">' + esc(s.subheading) + "</div>" : "") +
+          '<div class="sched-list">' + items + "</div>" +
+        "</div>"
+      );
+    },
+    outro(s, ctx) {
+      return (
+        glows() +
+        '<div class="outro-wrap">' +
+          '<div class="outro-logo">' + esc(ctx.brand) + "</div>" +
+          '<div class="outro-heading grad-text">' + br(s.heading || "매일 저녁,\n애니 소식을 카드로") + "</div>" +
+          (s.body ? '<div class="outro-body">' + br(s.body) + "</div>" : "") +
+          '<div class="outro-cta">팔로우하고 놓치지 마세요</div>' +
+        "</div>"
+      );
+    },
+  };
+
+  function glows() {
+    return '<div class="glow violet"></div><div class="glow blue"></div>';
+  }
+
+  /**
+   * slide 하나를 스테이지에 그린다.
+   * ctx = { brand, dateLabel, typeLabel, index, total }
+   */
+  function renderSlide(slide, ctx) {
+    const layout = LAYOUTS[slide.kind] || LAYOUTS.item;
+    document.getElementById("stage").innerHTML =
+      layout(slide, ctx) + chrome(ctx, ctx.index, ctx.total, { noTop: slide.kind === "outro" });
+  }
+
+  window.setImages = setImages;
+  window.renderSlide = renderSlide;
+
+  /* ── 브라우저에서 직접 열어 디자인 확인: card.html?demo=item ── */
+  const demoKind = new URLSearchParams(location.search).get("demo");
+  if (demoKind !== null) {
+    const samples = {
+      cover: { kind: "cover", badge: "WEEKLY TOP 5", heading: "이번 주\n가장 뜨거운 애니", subheading: "8월 1주차 · AniList 트렌딩 기준" },
+      item: { kind: "item", badge: "1위", heading: "장송의 프리렌", subheading: "Sousou no Frieren", meta: "TV 28화 · 매드하우스 · 평점 89", body: "천 년을 사는 엘프 마법사가\n먼저 떠난 동료들의 시간을 뒤따라 걷는 이야기." },
+      quote: { kind: "quote", heading: "히메노", subheading: "장송의 프리렌", body: "사람의 마음은,\n말하지 않으면 전해지지 않아." },
+      news: { kind: "news", badge: "NEWS 03", heading: "『체인소 맨』 극장판\n레제편 개봉일 확정", body: "MAPPA가 극장판 레제편의 국내 개봉일을 공개했습니다. 원작 팬들이 가장 기다려온 에피소드가 스크린에 걸립니다.", meta: "Anime News Network" },
+      schedule: { kind: "schedule", heading: "월요일", subheading: "8월 10일", body: "원피스 1120화\n스파이 패밀리 3기 5화\n괴수 8호 2기 4화" },
+      outro: { kind: "outro", heading: "매일 저녁 6시,\n애니 소식을 카드로", body: "내일은 명대사 카드로 찾아옵니다." },
+    };
+    const s = samples[demoKind] || samples.cover;
+    renderSlide(s, { brand: "ANI·CARDS", dateLabel: "2026.08.04", typeLabel: "주간 인기", index: 0, total: 7 });
+  }
+</script>
+</body>
+</html>
