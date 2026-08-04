@@ -1,0 +1,90 @@
+name: daily-post
+
+on:
+  schedule:
+    - cron: "23 9 * * *" # UTC 09:23 = KST 18:23 (실제 실행은 drift로 수십 분 지연 가능)
+  workflow_dispatch:
+    inputs:
+      type:
+        description: "콘텐츠 타입 강제 (비우면 요일 캘린더)"
+        required: false
+        type: choice
+        options: ["", "trending", "classic", "news", "quote", "seasonal", "schedule"]
+      mode:
+        description: "모드 강제 (비우면 PUBLISH_MODE 변수)"
+        required: false
+        type: choice
+        options: ["", "review", "auto"]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Playwright 브라우저 캐시
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: 오늘 날짜 (KST)
+        id: kst
+        run: echo "date=$(TZ=Asia/Seoul date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: 카드뉴스 생성
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PUBLISH_MODE: ${{ vars.PUBLISH_MODE || 'review' }}
+          BRAND: ${{ vars.BRAND }}
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.type }}" ] && ARGS="$ARGS --type ${{ inputs.type }}"
+          [ -n "${{ inputs.mode }}" ] && ARGS="$ARGS --mode ${{ inputs.mode }}"
+          npx tsx src/run.ts --date "${{ steps.kst.outputs.date }}" $ARGS
+
+      - name: 패키지 커밋·푸시 (이미지 공개 = IG용 raw URL)
+        run: |
+          git config user.name "ani-cards-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out data
+          git commit -m "post: ${{ steps.kst.outputs.date }}" || echo "변경 없음"
+          git push
+
+      - name: 모드 판별
+        id: mode
+        run: echo "mode=$(jq -r .mode "out/${{ steps.kst.outputs.date }}/draft.json")" >> "$GITHUB_OUTPUT"
+
+      - name: 자동 발행 (auto)
+        if: steps.mode.outputs.mode == 'auto'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          npx tsx src/run.ts --publish --date "${{ steps.kst.outputs.date }}"
+          git add data/posts.json
+          git commit -m "post: ${{ steps.kst.outputs.date }} 발행 완료" || echo "변경 없음"
+          git push
+
+      - name: 리뷰 이슈 생성 (review)
+        if: steps.mode.outputs.mode == 'review'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: npx tsx src/run.ts --review --date "${{ steps.kst.outputs.date }}"

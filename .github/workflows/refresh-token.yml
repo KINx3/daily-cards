@@ -1,0 +1,29 @@
+name: refresh-ig-token
+
+on:
+  schedule:
+    - cron: "0 1 * * 1" # 매주 월 KST 10:00 — 60일 토큰을 여유 있게 갱신
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: IG 장기 토큰 갱신 → repo secret 교체
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }} # fine-grained PAT (이 repo, Secrets R/W)
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then
+            echo "IG_ACCESS_TOKEN 미설정 — 자동 발행 전이므로 skip"
+            exit 0
+          fi
+          resp=$(curl -fsS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_ACCESS_TOKEN}")
+          new=$(echo "$resp" | jq -r .access_token)
+          if [ -z "$new" ] || [ "$new" = "null" ]; then
+            echo "갱신 실패 응답: $resp"
+            exit 1
+          fi
+          echo "::add-mask::$new"
+          gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" --body "$new"
+          echo "갱신 완료 (만료 $(echo "$resp" | jq -r .expires_in)초 후)"

@@ -1,5 +1,10 @@
 import type { ContentType, PublishMode } from "./types.js";
 
+// 로컬 실행 시 .env 자동 로드 (없으면 무시; CI는 Actions env 사용)
+try {
+  process.loadEnvFile(".env");
+} catch {}
+
 export const BRAND = process.env.BRAND ?? "ANI·CARDS";
 
 export const CARD_WIDTH = 1080;

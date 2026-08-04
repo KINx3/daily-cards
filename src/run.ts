@@ -21,6 +21,7 @@ const { values: args } = parseArgs({
   options: {
     sample: { type: "boolean", default: false },
     publish: { type: "boolean", default: false },
+    review: { type: "boolean", default: false },
     type: { type: "string" },
     date: { type: "string" },
     mode: { type: "string" },
@@ -117,6 +118,12 @@ async function main() {
   if (args.publish) {
     const { publishFromPackage } = await import("./publish.js");
     await publishFromPackage(args.date ?? todayKST(), args["dry-run"]);
+    return;
+  }
+
+  if (args.review) {
+    const { createReviewIssue } = await import("./review.js");
+    await createReviewIssue(args.date ?? todayKST());
     return;
   }
 
