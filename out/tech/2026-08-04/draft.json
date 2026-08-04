@@ -1,0 +1,83 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-04",
+    "dateLabel": "2026.08.04",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "오늘의 GitHub 트렌딩 5",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "오늘 스타 쏟아진\nGitHub 리포 5",
+        "subheading": "에이전트 하네스부터 이미지→3D까지",
+        "badge": "트렌딩",
+        "body": "설명 한 줄로 1만 스타를 넘긴\n리포들. 이름과 설명에 적힌\n범위만 그대로 정리했다."
+      },
+      {
+        "kind": "item",
+        "heading": "Codex-Dream-Skin",
+        "subheading": "Fei-Away/Codex-Dream-Skin",
+        "badge": "1위",
+        "meta": "JavaScript · ★13,158"
+      },
+      {
+        "kind": "item",
+        "heading": "openworker",
+        "subheading": "andrewyng/openworker",
+        "badge": "2위",
+        "meta": "Python · ★12,680"
+      },
+      {
+        "kind": "item",
+        "heading": "qm",
+        "subheading": "yc-software/qm",
+        "badge": "3위",
+        "meta": "TypeScript · ★10,854"
+      },
+      {
+        "kind": "item",
+        "heading": "img2threejs",
+        "subheading": "img2threejs/img2threejs",
+        "badge": "4위",
+        "meta": "Python · ★9,546"
+      },
+      {
+        "kind": "item",
+        "heading": "Kimi-K3",
+        "subheading": "MoonshotAI/Kimi-K3",
+        "badge": "5위",
+        "meta": "★8,034"
+      },
+      {
+        "kind": "outro",
+        "heading": "내일도 트렌딩 5장\n놓치지 않게 팔로우",
+        "subheading": "매일 아침 GitHub·AI 소식 정리",
+        "badge": "FOLLOW",
+        "body": "저장해두고 주말에 하나씩\n열어보면 딱 좋다."
+      }
+    ],
+    "caption": "설명이 한 줄, 혹은 아예 없는데도 스타가 1만을 넘어간다. 오늘 GitHub 트렌딩 상위 5개 리포를 이름·설명·언어·스타 수 그대로만 정리했다. 추측은 넣지 않았으니 궁금한 건 직접 열어보는 쪽이 빠르다.\n\n1. Codex-Dream-Skin — JavaScript · ★13,158\n2. andrewyng/openworker — Python · ★12,680\n3. qm, 업무용 멀티플레이어 에이전트 하네스 — TypeScript · ★10,854\n4. img2threejs, 토큰 효율적인 image-to-3D — Python · ★9,546\n5. MoonshotAI/Kimi-K3, Open Frontier Intelligence — ★8,034",
+    "hashtags": [
+      "#깃허브",
+      "#GitHub",
+      "#오픈소스",
+      "#개발자",
+      "#개발자스타그램",
+      "#AI에이전트",
+      "#threejs",
+      "#타입스크립트",
+      "#파이썬",
+      "#자바스크립트",
+      "#코딩공부",
+      "#techstagram",
+      "#AI개발",
+      "#트렌딩리포",
+      "#사이드프로젝트"
+    ]
+  }
+}

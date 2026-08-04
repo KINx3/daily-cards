@@ -1,0 +1,11 @@
+설명이 한 줄, 혹은 아예 없는데도 스타가 1만을 넘어간다. 오늘 GitHub 트렌딩 상위 5개 리포를 이름·설명·언어·스타 수 그대로만 정리했다. 추측은 넣지 않았으니 궁금한 건 직접 열어보는 쪽이 빠르다.
+
+1. Codex-Dream-Skin — JavaScript · ★13,158
+2. andrewyng/openworker — Python · ★12,680
+3. qm, 업무용 멀티플레이어 에이전트 하네스 — TypeScript · ★10,854
+4. img2threejs, 토큰 효율적인 image-to-3D — Python · ★9,546
+5. MoonshotAI/Kimi-K3, Open Frontier Intelligence — ★8,034
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#깃허브 #GitHub #오픈소스 #개발자 #개발자스타그램 #AI에이전트 #threejs #타입스크립트 #파이썬 #자바스크립트 #코딩공부 #techstagram #AI개발 #트렌딩리포 #사이드프로젝트
