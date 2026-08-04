@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "date": "2026-08-04",
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:Fei-Away/Codex-Dream-Skin",
+      "gh:andrewyng/openworker",
+      "gh:yc-software/qm",
+      "gh:img2threejs/img2threejs",
+      "gh:MoonshotAI/Kimi-K3"
+    ],
+    "images": [
+      "out/tech/2026-08-04/01.jpg",
+      "out/tech/2026-08-04/02.jpg",
+      "out/tech/2026-08-04/03.jpg",
+      "out/tech/2026-08-04/04.jpg",
+      "out/tech/2026-08-04/05.jpg",
+      "out/tech/2026-08-04/06.jpg",
+      "out/tech/2026-08-04/07.jpg"
+    ]
+  }
+]

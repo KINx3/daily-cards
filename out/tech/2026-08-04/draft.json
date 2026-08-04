@@ -1,0 +1,72 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-04",
+    "dateLabel": "2026.08.04",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-08-04",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준"
+      },
+      {
+        "kind": "item",
+        "heading": "Codex-Dream-Skin",
+        "subheading": "Fei-Away/Codex-Dream-Skin",
+        "meta": "JavaScript · ★ 13,158",
+        "body": "Codex Dream Skin"
+      },
+      {
+        "kind": "item",
+        "heading": "openworker",
+        "subheading": "andrewyng/openworker",
+        "meta": "Python · ★ 12,674"
+      },
+      {
+        "kind": "item",
+        "heading": "qm",
+        "subheading": "yc-software/qm",
+        "meta": "TypeScript · ★ 10,826",
+        "body": "Multiplayer agent harness for work"
+      },
+      {
+        "kind": "item",
+        "heading": "img2threejs",
+        "subheading": "img2threejs/img2threejs",
+        "meta": "Python · ★ 9,544",
+        "body": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D."
+      },
+      {
+        "kind": "item",
+        "heading": "Kimi-K3",
+        "subheading": "MoonshotAI/Kimi-K3",
+        "meta": "★ 8,029",
+        "body": "Open Frontier Intelligence"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
