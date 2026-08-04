@@ -1,0 +1,63 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-04",
+    "dateLabel": "2026.08.04",
+    "weekday": 2,
+    "type": "classic",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] classic 2026-08-04",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "명작 추천\n카드뉴스 테스트",
+        "subheading": "2026.08.04 기준",
+        "imageKey": "m30"
+      },
+      {
+        "kind": "item",
+        "heading": "신세기 에반게리온",
+        "subheading": "Neon Genesis Evangelion",
+        "meta": "TV · 26화 · Gainax · 평점 83",
+        "body": "Action · Drama · Mecha · Mystery",
+        "imageKey": "m30"
+      },
+      {
+        "kind": "item",
+        "heading": "사무라이 참프루",
+        "subheading": "Samurai Champloo",
+        "meta": "TV · 26화 · Manglobe · 평점 84",
+        "body": "Action · Adventure · Comedy",
+        "imageKey": "m205"
+      },
+      {
+        "kind": "item",
+        "heading": "목소리의 형태",
+        "subheading": "A Silent Voice",
+        "meta": "MOVIE · 1화 · Kyoto Animation · 평점 88",
+        "body": "Drama · Romance · Slice of Life",
+        "imageKey": "m20954"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] classic 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
