@@ -15,5 +15,21 @@
       "out/growth/2026-08-04/05.jpg",
       "out/growth/2026-08-04/06.jpg"
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-gratitude"
+    ],
+    "images": [
+      "out/growth/2026-08-05/01.jpg",
+      "out/growth/2026-08-05/02.jpg",
+      "out/growth/2026-08-05/03.jpg",
+      "out/growth/2026-08-05/04.jpg",
+      "out/growth/2026-08-05/05.jpg"
+    ]
   }
 ]
