@@ -1,0 +1,62 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-08-05",
+    "dateLabel": "2026.08.05",
+    "weekday": 3,
+    "type": "book",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] book 2026-08-05",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "BOOK",
+        "heading": "그릿",
+        "subheading": "앤절라 더크워스"
+      },
+      {
+        "kind": "item",
+        "heading": "그릿",
+        "subheading": "앤절라 더크워스",
+        "body": "재능보다 두 배 중요한 열정적 끈기의 과학"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 1",
+        "heading": "성취 = 재능 × 노력², 노력이 두 번 곱해진다",
+        "body": "『그릿』 — 재능보다 두 배 중요한 열정적 끈기의 과학"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 2",
+        "heading": "관심을 열정으로 키우는 데는 시간이 걸린다",
+        "body": "『그릿』 — 재능보다 두 배 중요한 열정적 끈기의 과학"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 3",
+        "heading": "의식적 연습이 그냥 연습을 이긴다",
+        "body": "『그릿』 — 재능보다 두 배 중요한 열정적 끈기의 과학"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] book 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
