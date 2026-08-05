@@ -1,0 +1,73 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-05",
+    "dateLabel": "2026.08.05",
+    "weekday": 3,
+    "type": "news",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] news 2026-08-05",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "WEEKLY NEWS",
+        "heading": "이번 주\n애니 뉴스 다이제스트",
+        "subheading": "2026.08.05 기준"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "Chainsmoker Cat Anime Casts Yū Kobayashi",
+        "body": "Kobayashi voices Penpen Neko in episode 6 on Thursday",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "Josemaru Short Anime's 2nd Teaser Unveils Lead",
+        "body": "Riho Tsuda voices title character Josemaru",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Shōzen TV Anime's 1st Promo Video Reveals Apri",
+        "body": "Rina Kawaguchi, Hiroshi Kamiya, more star in adaptation of Jiang Jia Meizi's Chinese manhua Shang Shan",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "Koma-Dori Mofmof Parade Stop-Motion Anime Unve",
+        "body": "Kenshō Ono, KENN, Sōma Saitō, Yūya Hirose, more star in dwarf studios anime",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "Crunchyroll Adds English Dub for The Daily Lif",
+        "body": "Dub for January 2025 series debuts on Tuesday",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] news 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
