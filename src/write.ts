@@ -58,10 +58,30 @@ export async function writeDraft(
       return postProcess(draft, prepared);
     } catch (err) {
       lastErr = err;
-      console.warn(`writer 시도 ${attempt + 1} 실패:`, err instanceof Error ? err.message : err);
+      const detail = String(err instanceof Error ? err.message : err)
+        .replace(/\s+/g, " ")
+        .slice(0, 500);
+      console.warn(`writer 시도 ${attempt + 1} 실패: ${detail}`);
     }
   }
   throw lastErr;
+}
+
+/** 디자인 안전 길이 — 초과분은 말줄임. 파싱 실패로 하루를 잃는 것보다 낫다. */
+const CLAMP = {
+  heading: 48,
+  subheading: 70,
+  badge: 14,
+  body: 220,
+  meta: 70,
+  title: 60,
+  caption: 1500, // 출처 문구 + 해시태그가 뒤에 붙어도 IG 한도(2200) 안쪽
+} as const;
+
+function clamp(s: string | undefined, max: number): string | undefined {
+  if (s === undefined) return undefined;
+  const t = s.trim();
+  return t.length <= max ? t : t.slice(0, max - 1).trimEnd() + "…";
 }
 
 /** writer 출력에 코드 레벨 안전장치 적용 */
@@ -70,12 +90,20 @@ function postProcess(draft: PostDraft, prepared: Prepared): PostDraft {
   for (const slide of draft.slides) {
     // 존재하지 않는 imageKey는 제거(플레이스홀더 렌더)
     if (slide.imageKey && !validKeys.has(slide.imageKey)) delete slide.imageKey;
-    // 인용은 뱅크 원문으로 강제 덮어쓰기 — writer 출력을 신뢰하지 않음
+    slide.heading = clamp(slide.heading, CLAMP.heading);
+    slide.subheading = clamp(slide.subheading, CLAMP.subheading);
+    slide.badge = clamp(slide.badge, CLAMP.badge);
+    slide.body = clamp(slide.body, CLAMP.body);
+    slide.meta = clamp(slide.meta, CLAMP.meta);
+    // 인용은 뱅크 원문으로 강제 덮어쓰기 — writer 출력을 신뢰하지 않음 (clamp보다 뒤 = 원문 무손실)
     if (slide.kind === "quote" && prepared.quoteOverride) {
       slide.body = prepared.quoteOverride.body;
       slide.heading = prepared.quoteOverride.heading;
       slide.subheading = prepared.quoteOverride.subheading || undefined;
     }
   }
+  draft.title = clamp(draft.title, CLAMP.title)!;
+  draft.caption = clamp(draft.caption, CLAMP.caption)!;
+  draft.hashtags = draft.hashtags.slice(0, 20);
   return draft;
 }
