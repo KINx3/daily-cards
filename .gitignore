@@ -3,3 +3,4 @@ node_modules/
 out/sample/
 *.log
 .DS_Store
+handoffs/
