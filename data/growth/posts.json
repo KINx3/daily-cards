@@ -49,5 +49,23 @@
       "out/growth/2026-08-05-2/05.jpg",
       "out/growth/2026-08-05-2/06.jpg"
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "slot": 3,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-frankl"
+    ],
+    "images": [
+      "out/growth/2026-08-05-3/01.jpg",
+      "out/growth/2026-08-05-3/02.jpg",
+      "out/growth/2026-08-05-3/03.jpg",
+      "out/growth/2026-08-05-3/04.jpg",
+      "out/growth/2026-08-05-3/05.jpg",
+      "out/growth/2026-08-05-3/06.jpg"
+    ]
   }
 ]
