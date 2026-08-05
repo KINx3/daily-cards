@@ -76,6 +76,7 @@ npx tsx src/run.ts --publish --topic ani --dry-run      # 발행 리허설 (--sl
 
 - **초안 반려**: 이슈만 닫으면 끝. 소재는 ledger에 기록되어 재등장하지 않습니다. 다시 만들려면 Run workflow로 추가 생성.
 - **추가 발행**: Actions → `daily-post` → Run workflow → 토픽 선택 — 실행할 때마다 그날의 새 포스트(#2, #3…)가 생성됩니다. `type`/`mode` 입력으로 강제 가능.
+  뉴스류(technews·ainews·애니 news)는 그날 후보가 이미 소진되면 실패할 수 있으니, 추가 포스트는 `type`을 repos·concept·tools·book 등으로 지정하는 걸 권장합니다.
 - **크론 멱등**: 크론은 하루 1개(슬롯 1)만 만들고, 이미 생성된 날은 skip. 실패한 크론의 Re-run도 안전합니다.
 - **토큰**: `refresh-ig-tokens`가 매주 월요일 설정된 토큰만 갱신(미설정 토픽은 무해 skip).
 - **writer 실패**: 픽스처 초안 + 리뷰 강등으로 하루가 비지 않습니다.
