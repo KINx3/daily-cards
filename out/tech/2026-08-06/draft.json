@@ -1,0 +1,66 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-06",
+    "dateLabel": "2026.08.06",
+    "weekday": 4,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "오늘의 AI 뉴스 브리핑",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "클로드 만드는 회사가\n조용히 시작한 일",
+        "body": "AI 발전 속도를 결정할\n다음 승부수가 공개됐습니다.",
+        "subheading": "오늘 개발자가 알아야 할 AI 뉴스 3가지",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "앤트로픽,\n자체 AI 칩팀 꾸린다",
+        "body": "클로드를 만드는 앤트로픽이\n자체 AI 칩 설계팀을 채용 중입니다.\n하드웨어와 모델을 함께 설계해\n더 빠르고 효율적으로 돌리려는 전략입니다.",
+        "badge": "NEWS 01",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "맥포,\n온디바이스 AI로 전환",
+        "body": "우크라이나 소프트웨어 기업 맥포가\nLiquid AI 모델로 자사 앱스토어 개발자용\n온디바이스 추론을 지원합니다.\nAI 비서 Eney도 로컬 버전으로 옮깁니다.",
+        "badge": "NEWS 02",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "테크크런치 디스럽트,\n현실 속 AI를 다룬다",
+        "body": "올해 디스럽트 2026의 새 무대\n'Real World AI'가 로봇과 자동화 공장,\n디지털과 물리 세계가 만나는 지점을\n집중적으로 다룰 예정입니다.",
+        "badge": "NEWS 03",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 뉴스,\n저장해두고 다시 보세요",
+        "body": "AI 업계는 매일 조용히 방향을 바꿉니다.\n놓치면 흐름을 따라가기 어려워요.\n다음 브리핑도 놓치지 마세요."
+      }
+    ],
+    "caption": "AI 회사들이 하드웨어까지 손대는 이유, 궁금하지 않으세요?\n오늘은 앤트로픽의 자체 칩 설계, 온디바이스 AI 확산, 그리고 현실 세계와 AI가 만나는 새로운 무대 소식을 정리했습니다.\n\n- 앤트로픽 자체 AI 칩팀 채용\n- 맥포, Liquid AI로 온디바이스 추론 도입\n- 테크크런치 디스럽트 'Real World AI' 무대 공개\n\n저장해두고 오늘의 AI 흐름 다시 확인하세요.",
+    "hashtags": [
+      "#AI뉴스",
+      "#인공지능",
+      "#앤트로픽",
+      "#클로드",
+      "#AI칩",
+      "#온디바이스AI",
+      "#LiquidAI",
+      "#테크크런치",
+      "#개발자",
+      "#AI트렌드",
+      "#스타트업",
+      "#머신러닝",
+      "#테크뉴스",
+      "#실리콘밸리"
+    ]
+  }
+}

@@ -52,5 +52,24 @@
       "out/tech/2026-08-05/06.jpg",
       "out/tech/2026-08-05/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-06",
+    "slot": 1,
+    "type": "ainews",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "https://techcrunch.com/?p=3149903",
+      "https://techcrunch.com/?p=3150081",
+      "https://techcrunch.com/?p=3149608"
+    ],
+    "images": [
+      "out/tech/2026-08-06/01.jpg",
+      "out/tech/2026-08-06/02.jpg",
+      "out/tech/2026-08-06/03.jpg",
+      "out/tech/2026-08-06/04.jpg",
+      "out/tech/2026-08-06/05.jpg"
+    ]
   }
 ]
