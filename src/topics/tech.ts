@@ -1,6 +1,7 @@
+import { downloadCover } from "../anilist.js";
 import { loadBank, pickUnused, pickVerifiedQuote, type VerifiedQuote } from "../banks.js";
 import { fetchReadmeExcerpt, fetchRisingRepos } from "../github-api.js";
-import { fetchPageSummary, fetchWeeklyTop } from "../hn.js";
+import { fetchPageMeta, fetchWeeklyTop, type PageMeta } from "../hn.js";
 import { fetchFeeds } from "../rss.js";
 import type { PostDraft, Slide } from "../types.js";
 import type { DayPlan, LedgerViews, Prepared, Topic } from "./types.js";
@@ -23,27 +24,36 @@ const AI_FEEDS = [
   { url: "https://venturebeat.com/category/ai/feed/", source: "VentureBeat" },
 ];
 
+/** metas 중 첫 og:image를 커버 백드롭으로 다운로드 → { newscover: dataURI } (없으면 빈 맵) */
+async function coverImageFrom(metas: PageMeta[]): Promise<Record<string, string>> {
+  const url = metas.find((m) => m.image)?.image;
+  const uri = await downloadCover(url);
+  return uri ? { newscover: uri } : {};
+}
+
 async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
   switch (plan.type) {
     case "technews": {
       const stories = (await fetchWeeklyTop()).filter((s) => !views.all.has(s.id));
       if (stories.length < 3) throw new Error("이번 주 HN 고득점 스토리가 3건 미만입니다.");
-      // HN은 제목만 주므로 기사 페이지의 meta description을 병렬로 보강 (실패는 무해)
-      const summaries = await Promise.all(
-        stories.map((s) => (s.url ? fetchPageSummary(s.url) : Promise.resolve(undefined))),
+      // HN은 제목만 주므로 기사 페이지의 meta description·og:image를 병렬로 보강 (실패는 무해)
+      const metas = await Promise.all(
+        stories.map((s) => (s.url ? fetchPageMeta(s.url) : Promise.resolve({} as PageMeta))),
       );
+      const images = await coverImageFrom(metas);
       return {
         payload: {
+          coverImageKey: images.newscover ? "newscover" : undefined,
           candidates: stories.map((s, i) => ({
             id: s.id,
             title: s.title,
             domain: s.domain,
             points: s.points,
             comments: s.comments,
-            summary: summaries[i],
+            summary: metas[i]?.summary,
           })),
         },
-        images: {},
+        images,
         featured: stories.map((s) => s.id),
       };
     }
@@ -51,8 +61,12 @@ async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
     case "ainews": {
       const items = (await fetchFeeds(AI_FEEDS)).filter((n) => !views.all.has(n.guid));
       if (items.length < 3) throw new Error("이번 주 새 AI 뉴스가 3건 미만입니다.");
+      // 커버 백드롭용 og:image — 상위 5건에서 첫 성공만 쓴다
+      const metas = await Promise.all(items.slice(0, 5).map((n) => fetchPageMeta(n.link)));
+      const images = await coverImageFrom(metas);
       return {
         payload: {
+          coverImageKey: images.newscover ? "newscover" : undefined,
           candidates: items.map((n) => ({
             guid: n.guid,
             title: n.title,
@@ -61,7 +75,7 @@ async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
             pubDate: n.pubDate,
           })),
         },
-        images: {},
+        images,
         featured: items.map((n) => n.guid),
       };
     }
@@ -124,7 +138,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
 
   switch (plan.type) {
     case "technews": {
-      slides.push({ kind: "cover", badge: "WEEKLY", heading: "이번 주\n해커뉴스 베스트", subheading: `${plan.dateLabel} 기준`, body: "이번 주 해커뉴스에서\n가장 뜨거웠던 이야기들." });
+      slides.push({ kind: "cover", badge: "WEEKLY", heading: "이번 주\n해커뉴스 베스트", subheading: `${plan.dateLabel} 기준`, body: "이번 주 해커뉴스에서\n가장 뜨거웠던 이야기들.", imageKey: p.coverImageKey });
       for (const [i, s] of (p.candidates as any[]).slice(0, 5).entries()) {
         slides.push({
           kind: "news",
@@ -137,7 +151,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
       break;
     }
     case "ainews": {
-      slides.push({ kind: "cover", badge: "AI NEWS", heading: "이번 주\nAI 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준`, body: "오늘의 AI 소식을\n카드로 정리했습니다." });
+      slides.push({ kind: "cover", badge: "AI NEWS", heading: "이번 주\nAI 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준`, body: "오늘의 AI 소식을\n카드로 정리했습니다.", imageKey: p.coverImageKey });
       for (const [i, n] of (p.candidates as any[]).slice(0, 5).entries()) {
         slides.push({
           kind: "news",
@@ -238,14 +252,14 @@ export const techTopic: Topic = {
 - concept/tools는 네가 확신하는 일반 기술 지식으로 설명하되, 버전 번호·벤치마크 수치·가격 등 변동 정보는 쓰지 않는다.
 - 톤: 실무 개발자에게 말하듯 간결하게. 유행어 남발 금지.`,
   typeGuides: {
-    technews: `구성: cover → news 5장(badge="TOP 01"~, heading=한국어 헤드라인 ≤2줄, body=summary 기반 1~2문장 요약(summary 없으면 제목 범위 내 한 줄), meta="Hacker News · 도메인 · N points") → outro.
+    technews: `구성: cover(입력에 coverImageKey가 있으면 imageKey에 그 값을 그대로 — heading은 이번 주 가장 큰 이슈 하나를 비개발자도 궁금해질 한 줄로, 제품명·용어 나열 금지) → news 5장(badge="TOP 01"~, heading=쉬운 한국어 헤드라인 ≤2줄 — 전문용어는 풀어쓰기, body=summary 기반 1~2문장 요약(summary 없으면 제목 범위 내 한 줄), meta="Hacker News · 도메인 · N points") → outro(저장 유도).
 candidates에서 한국 개발자에게 흥미로운 5건을 고른다. summary 있는 항목을 우선한다.`,
-    ainews: `구성: cover → news 5장(badge="NEWS 01"~, heading=한국어 헤드라인 ≤2줄, body=description 기반 2문장 요약, meta=source) → outro.`,
-    repos: `구성: cover → item 5장(heading=리포 이름, subheading=fullName, meta="언어 · ★스타수", body=description·readme 기반 한국어 2~3줄 — 무엇이고 어디에 쓰는 물건인지) → outro.`,
-    concept: `구성: cover(개념명 훅) → news 스타일 3장: badge="WHAT"(정의 2~3문장) / badge="WHY"(왜 중요한지·언제 쓰는지) / badge="EXAMPLE"(구체 예시 하나) → outro.
+    ainews: `구성: cover(입력에 coverImageKey가 있으면 imageKey에 그 값을 그대로 — heading은 오늘 뉴스 중 가장 파급력 큰 하나를 궁금증 갭으로, 예: "오픈AI가 조용히\\n바꾼 한 가지", 전문용어 금지) → news 5장(badge="NEWS 01"~, heading=쉬운 한국어 헤드라인 ≤2줄, body=description 기반 2문장 — 무슨 일이고 왜 중요한지, meta=source) → outro(저장 유도).`,
+    repos: `구성: cover(리포 이름 나열 금지 — "요즘 개발자들이\\n주말에 만드는 것" 같은 궁금증 후킹) → item 5장(heading=리포 이름, subheading=fullName, meta="언어 · ★스타수", body=description·readme 기반 한국어 2~3줄 — 무엇이고 어디에 쓰는 물건인지) → outro(저장 유도).`,
+    concept: `구성: cover(개념명 노출 금지 — 그 개념이 없어서 겪는 문제로 후킹) → news 스타일 3장: badge="WHAT"(개념 공개+쉬운 정의 2~3문장) / badge="WHY"(왜 중요한지·언제 쓰는지) / badge="EXAMPLE"(구체 예시 하나) → outro(저장 유도).
 hint를 출발점으로 네 지식으로 정확하게 풀어쓴다. meta는 비움.`,
-    tools: `구성: cover → item 3장(heading=도구 이름, subheading=tagline, body=핵심 기능과 추천 상황 2~3줄) → outro.`,
-    devquote: `구성: cover(인물명 훅) → quote 슬라이드(heading=by, subheading=source, body=quote 원문 그대로) → news 스타일 1장(badge="CONTEXT", 이 말의 맥락·적용 2문장) → outro.`,
+    tools: `구성: cover(도구명 나열 금지 — 시간·수고를 아껴준다는 약속으로 후킹) → item 3장(heading=도구 이름, subheading=tagline, body=핵심 기능과 추천 상황 2~3줄) → outro(저장 유도).`,
+    devquote: `구성: cover(인물명·명언 노출 금지 — 개발자의 공감 상황으로 후킹) → quote 슬라이드(heading=by, subheading=source, body=quote 원문 그대로) → news 스타일 1장(badge="CONTEXT", heading=적용 한 줄, body=이 말의 맥락·오늘 적용 2문장) → outro(저장 유도).`,
   },
   prepare,
   fixture,

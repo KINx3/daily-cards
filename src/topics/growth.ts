@@ -1,3 +1,4 @@
+import { downloadCover } from "../anilist.js";
 import { loadBank, pickUnused, pickVerifiedQuote, type VerifiedQuote } from "../banks.js";
 import type { PostDraft, Slide } from "../types.js";
 import type { DayPlan, LedgerViews, Prepared, Topic } from "./types.js";
@@ -14,6 +15,60 @@ interface TopicSeed {
   id: string;
   title: string;
   hint: string;
+}
+
+const authorSurname = (author: string) => author.split(/[·,\s]/)[0]?.trim() ?? "";
+
+/** 알라딘 TTB 표지 검색 — ALADIN_TTB_KEY 시크릿이 있을 때만. 고해상 cover 제공. */
+async function fetchAladinCover(titleKo: string, author: string): Promise<string | undefined> {
+  const key = process.env.ALADIN_TTB_KEY;
+  if (!key) return undefined;
+  try {
+    const params = new URLSearchParams({
+      ttbkey: key, Query: titleKo, QueryType: "Title", SearchTarget: "Book",
+      output: "js", Version: "20131101", Cover: "Big", MaxResults: "5",
+    });
+    const res = await fetch(`https://www.aladin.co.kr/ttb/api/ItemSearch.aspx?${params}`, {
+      signal: AbortSignal.timeout(6000),
+    });
+    if (!res.ok) return undefined;
+    const json = (await res.json()) as any;
+    const items: any[] = json.item ?? [];
+    const surname = authorSurname(author);
+    const pick = items.find((it) => surname && String(it.author ?? "").includes(surname)) ?? items[0];
+    return pick?.cover ? String(pick.cover) : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/** Google Books 표지 검색 (키 불필요 — 단, 익명 쿼터가 자주 소진되니 폴백 취급). */
+async function fetchGoogleBooksCover(titleKo: string, author: string): Promise<string | undefined> {
+  try {
+    const q = encodeURIComponent(`intitle:"${titleKo}"`);
+    const res = await fetch(
+      `https://www.googleapis.com/books/v1/volumes?q=${q}&country=KR&maxResults=5&printType=books`,
+      { signal: AbortSignal.timeout(6000) },
+    );
+    if (!res.ok) return undefined;
+    const json = (await res.json()) as any;
+    const items: any[] = json.items ?? [];
+    const surname = authorSurname(author);
+    const withThumb = items.filter((it) => it.volumeInfo?.imageLinks?.thumbnail);
+    const pick =
+      withThumb.find((it) => surname && (it.volumeInfo.authors ?? []).join(" ").includes(surname)) ??
+      withThumb[0];
+    const thumb: string | undefined = pick?.volumeInfo?.imageLinks?.thumbnail;
+    if (!thumb) return undefined;
+    return thumb.replace(/^http:/, "https:").replace("&edge=curl", "");
+  } catch {
+    return undefined;
+  }
+}
+
+/** 표지 URL: 알라딘(키 있으면) 우선, Google Books 폴백. 실패는 undefined(타이포 렌더). */
+async function fetchBookCoverUrl(titleKo: string, author: string): Promise<string | undefined> {
+  return (await fetchAladinCover(titleKo, author)) ?? (await fetchGoogleBooksCover(titleKo, author));
 }
 
 async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
@@ -33,7 +88,16 @@ async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
     case "book": {
       const bank = await loadBank<BookSeed>("growth", "books.json");
       const [picked] = pickUnused(bank, views.all, 1);
-      return { payload: { book: picked }, images: {}, featured: [picked.id] };
+      // 표지: zoom=2(고해상) 우선, 실패 시 원본 썸네일
+      const coverUrl = await fetchBookCoverUrl(picked.titleKo, picked.author);
+      const coverUri =
+        (await downloadCover(coverUrl?.replace("zoom=1", "zoom=2"))) ??
+        (await downloadCover(coverUrl));
+      return {
+        payload: { coverImageKey: coverUri ? "bookcover" : undefined, book: picked },
+        images: coverUri ? { bookcover: coverUri } : {},
+        featured: [picked.id],
+      };
     }
 
     case "habit": {
@@ -68,7 +132,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
     case "book": {
       slides.push(
         { kind: "cover", badge: "BOOK", heading: String(p.book.titleKo).slice(0, 46), subheading: p.book.author, body: String(p.book.tagline).slice(0, 100) },
-        { kind: "item", heading: p.book.titleKo, subheading: p.book.author, body: p.book.tagline },
+        { kind: "item", heading: p.book.titleKo, subheading: p.book.author, body: p.book.tagline, imageKey: p.coverImageKey },
       );
       for (const [i, idea] of (p.book.keyIdeas as string[]).slice(0, 3).entries()) {
         slides.push({
@@ -125,7 +189,7 @@ export const growthTopic: Topic = {
     mindset: "마인드셋",
   },
   modeOverrides: {},
-  attribution: "명언은 각 인물, 책 정보는 각 저서 기준입니다. 오류 제보 환영합니다.",
+  attribution: "명언은 각 인물, 책 정보·표지는 각 저서와 출판사 기준입니다(도서 DB: 알라딘·Google Books). 오류 제보 환영합니다.",
   theme: {
     accent: "#f59e0b",
     accentSoft: "#fcd34d",
@@ -142,10 +206,15 @@ export const growthTopic: Topic = {
 - habit/mindset은 hint를 출발점으로 네가 확신하는 일반 지식으로 풀어쓰되, 의학적·재정적 조언 단정 금지.
 - 톤: 담백하고 실용적. 과한 동기부여 클리셰("당신은 할 수 있다" 남발)와 이모지 남용 금지.`,
   typeGuides: {
-    quote: `구성: cover(문장을 궁금하게 만드는 훅, 명언 본문은 노출 금지) → quote 슬라이드(heading=by, subheading=source, body=quote 원문 그대로) → news 스타일 1장(badge="APPLY", 이 말을 오늘 하루에 적용하는 법 2문장) → outro.`,
-    book: `구성: cover(책 제목 훅) → item(heading=titleKo, subheading=author, body=tagline 기반 2~3줄) → keyIdeas 각각을 news 스타일 카드로(badge="핵심 1"~, heading=아이디어 압축 ≤2줄, body=1~2문장 부연) → outro. 전체 9장 이하.`,
-    habit: `구성: cover(습관명 훅) → news 스타일 3장: badge="WHY"(왜 효과 있는지) / badge="HOW"(구체적 실행법, 오늘 시작할 수 있게) / badge="TIP"(지속 요령·흔한 실패 회피) → outro.`,
-    mindset: `구성: cover(개념명 훅) → news 스타일 3장: badge="WHAT"(정의) / badge="EXAMPLE"(일상 예시) / badge="APPLY"(적용법) → outro.`,
+    quote: `구성: cover(명언 본문·인물명 노출 금지 — 이 문장이 필요한 상황으로 후킹, badge="오늘의 한 문장") → quote 슬라이드(heading=by, subheading=source, body=quote 원문 그대로) → news 스타일 1장(badge="APPLY", heading=오늘 적용법 한 줄, body=이 말을 오늘 하루에 적용하는 법 2문장) → outro(저장 유도).`,
+    book: `구성 — 책 제목은 마지막에 공개한다(궁금증 유지가 생명):
+1) cover: 책 제목·저자 노출 금지. keyIdeas가 해결하는 독자의 문제/욕구로 후킹(예: "삶이 무너질 때\\n버티게 해주는 3가지"). badge="오늘의 책".
+2) news 3장: keyIdeas 하나씩. heading은 독자 상황으로 리프레이밍한 꽂히는 한 줄(원문 그대로 옮기지 말 것), body는 그 통찰을 일상 언어로 2~3문장. badge="첫 번째"/"두 번째"/"세 번째".
+3) item 1장(책 공개): heading=titleKo, subheading=author, body=위 문장들이 담긴 책이라는 것+지금 읽을 이유 1~2문장, badge="책 공개". 입력에 coverImageKey가 있으면 imageKey에 그 값을 그대로.
+4) outro: 저장 유도("저장해두고 흔들리는 날 다시 읽어보세요").
+책 제목·저자는 3) 전까지 어떤 슬라이드에도 쓰지 않는다.`,
+    habit: `구성: cover(습관명 노출 금지 — 독자의 실패 경험·욕구로 후킹, 예: "저녁마다 후회로\\n하루를 끝낸다면") → news 3장: badge="WHY"(습관 공개+왜 효과 있는지) / badge="HOW"(오늘 시작하는 구체적 방법) / badge="TIP"(흔한 실패 피하는 법) → outro(저장 유도).`,
+    mindset: `구성: cover(개념명 노출 금지 — 그 개념이 필요한 상황으로 후킹) → news 3장: badge="WHAT"(개념 공개+쉬운 정의) / badge="EXAMPLE"(일상 예시 장면) / badge="APPLY"(오늘 적용법) → outro(저장 유도).`,
   },
   prepare,
   fixture,

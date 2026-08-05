@@ -9,6 +9,7 @@ import {
   type AniMedia,
 } from "../anilist.js";
 import { loadBank } from "../banks.js";
+import { fetchPageMeta } from "../hn.js";
 import { fetchRecentNews } from "../news.js";
 import type { PostDraft, Slide } from "../types.js";
 import type { DayPlan, LedgerViews, Prepared, Topic } from "./types.js";
@@ -163,8 +164,12 @@ async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
     case "news": {
       const items = (await fetchRecentNews()).filter((n) => !views.all.has(n.guid));
       if (items.length < 3) throw new Error("이번 주 새 뉴스가 3건 미만입니다.");
+      // 커버 백드롭용 og:image — 상위 5건 기사에서 첫 성공만
+      const metas = await Promise.all(items.slice(0, 5).map((n) => fetchPageMeta(n.link)));
+      const coverUri = await downloadCover(metas.find((m) => m.image)?.image);
       return {
         payload: {
+          coverImageKey: coverUri ? "newscover" : undefined,
           candidates: items.map((n) => ({
             guid: n.guid,
             title: n.title,
@@ -172,7 +177,7 @@ async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
             pubDate: n.pubDate,
           })),
         },
-        images: {},
+        images: coverUri ? { newscover: coverUri } : {},
         featured: items.map((n) => n.guid), // 후보로 소비된 뉴스는 재등장 금지
       };
     }
@@ -268,7 +273,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
       break;
     }
     case "news": {
-      slides.push({ kind: "cover", badge: "WEEKLY NEWS", heading: "이번 주\n애니 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준`, body: "이번 주 애니 소식을\n간추렸습니다." });
+      slides.push({ kind: "cover", badge: "WEEKLY NEWS", heading: "이번 주\n애니 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준`, body: "이번 주 애니 소식을\n간추렸습니다.", imageKey: p.coverImageKey });
       for (const [i, n] of (p.candidates as any[]).slice(0, 5).entries()) {
         slides.push({
           kind: "news",
@@ -345,14 +350,13 @@ export const aniTopic: Topic = {
 - 작품 제목: 입력에 titleKo가 있으면 반드시 그대로 쓴다. 없으면 네가 확신하는 한국 정식 발매 제목만 쓰고, 불확실하면 titleEnglish 또는 titleRomaji를 그대로 쓴다. 제목을 창작·직역하지 않는다.
 - 톤: 팬심 있는 에디터. 과장·스포일러·이모지 남용 금지.`,
   typeGuides: {
-    trending: `구성: cover → rank 순서대로 item 5장(badge="N위", 각 항목의 imageKey) → outro.
+    trending: `구성: cover(작품명 나열 금지 — "이번 주 다들 뭐 보나" 같은 궁금증 후킹, 1위 작품의 imageKey) → rank 순서대로 item 5장(badge="N위", 각 항목의 imageKey) → outro(저장 유도).
 item.body는 그 작품이 지금 뜨는 이유나 한 줄 소개.`,
-    seasonal: `special=false: cover → item(작품 개요) → item(badge="관전 포인트", 같은 imageKey, body에 이 작품을 봐야 할 이유) → outro.
-special=true(분기 라인업): cover → 기대작 item 5~6장(badge="기대작 N") → outro.`,
-    classic: `구성: cover → item 3장(titleKo 그대로, body는 themes/note를 살린 2~3줄 추천 이유) → outro.
-cover.heading은 세 작품을 묶는 테마 문구로.`,
-    quote: `구성: cover(media의 imageKey, "오늘의 명대사"를 살린 훅) → quote 슬라이드(kind="quote", heading=character, subheading=workKo, body=quote 원문 그대로, imageKey=media의 것) → item(작품 한 줄 소개) → outro.`,
-    news: `구성: cover → news 5장(badge="NEWS 01"~"NEWS 05", heading은 한국어 헤드라인 ≤ 2줄, body는 2문장 요약, meta="Anime News Network") → outro.
+    seasonal: `special=false: cover(작품의 imageKey — 제목 대신 "이번 분기 이거 하나는 봐야 한다"류 후킹) → item(작품 개요) → item(badge="관전 포인트", 같은 imageKey, body에 이 작품을 봐야 할 이유) → outro(저장 유도).
+special=true(분기 라인업): cover → 기대작 item 5~6장(badge="기대작 N") → outro(저장 유도).`,
+    classic: `구성: cover(작품명 노출 금지 — 세 작품을 묶는 테마·감정으로 후킹, 예: "밤새 정주행하고\\n후회 없던 작품들") → item 3장(titleKo 그대로, body는 themes/note를 살린 2~3줄 추천 이유) → outro(저장 유도).`,
+    quote: `구성: cover(media의 imageKey — 인물·작품명 노출 금지, 문장이 필요한 상황으로 후킹) → quote 슬라이드(kind="quote", heading=character, subheading=workKo, body=quote 원문 그대로, imageKey=media의 것) → item(작품 한 줄 소개) → outro(저장 유도).`,
+    news: `구성: cover(입력에 coverImageKey가 있으면 imageKey에 그 값을 그대로 — heading은 오늘 소식 중 가장 큰 하나를 팬이 궁금해질 한 줄로) → news 5장(badge="NEWS 01"~"NEWS 05", heading은 한국어 헤드라인 ≤ 2줄, body는 2문장 요약, meta="Anime News Network") → outro(저장 유도).
 candidates에서 한국 팬에게 파급력 큰 5건을 고른다. 확실하지 않은 내용은 다루지 않는다.`,
     schedule: `구성: cover → schedule 슬라이드(요일당 1장, heading="월요일" 같은 요일, subheading="8월 10일" 같은 날짜, body는 "작품명 N화"를 줄바꿈으로 나열, 요일당 최대 4작품) → outro.
 방영작 없는 요일은 생략. 전체 슬라이드 9장 이하.`,

@@ -278,8 +278,26 @@
 <div id="stage"></div>
 <script>
   let IMAGES = {};
+  let LANDSCAPE = {}; // imageKey → true(가로 이미지: 커버에서 백드롭만, 아트 카드 생략)
 
-  function setImages(map) { IMAGES = map || {}; }
+  async function setImages(map) {
+    IMAGES = map || {};
+    LANDSCAPE = {};
+    await Promise.all(
+      Object.entries(IMAGES).map(
+        ([k, src]) =>
+          new Promise((done) => {
+            const im = new Image();
+            im.onload = () => {
+              LANDSCAPE[k] = im.naturalWidth > im.naturalHeight * 1.15;
+              done();
+            };
+            im.onerror = () => done();
+            im.src = src;
+          }),
+      ),
+    );
+  }
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, (c) => ({
@@ -316,10 +334,12 @@
   const LAYOUTS = {
     cover(s, ctx) {
       const backdropSrc = s.imageKey ? IMAGES[s.imageKey] : null;
+      // 가로 이미지(뉴스 썸네일)는 백드롭만 깔고 타이틀 중앙 배치 — 세로 카드에 어색하게 크롭되지 않게
+      const showArt = backdropSrc && !LANDSCAPE[s.imageKey];
       return (
         (backdropSrc ? '<div class="backdrop"><img src="' + backdropSrc + '" alt=""></div>' : glows()) +
-        '<div class="cover-wrap' + (backdropSrc ? "" : " no-art") + '">' +
-          (backdropSrc ? artEl(s) : "") +
+        '<div class="cover-wrap' + (showArt ? "" : " no-art") + '">' +
+          (showArt ? artEl(s) : "") +
           '<div class="cover-title-block">' +
             (s.badge ? '<div class="cover-badge">' + esc(s.badge) + "</div>" : "") +
             '<div class="cover-heading grad-text">' + br(s.heading) + "</div>" +

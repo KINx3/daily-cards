@@ -64,6 +64,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WRITER_MODEL: ${{ vars.WRITER_MODEL || '' }}
+          ALADIN_TTB_KEY: ${{ secrets.ALADIN_TTB_KEY || '' }}
           PUBLISH_MODE: ${{ vars[format('PUBLISH_MODE_{0}', matrix.up)] || vars.PUBLISH_MODE || 'review' }}
           BRAND: ${{ vars[format('BRAND_{0}', matrix.up)] || '' }}
         run: |
