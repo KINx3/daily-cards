@@ -40,3 +40,34 @@ export async function fetchRisingRepos(
     topics: r.topics ?? [],
   }));
 }
+
+/** README 도입부 발췌 — repos 카드 body 재료 (description 한 줄로는 빈약). 실패는 조용히 undefined. */
+export async function fetchReadmeExcerpt(fullName: string, maxChars = 500): Promise<string | undefined> {
+  try {
+    const headers: Record<string, string> = {
+      Accept: "application/vnd.github.raw+json",
+      "User-Agent": "ani-cards/0.1",
+    };
+    if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+    const res = await fetch(`https://api.github.com/repos/${fullName}/readme`, {
+      headers,
+      signal: AbortSignal.timeout(6000),
+    });
+    if (!res.ok) return undefined;
+    const raw = await res.text();
+    const text = raw
+      .split("\n")
+      .filter((l) => !/^\s*(#|!\[|\[!\[|<|---|\||```)/.test(l)) // 제목·뱃지·HTML·표·코드펜스 라인 제외
+      .join(" ")
+      .replace(/<[^>]+>/g, " ") // 인라인 HTML 태그 제거
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1") // 링크는 텍스트만
+      .replace(/[*_`]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    return text ? text.slice(0, maxChars) : undefined;
+  } catch {
+    return undefined;
+  }
+}

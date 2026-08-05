@@ -1,6 +1,6 @@
 import { loadBank, pickUnused, pickVerifiedQuote, type VerifiedQuote } from "../banks.js";
-import { fetchRisingRepos } from "../github-api.js";
-import { fetchWeeklyTop } from "../hn.js";
+import { fetchReadmeExcerpt, fetchRisingRepos } from "../github-api.js";
+import { fetchPageSummary, fetchWeeklyTop } from "../hn.js";
 import { fetchFeeds } from "../rss.js";
 import type { PostDraft, Slide } from "../types.js";
 import type { DayPlan, LedgerViews, Prepared, Topic } from "./types.js";
@@ -28,14 +28,19 @@ async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
     case "technews": {
       const stories = (await fetchWeeklyTop()).filter((s) => !views.all.has(s.id));
       if (stories.length < 3) throw new Error("이번 주 HN 고득점 스토리가 3건 미만입니다.");
+      // HN은 제목만 주므로 기사 페이지의 meta description을 병렬로 보강 (실패는 무해)
+      const summaries = await Promise.all(
+        stories.map((s) => (s.url ? fetchPageSummary(s.url) : Promise.resolve(undefined))),
+      );
       return {
         payload: {
-          candidates: stories.map((s) => ({
+          candidates: stories.map((s, i) => ({
             id: s.id,
             title: s.title,
             domain: s.domain,
             points: s.points,
             comments: s.comments,
+            summary: summaries[i],
           })),
         },
         images: {},
@@ -64,13 +69,16 @@ async function prepare(plan: DayPlan, views: LedgerViews): Promise<Prepared> {
     case "repos": {
       const repos = (await fetchRisingRepos()).filter((r) => !views.recent.has(r.id)).slice(0, 5);
       if (repos.length < 3) throw new Error("소개할 새 리포가 3개 미만입니다.");
+      // description이 한 줄(또는 부재)인 리포가 많아 README 도입부로 보강
+      const readmes = await Promise.all(repos.map((r) => fetchReadmeExcerpt(r.fullName)));
       return {
         payload: {
-          items: repos.map((r) => ({
+          items: repos.map((r, i) => ({
             id: r.id,
             name: r.name,
             fullName: r.fullName,
             description: r.description,
+            readme: readmes[i],
             stars: r.stars,
             language: r.language,
             topics: r.topics.slice(0, 5),
@@ -149,7 +157,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
           heading: String(it.name).slice(0, 46),
           subheading: it.fullName,
           meta: [it.language, `★ ${it.stars.toLocaleString()}`].filter(Boolean).join(" · "),
-          body: it.description ? String(it.description).slice(0, 150) : undefined,
+          body: it.description ? String(it.description).slice(0, 150) : "최근 스타 급상승 리포지토리",
         });
       }
       break;
@@ -225,15 +233,15 @@ export const techTopic: Topic = {
     badgeGrad: "linear-gradient(120deg, #4ade80, #22d3ee)",
   },
   writerSystemExtra: `토픽: 개발자·AI 정보 계정 (독자: 한국 개발자·테크 관심층).
-- 뉴스(technews)는 제목·포인트 수 범위 안에서만 쓴다. 기사 내용을 추측·창작하지 않는다. 제목 번역 + "왜 화제인지"는 제목에서 읽히는 범위까지만.
+- 뉴스(technews)는 제목·summary·포인트 수 범위 안에서만 쓴다. 기사 내용을 추측·창작하지 않는다. summary가 없는 항목은 제목에서 읽히는 범위까지만.
 - ainews는 입력 description 범위 안에서 요약한다.
 - concept/tools는 네가 확신하는 일반 기술 지식으로 설명하되, 버전 번호·벤치마크 수치·가격 등 변동 정보는 쓰지 않는다.
 - 톤: 실무 개발자에게 말하듯 간결하게. 유행어 남발 금지.`,
   typeGuides: {
-    technews: `구성: cover → news 5장(badge="TOP 01"~, heading=한국어 헤드라인 ≤2줄, body="N points · 댓글 M" + 제목 범위 내 한 줄, meta="Hacker News · 도메인") → outro.
-candidates에서 한국 개발자에게 흥미로운 5건을 고른다.`,
+    technews: `구성: cover → news 5장(badge="TOP 01"~, heading=한국어 헤드라인 ≤2줄, body=summary 기반 1~2문장 요약(summary 없으면 제목 범위 내 한 줄), meta="Hacker News · 도메인 · N points") → outro.
+candidates에서 한국 개발자에게 흥미로운 5건을 고른다. summary 있는 항목을 우선한다.`,
     ainews: `구성: cover → news 5장(badge="NEWS 01"~, heading=한국어 헤드라인 ≤2줄, body=description 기반 2문장 요약, meta=source) → outro.`,
-    repos: `구성: cover → item 5장(heading=리포 이름, subheading=fullName, meta="언어 · ★스타수", body=description의 한국어 요약+어디에 쓰는 물건인지) → outro.`,
+    repos: `구성: cover → item 5장(heading=리포 이름, subheading=fullName, meta="언어 · ★스타수", body=description·readme 기반 한국어 2~3줄 — 무엇이고 어디에 쓰는 물건인지) → outro.`,
     concept: `구성: cover(개념명 훅) → news 스타일 3장: badge="WHAT"(정의 2~3문장) / badge="WHY"(왜 중요한지·언제 쓰는지) / badge="EXAMPLE"(구체 예시 하나) → outro.
 hint를 출발점으로 네 지식으로 정확하게 풀어쓴다. meta는 비움.`,
     tools: `구성: cover → item 3장(heading=도구 이름, subheading=tagline, body=핵심 기능과 추천 상황 2~3줄) → outro.`,

@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import { parseArgs } from "node:util";
-import { brandFor } from "./config.js";
-import { appendLedger, findEntry, ledgerViews, loadLedger } from "./ledger.js";
+import { brandFor, pkgDir } from "./config.js";
+import { appendLedger, ledgerViews, loadLedger, maxSlot } from "./ledger.js";
 import { planForDate, todayKST } from "./plan.js";
 import { renderSlides, themeVars } from "./render.js";
 import { fetchSampleImages, SAMPLE_DRAFT } from "./sample.js";
@@ -21,8 +21,19 @@ const { values: args } = parseArgs({
     mode: { type: "string" },
     fixture: { type: "boolean", default: false },
     "dry-run": { type: "boolean", default: false },
+    // 같은 날 추가 포스트 생성 (skip 대신 다음 슬롯으로)
+    append: { type: "boolean", default: false },
+    // publish/review 대상 슬롯 (기본: 그날 최대 슬롯)
+    slot: { type: "string" },
   },
 });
+
+function parseSlotArg(): number | undefined {
+  if (args.slot === undefined) return undefined;
+  const n = Number(args.slot);
+  if (!Number.isInteger(n) || n < 1) throw new Error(`--slot은 1 이상의 정수여야 합니다: "${args.slot}"`);
+  return n;
+}
 
 function assembleCaption(topic: Topic, draft: PostDraft): string {
   const tags = draft.hashtags
@@ -36,15 +47,18 @@ async function generate(topic: Topic): Promise<void> {
   const plan = planForDate(topic, dateISO, args.type);
 
   const ledger = await loadLedger(topic.id);
-  const existing = findEntry(ledger, dateISO);
-  if (existing) {
+  const existingMax = maxSlot(ledger, dateISO);
+  let slot = 1;
+  if (args.append) {
+    slot = existingMax + 1;
+  } else if (existingMax > 0) {
     console.log(
-      `[${topic.id}] ${dateISO}는 이미 생성됨(${existing.type}, ig=${existing.igMediaId ?? "미발행"}) — skip`,
+      `[${topic.id}] ${dateISO}는 이미 ${existingMax}건 생성됨 — skip (추가 생성은 --append)`,
     );
     return;
   }
 
-  console.log(`[${topic.id}] ${dateISO} → ${plan.type} / ${plan.mode}`);
+  console.log(`[${topic.id}] ${dateISO}${slot > 1 ? ` #${slot}` : ""} → ${plan.type} / ${plan.mode}`);
   const prepared = await topic.prepare(plan, ledgerViews(ledger));
 
   let mode: PublishMode = (args.mode as PublishMode) ?? plan.mode;
@@ -65,7 +79,7 @@ async function generate(topic: Topic): Promise<void> {
   }
   if (prepared.forceReview) mode = "review";
 
-  const outDir = `out/${topic.id}/${dateISO}`;
+  const outDir = pkgDir(topic.id, dateISO, slot);
   const paths = await renderSlides(
     draft,
     prepared.images,
@@ -83,6 +97,7 @@ async function generate(topic: Topic): Promise<void> {
 
   await appendLedger(topic.id, {
     date: dateISO,
+    slot,
     type: plan.type,
     mode,
     igMediaId: null,
@@ -116,13 +131,13 @@ async function main() {
 
   if (args.publish) {
     const { publishFromPackage } = await import("./publish.js");
-    await publishFromPackage(topic, args.date ?? todayKST(), args["dry-run"]);
+    await publishFromPackage(topic, args.date ?? todayKST(), args["dry-run"], parseSlotArg());
     return;
   }
 
   if (args.review) {
     const { createReviewIssue } = await import("./review.js");
-    await createReviewIssue(topic, args.date ?? todayKST());
+    await createReviewIssue(topic, args.date ?? todayKST(), parseSlotArg());
     return;
   }
 

@@ -245,7 +245,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
           heading: String(title(it)).slice(0, 46),
           subheading: it.titleKo ? (it.titleEnglish ?? it.titleRomaji)?.slice(0, 68) : undefined,
           meta: meta(it),
-          body: it.genres?.length ? it.genres.join(" · ") : undefined,
+          body: it.genres?.length ? it.genres.join(" · ") : "지금 주목받는 작품",
           imageKey: it.imageKey,
         });
       }
@@ -255,7 +255,14 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
       slides.push(
         { kind: "cover", badge: "오늘의 명대사", heading: "한 문장이\n오래 남을 때", subheading: p.workKo, imageKey: p.media?.imageKey },
         { kind: "quote", heading: p.character, subheading: p.workKo, body: p.quote, imageKey: p.media?.imageKey },
-        { kind: "item", heading: p.workKo, subheading: p.media?.titleRomaji, meta: p.media ? meta(p.media) : undefined, imageKey: p.media?.imageKey },
+        {
+          kind: "item",
+          heading: p.workKo,
+          subheading: p.media?.titleRomaji,
+          meta: p.media ? meta(p.media) : undefined,
+          body: p.media?.genres?.length ? p.media.genres.join(" · ") : "오늘의 명대사 출전작",
+          imageKey: p.media?.imageKey,
+        },
       );
       break;
     }

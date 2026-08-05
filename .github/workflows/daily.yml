@@ -6,17 +6,16 @@ on:
   workflow_dispatch:
     inputs:
       topic:
-        description: "type/mode 오버라이드를 적용할 토픽 (모든 토픽은 항상 실행되며, 이미 생성된 날은 자동 skip)"
-        required: false
-        default: ""
+        description: "추가 생성할 토픽 — 실행할 때마다 그날의 새 포스트(#2, #3…)가 하나 추가됩니다"
+        required: true
         type: choice
-        options: ["", "ani", "tech", "growth"]
+        options: ["ani", "tech", "growth"]
       type:
-        description: "콘텐츠 타입 강제 (topic 지정 시에만 적용)"
+        description: "콘텐츠 타입 강제 (미지정 시 요일 캘린더)"
         required: false
         type: string
       mode:
-        description: "모드 강제 (topic 지정 시에만 적용)"
+        description: "모드 강제 (미지정 시 토픽 기본값)"
         required: false
         type: choice
         options: ["", "review", "auto"]
@@ -36,10 +35,9 @@ jobs:
       fail-fast: false # 한 토픽 실패가 다른 토픽 발행을 막지 않음
       max-parallel: 1 #  토픽별 순차 실행 — push 경합 방지
       matrix:
-        include:
-          - { topic: ani, up: ANI }
-          - { topic: tech, up: TECH }
-          - { topic: growth, up: GROWTH }
+        # 크론: 3토픽 전부(이미 생성된 날은 skip). 수동 실행: 선택한 토픽만 추가 생성.
+        # (job 레벨 if에서는 matrix 컨텍스트를 쓸 수 없어 매트릭스 자체를 분기)
+        include: ${{ fromJSON(github.event_name == 'schedule' && '[{"topic":"ani","up":"ANI"},{"topic":"tech","up":"TECH"},{"topic":"growth","up":"GROWTH"}]' || (inputs.topic == 'ani' && '[{"topic":"ani","up":"ANI"}]' || inputs.topic == 'tech' && '[{"topic":"tech","up":"TECH"}]' || '[{"topic":"growth","up":"GROWTH"}]')) }}
     steps:
       - uses: actions/checkout@v4
 
@@ -65,11 +63,13 @@ jobs:
       - name: 카드뉴스 생성 (${{ matrix.topic }})
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WRITER_MODEL: ${{ vars.WRITER_MODEL || '' }}
           PUBLISH_MODE: ${{ vars[format('PUBLISH_MODE_{0}', matrix.up)] || vars.PUBLISH_MODE || 'review' }}
           BRAND: ${{ vars[format('BRAND_{0}', matrix.up)] || '' }}
         run: |
           ARGS=""
-          if [ "${{ inputs.topic }}" = "${{ matrix.topic }}" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ARGS="--append"
             [ -n "${{ inputs.type }}" ] && ARGS="$ARGS --type ${{ inputs.type }}"
             [ -n "${{ inputs.mode }}" ] && ARGS="$ARGS --mode ${{ inputs.mode }}"
           fi
@@ -80,13 +80,15 @@ jobs:
           git config user.name "cards-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add out data
-          git commit -m "post(${{ matrix.topic }}): ${{ steps.kst.outputs.date }}" || echo "변경 없음"
+          git commit -m "post(${{ matrix.topic }}): ${{ steps.kst.outputs.date }}${{ github.event_name == 'workflow_dispatch' && ' (append)' || '' }}" || echo "변경 없음"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
 
-      - name: 모드 판별
+      - name: 모드 판별 (그날 최신 슬롯 기준)
         id: mode
-        run: echo "mode=$(jq -r .mode "out/${{ matrix.topic }}/${{ steps.kst.outputs.date }}/draft.json")" >> "$GITHUB_OUTPUT"
+        run: |
+          DIR=$(ls -d out/${{ matrix.topic }}/${{ steps.kst.outputs.date }}* | sort -V | tail -1)
+          echo "mode=$(jq -r .mode "$DIR/draft.json")" >> "$GITHUB_OUTPUT"
 
       - name: 자동 발행 (auto)
         if: steps.mode.outputs.mode == 'auto'

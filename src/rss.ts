@@ -33,7 +33,7 @@ export async function fetchFeeds(
           guid: String(it.guid?.["#text"] ?? it.guid ?? it.link ?? it.title),
           title: String(it.title ?? ""),
           link: String(it.link ?? ""),
-          description: String(it.description ?? "").replace(/<[^>]+>/g, "").slice(0, 400),
+          description: String(it.description ?? "").replace(/<[^>]+>/g, "").slice(0, 600),
           pubDate: String(it.pubDate ?? ""),
           source: feed.source,
         };

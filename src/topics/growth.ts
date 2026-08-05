@@ -71,7 +71,12 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
         { kind: "item", heading: p.book.titleKo, subheading: p.book.author, body: p.book.tagline },
       );
       for (const [i, idea] of (p.book.keyIdeas as string[]).slice(0, 3).entries()) {
-        slides.push({ kind: "news", badge: `핵심 ${i + 1}`, heading: String(idea).slice(0, 46) });
+        slides.push({
+          kind: "news",
+          badge: `핵심 ${i + 1}`,
+          heading: String(idea).slice(0, 46),
+          body: `『${p.book.titleKo}』 — ${p.book.tagline}`.slice(0, 210),
+        });
       }
       break;
     }

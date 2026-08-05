@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
+import { pkgDir } from "./config.js";
 import { rawUrl, requireEnv } from "./github.js";
-import { findEntry, loadLedger, setIgMediaId } from "./ledger.js";
+import { findEntry, loadLedger, maxSlot, setIgMediaId } from "./ledger.js";
 import type { Topic } from "./topics/types.js";
 
 const GRAPH = "https://graph.instagram.com/v23.0";
@@ -11,30 +12,33 @@ interface PackageMeta {
   draft: { title: string };
 }
 
-/** out/<topic>/<date>/ 패키지를 IG 캐러셀로 발행. 멱등(이미 발행 시 skip). */
+/** 포스트 패키지를 IG 캐러셀로 발행. 멱등(이미 발행 시 skip). slot 기본값 = 그날 최신 */
 export async function publishFromPackage(
   topic: Topic,
   dateISO: string,
   dryRun = false,
+  slotArg?: number,
 ): Promise<void> {
-  const pkgDir = `out/${topic.id}/${dateISO}`;
-  const meta = JSON.parse(await readFile(`${pkgDir}/draft.json`, "utf8")) as PackageMeta;
+  const ledger = await loadLedger(topic.id);
+  const slot = slotArg ?? Math.max(1, maxSlot(ledger, dateISO));
+  const slotTag = slot > 1 ? ` #${slot}` : "";
+  const dir = pkgDir(topic.id, dateISO, slot);
+  const meta = JSON.parse(await readFile(`${dir}/draft.json`, "utf8")) as PackageMeta;
   if (meta.mode !== "auto") {
-    console.log(`[publish:${topic.id}] ${dateISO}는 mode=${meta.mode} — 발행하지 않습니다.`);
+    console.log(`[publish:${topic.id}] ${dateISO}${slotTag}는 mode=${meta.mode} — 발행하지 않습니다.`);
     return;
   }
-  const ledger = await loadLedger(topic.id);
-  const entry = findEntry(ledger, dateISO);
-  if (!entry) throw new Error(`ledger에 ${dateISO} 항목이 없습니다. 먼저 generate를 실행하세요.`);
+  const entry = findEntry(ledger, dateISO, slot);
+  if (!entry) throw new Error(`ledger에 ${dateISO} #${slot} 항목이 없습니다. 먼저 generate를 실행하세요.`);
   if (entry.igMediaId) {
-    console.log(`[publish:${topic.id}] ${dateISO}는 이미 발행됨 (${entry.igMediaId}) — skip`);
+    console.log(`[publish:${topic.id}] ${dateISO}${slotTag}는 이미 발행됨 (${entry.igMediaId}) — skip`);
     return;
   }
   if (entry.images.length < 2 || entry.images.length > 10) {
     throw new Error(`캐러셀은 2~10장이어야 합니다 (현재 ${entry.images.length}장).`);
   }
 
-  const caption = (await readFile(`${pkgDir}/caption.txt`, "utf8")).trim();
+  const caption = (await readFile(`${dir}/caption.txt`, "utf8")).trim();
   const urls = entry.images.map(rawUrl);
 
   console.log(`[publish:${topic.id}] 이미지 URL 공개 확인 중 (${urls.length}장)...`);
@@ -79,7 +83,7 @@ export async function publishFromPackage(
     access_token: token,
   });
 
-  await setIgMediaId(topic.id, dateISO, mediaId);
+  await setIgMediaId(topic.id, dateISO, slot, mediaId);
   console.log(`[publish:${topic.id}] 완료 — media id ${mediaId}`);
 }
 

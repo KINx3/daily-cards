@@ -15,8 +15,9 @@ plan(요일→타입) → fetch(토픽별 소스) → write(Claude→슬라이�
 ```
 
 - **인프라 $0**: GitHub Actions 크론 + public repo raw URL = IG 이미지 호스팅
-- **비용**: Claude API 토픽당 일 1회 ≈ $0.07 → 3토픽 월 $5~6
+- **비용**: Claude API(기본 Sonnet 5) 포스트당 ≈ $0.03~0.07 → 3토픽 일 1회 기준 월 $3~6 (추가 발행 시 비례, `WRITER_MODEL` 변수로 모델 교체 가능)
 - **모드**: 토픽별로 `review`(초안 이슈 → 사람이 업로드) / `auto`(IG API 자동 발행) 독립 설정
+- **발행량**: 크론이 하루 1개 보장 + Run workflow로 그날의 추가 포스트(#2, #3…)를 원하는 만큼
 
 ## 주간 캘린더
 
@@ -34,9 +35,10 @@ plan(요일→타입) → fetch(토픽별 소스) → write(Claude→슬라이�
 npm install && npx playwright install chromium
 
 npx tsx src/run.ts --topic ani                          # 오늘자 생성 (ANTHROPIC_API_KEY 필요)
+npx tsx src/run.ts --topic ani --append                 # 같은 날 추가 포스트 (#2, #3…)
 npx tsx src/run.ts --topic tech --type repos --fixture  # Claude 없이 파이프라인 테스트
 npx tsx src/run.ts --topic growth --sample              # 샘플 렌더 (growth 테마 확인)
-npx tsx src/run.ts --publish --topic ani --dry-run      # 발행 리허설
+npx tsx src/run.ts --publish --topic ani --dry-run      # 발행 리허설 (--slot N으로 슬롯 지정, 기본 최신)
 ```
 
 디자인 확인: `template/card.html?demo=item&theme=tech`를 브라우저로 직접 열기
@@ -72,8 +74,9 @@ npx tsx src/run.ts --publish --topic ani --dry-run      # 발행 리허설
 
 ## 운영
 
-- **초안 반려**: 이슈만 닫으면 끝. 소재는 ledger에 기록되어 재등장하지 않습니다.
-- **재실행**: Run workflow — 세 토픽 모두 돌지만 이미 생성된 토픽은 즉시 skip(멱등). 특정 토픽에 type/mode를 강제하려면 `topic` 입력 지정.
+- **초안 반려**: 이슈만 닫으면 끝. 소재는 ledger에 기록되어 재등장하지 않습니다. 다시 만들려면 Run workflow로 추가 생성.
+- **추가 발행**: Actions → `daily-post` → Run workflow → 토픽 선택 — 실행할 때마다 그날의 새 포스트(#2, #3…)가 생성됩니다. `type`/`mode` 입력으로 강제 가능.
+- **크론 멱등**: 크론은 하루 1개(슬롯 1)만 만들고, 이미 생성된 날은 skip. 실패한 크론의 Re-run도 안전합니다.
 - **토큰**: `refresh-ig-tokens`가 매주 월요일 설정된 토큰만 갱신(미설정 토픽은 무해 skip).
 - **writer 실패**: 픽스처 초안 + 리뷰 강등으로 하루가 비지 않습니다.
 - **소재 뱅크 보충**: tech/growth 뱅크(concepts·tools·books·habits·mindsets)는 소진되면 재순환합니다. 새 항목은 JSON에 추가만 하면 됩니다.
@@ -102,6 +105,6 @@ src/
   banks.ts          범용 뱅크 로더 + verified 인용 선택
   anilist.ts / news.ts / hn.ts / github-api.ts / rss.ts   데이터 소스
 template/card.html  카드 디자인 전부 (?demo=<kind>&theme=<topic>)
-data/<topic>/       소재 뱅크 + posts.json ledger
-out/<topic>/<날짜>/ 01..NN.jpg · draft.json · caption.txt (커밋됨 = 이미지 호스팅)
+data/<topic>/       소재 뱅크 + posts.json ledger (하루 여러 포스트 = slot 필드)
+out/<topic>/<날짜>[-슬롯]/ 01..NN.jpg · draft.json · caption.txt (커밋됨 = 이미지 호스팅)
 ```
