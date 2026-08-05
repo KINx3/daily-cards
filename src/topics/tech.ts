@@ -124,7 +124,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
 
   switch (plan.type) {
     case "technews": {
-      slides.push({ kind: "cover", badge: "WEEKLY", heading: "이번 주\n해커뉴스 베스트", subheading: `${plan.dateLabel} 기준` });
+      slides.push({ kind: "cover", badge: "WEEKLY", heading: "이번 주\n해커뉴스 베스트", subheading: `${plan.dateLabel} 기준`, body: "이번 주 해커뉴스에서\n가장 뜨거웠던 이야기들." });
       for (const [i, s] of (p.candidates as any[]).slice(0, 5).entries()) {
         slides.push({
           kind: "news",
@@ -137,7 +137,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
       break;
     }
     case "ainews": {
-      slides.push({ kind: "cover", badge: "AI NEWS", heading: "이번 주\nAI 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준` });
+      slides.push({ kind: "cover", badge: "AI NEWS", heading: "이번 주\nAI 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준`, body: "오늘의 AI 소식을\n카드로 정리했습니다." });
       for (const [i, n] of (p.candidates as any[]).slice(0, 5).entries()) {
         slides.push({
           kind: "news",
@@ -150,7 +150,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
       break;
     }
     case "repos": {
-      slides.push({ kind: "cover", badge: "GITHUB", heading: "이번 주\n주목할 리포", subheading: "스타 급상승 기준" });
+      slides.push({ kind: "cover", badge: "GITHUB", heading: "이번 주\n주목할 리포", subheading: "스타 급상승 기준", body: "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다." });
       for (const it of (p.items as any[]).slice(0, 5)) {
         slides.push({
           kind: "item",
@@ -164,13 +164,13 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
     }
     case "concept": {
       slides.push(
-        { kind: "cover", badge: "CONCEPT", heading: String(p.concept.title).slice(0, 46), subheading: "한 장 정리" },
+        { kind: "cover", badge: "CONCEPT", heading: String(p.concept.title).slice(0, 46), subheading: "한 장 정리", body: "개념의 핵심만\n빠르게 정리했습니다." },
         { kind: "news", badge: "WHAT", heading: p.concept.title, body: String(p.concept.hint).slice(0, 210) },
       );
       break;
     }
     case "tools": {
-      slides.push({ kind: "cover", badge: "TOOLS", heading: "써볼 만한\n개발 도구", subheading: "이번 주 3선" });
+      slides.push({ kind: "cover", badge: "TOOLS", heading: "써볼 만한\n개발 도구", subheading: "이번 주 3선", body: "이번 주 써볼 만한\n개발 도구를 골랐습니다." });
       for (const t of p.items as any[]) {
         slides.push({
           kind: "item",
@@ -183,7 +183,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
     }
     case "devquote": {
       slides.push(
-        { kind: "cover", badge: "DEV QUOTE", heading: "일요일의\n개발자 명언", subheading: p.by },
+        { kind: "cover", badge: "DEV QUOTE", heading: "일요일의\n개발자 명언", subheading: p.by, body: "오늘의 개발자 명언을\n소개합니다." },
         { kind: "quote", heading: p.by, subheading: p.source, body: p.quote },
       );
       break;

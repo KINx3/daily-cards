@@ -9,6 +9,7 @@ export const SAMPLE_DRAFT: PostDraft = {
       badge: "WEEKLY TOP 3",
       heading: "이번 주\n가장 뜨거운 애니",
       subheading: "8월 1주차 · AniList 트렌딩 기준",
+      body: "이번 주 트렌딩 작품을\n카드로 정리했습니다.",
       imageKey: "frieren",
     },
     {

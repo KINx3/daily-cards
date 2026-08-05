@@ -60,14 +60,14 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
   switch (plan.type) {
     case "quote": {
       slides.push(
-        { kind: "cover", badge: "MONDAY BOOST", heading: "오늘을 바꾸는\n한 문장", subheading: p.by },
+        { kind: "cover", badge: "MONDAY BOOST", heading: "오늘을 바꾸는\n한 문장", subheading: p.by, body: "오늘 하루를 붙잡아 줄\n문장을 준비했습니다." },
         { kind: "quote", heading: p.by, subheading: p.source, body: p.quote },
       );
       break;
     }
     case "book": {
       slides.push(
-        { kind: "cover", badge: "BOOK", heading: String(p.book.titleKo).slice(0, 46), subheading: p.book.author },
+        { kind: "cover", badge: "BOOK", heading: String(p.book.titleKo).slice(0, 46), subheading: p.book.author, body: String(p.book.tagline).slice(0, 100) },
         { kind: "item", heading: p.book.titleKo, subheading: p.book.author, body: p.book.tagline },
       );
       for (const [i, idea] of (p.book.keyIdeas as string[]).slice(0, 3).entries()) {
@@ -82,14 +82,14 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
     }
     case "habit": {
       slides.push(
-        { kind: "cover", badge: "HABIT", heading: String(p.habit.title).slice(0, 46), subheading: "오늘부터 실천" },
+        { kind: "cover", badge: "HABIT", heading: String(p.habit.title).slice(0, 46), subheading: "오늘부터 실천", body: String(p.habit.hint).slice(0, 100) },
         { kind: "news", badge: "HOW", heading: p.habit.title, body: String(p.habit.hint).slice(0, 210) },
       );
       break;
     }
     case "mindset": {
       slides.push(
-        { kind: "cover", badge: "MINDSET", heading: String(p.mindset.title).slice(0, 46), subheading: "생각의 도구" },
+        { kind: "cover", badge: "MINDSET", heading: String(p.mindset.title).slice(0, 46), subheading: "생각의 도구", body: String(p.mindset.hint).slice(0, 100) },
         { kind: "news", badge: "WHAT", heading: p.mindset.title, body: String(p.mindset.hint).slice(0, 210) },
       );
       break;

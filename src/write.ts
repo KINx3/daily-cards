@@ -11,7 +11,7 @@ const BASE_SYSTEM = `너는 카드뉴스 인스타그램 계정의 에디터다.
 - 뉴스·외부 데이터는 입력에 있는 내용 범위 안에서만 요약한다. 새로운 사실·수치·날짜를 추가하지 않는다.
 - 인용문(quote)이 입력에 있으면 한 글자도 바꾸지 않는다.
 - caption에는 본문만 쓴다. 해시태그와 출처 문구는 시스템이 별도로 붙인다.
-- 모든 내용은 슬라이드 본문에 담는다. item·news·quote·schedule 슬라이드는 heading과 body를 반드시 채운다. 내용을 캡션에만 쓰고 슬라이드를 비워 두지 않는다.
+- 모든 슬라이드는 heading과 body를 반드시 채운다(cover·outro 포함). 내용을 캡션에만 쓰고 슬라이드를 비워 두지 않는다.
 
 슬라이드 구성:
 - 첫 장은 kind="cover" — 스와이프를 부르는 짧고 강한 훅. heading은 2줄 이내(줄바꿈 \\n).
@@ -115,11 +115,10 @@ function postProcess(draft: PostDraft, prepared: Prepared): PostDraft {
   for (const slide of draft.slides) {
     // 존재하지 않는 imageKey는 제거(플레이스홀더 렌더)
     if (slide.imageKey && !validKeys.has(slide.imageKey)) delete slide.imageKey;
-    // kind별로 required가 갈리는 union이라, undefined를 다시 쓰지 않도록 있는 값만 자른다
-    if (slide.heading !== undefined) slide.heading = clamp(slide.heading, CLAMP.heading);
+    slide.heading = clamp(slide.heading, CLAMP.heading);
+    slide.body = clamp(slide.body, CLAMP.body);
     if (slide.subheading !== undefined) slide.subheading = clamp(slide.subheading, CLAMP.subheading);
     if (slide.badge !== undefined) slide.badge = clamp(slide.badge, CLAMP.badge);
-    if (slide.body !== undefined) slide.body = clamp(slide.body, CLAMP.body);
     if (slide.meta !== undefined) slide.meta = clamp(slide.meta, CLAMP.meta);
     // 인용은 뱅크 원문으로 강제 덮어쓰기 — writer 출력을 신뢰하지 않음 (clamp보다 뒤 = 원문 무손실)
     if (slide.kind === "quote" && prepared.quoteOverride) {

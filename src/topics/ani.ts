@@ -236,6 +236,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
         badge: "FIXTURE",
         heading: `${label}\n카드뉴스 테스트`,
         subheading: `${plan.dateLabel} 기준`,
+        body: "이번 카드에서 소개할\n작품들을 담았습니다.",
         imageKey: items[0]?.imageKey,
       });
       for (const [i, it] of items.entries()) {
@@ -253,7 +254,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
     }
     case "quote": {
       slides.push(
-        { kind: "cover", badge: "오늘의 명대사", heading: "한 문장이\n오래 남을 때", subheading: p.workKo, imageKey: p.media?.imageKey },
+        { kind: "cover", badge: "오늘의 명대사", heading: "한 문장이\n오래 남을 때", subheading: p.workKo, body: "작품 속 한 문장을\n오늘의 카드로 전합니다.", imageKey: p.media?.imageKey },
         { kind: "quote", heading: p.character, subheading: p.workKo, body: p.quote, imageKey: p.media?.imageKey },
         {
           kind: "item",
@@ -267,7 +268,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
       break;
     }
     case "news": {
-      slides.push({ kind: "cover", badge: "WEEKLY NEWS", heading: "이번 주\n애니 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준` });
+      slides.push({ kind: "cover", badge: "WEEKLY NEWS", heading: "이번 주\n애니 뉴스 다이제스트", subheading: `${plan.dateLabel} 기준`, body: "이번 주 애니 소식을\n간추렸습니다." });
       for (const [i, n] of (p.candidates as any[]).slice(0, 5).entries()) {
         slides.push({
           kind: "news",
@@ -280,7 +281,7 @@ function fixture(plan: DayPlan, prepared: Prepared): PostDraft {
       break;
     }
     case "schedule": {
-      slides.push({ kind: "cover", badge: "NEXT WEEK", heading: "다음 주\n방영 일정", subheading: "인기작 기준" });
+      slides.push({ kind: "cover", badge: "NEXT WEEK", heading: "다음 주\n방영 일정", subheading: "인기작 기준", body: "다음 주 방영작을\n요일별로 정리했습니다." });
       for (const day of (p.days as any[]).slice(0, 7)) {
         const m = String(day.label).match(/^(.*?)\s*([가-힣]+요일)$/);
         slides.push({
