@@ -1,0 +1,73 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-05",
+    "dateLabel": "2026.08.05",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] ainews 2026-08-05",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "AI NEWS",
+        "heading": "이번 주\nAI 뉴스 다이제스트",
+        "subheading": "2026.08.05 기준"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "AI makes weather prediction better. Can WindBo",
+        "body": "WindBorne Systems has raised $37 million Series B round to scale its weather balloons and AI forecasts.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "SpaceX has bought $329M worth of Tesla Megapac",
+        "body": "The purchase illustrates just how interconnected Elon Musk's universe of companies are. ",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Open-weight AI models are catching up to the f",
+        "body": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguard",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "Anthropic signs $10B deal with AI cloud startu",
+        "body": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "Meet Wrinkles, an app that uncovers the hidden",
+        "body": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] ainews 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
