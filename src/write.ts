@@ -47,7 +47,9 @@ export async function writeDraft(
     try {
       const response = await client.messages.parse({
         model: "claude-opus-5",
-        max_tokens: 8000,
+        // Opus 5는 thinking 기본 ON이고 max_tokens가 thinking+본문 합산 상한 —
+        // 뉴스처럼 무거운 입력에서 8000이면 본문 JSON이 잘려 파싱 실패했다(2026-08-05).
+        max_tokens: 16000,
         system,
         messages: [{ role: "user", content: userMsg }],
         output_config: { format: zodOutputFormat(PostDraftSchema) },
