@@ -48,5 +48,22 @@
       "out/ani/2026-08-05/06.jpg",
       "out/ani/2026-08-05/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-06",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-frieren-himmel",
+      "m154587"
+    ],
+    "images": [
+      "out/ani/2026-08-06/01.jpg",
+      "out/ani/2026-08-06/02.jpg",
+      "out/ani/2026-08-06/03.jpg",
+      "out/ani/2026-08-06/04.jpg"
+    ]
   }
 ]
