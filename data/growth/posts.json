@@ -85,5 +85,21 @@
       "out/growth/2026-08-06/05.jpg",
       "out/growth/2026-08-06/06.jpg"
     ]
+  },
+  {
+    "date": "2026-08-07",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-edison"
+    ],
+    "images": [
+      "out/growth/2026-08-07/01.jpg",
+      "out/growth/2026-08-07/02.jpg",
+      "out/growth/2026-08-07/03.jpg",
+      "out/growth/2026-08-07/04.jpg"
+    ]
   }
 ]
