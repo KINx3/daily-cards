@@ -1,0 +1,55 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-07",
+    "dateLabel": "2026.08.07",
+    "weekday": 5,
+    "type": "seasonal",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "2026년 여름, 이 작품 하나는 보고 가자",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 여름\n이거 하나는 봐야 한다",
+        "body": "3시즌째 돌아온 이야기,\n놓치면 아쉬운 작품입니다",
+        "subheading": "2026 여름 시즌 최고 기대작 한 줄 정리",
+        "imageKey": "m178789"
+      },
+      {
+        "kind": "item",
+        "heading": "Mushoku Tensei: Jobless Reincarnation Season 3",
+        "body": "Studio Bind 제작, 전체 14화.\n장르는 모험·드라마·판타지.\n평점 85점, 인기 지표도 상위권입니다.",
+        "meta": "TV 14화 · Studio Bind · 평점 85",
+        "imageKey": "m178789"
+      },
+      {
+        "kind": "item",
+        "heading": "왜 지금 봐야 하나",
+        "body": "세 시즌을 이어온 세계관이\n이번 시즌에서 더 깊어집니다.\n이미 쌓인 이야기라 몰입이 빠릅니다.",
+        "badge": "관전 포인트",
+        "imageKey": "m178789"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n방영 시작하면 다시 보세요",
+        "body": "이번 시즌 라인업 정리는\n다음 게시물에서 이어집니다.\n팔로우하면 놓치지 않아요."
+      }
+    ],
+    "caption": "3시즌째인데도 여전히 이름값 하는 작품, 이번 여름엔 이거부터 챙기세요.\nStudio Bind가 다시 만드는 무직전생 시즌3, 평점 85에 인기까지 꾸준한 작품입니다.\n세계관이 쌓여있는 만큼 몰입은 더 빠를 거예요.\n\n다룬 작품\n- Mushoku Tensei: Jobless Reincarnation Season 3\n\n저장해두고 방영 시작하면 다시 확인하세요",
+    "hashtags": [
+      "#무직전생",
+      "#MushokuTensei",
+      "#JoblessReincarnation",
+      "#StudioBind",
+      "#2026여름신작",
+      "#애니추천",
+      "#이세계애니",
+      "#여름애니",
+      "#애니메이션",
+      "#일본애니"
+    ]
+  }
+}
