@@ -1,0 +1,62 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-07",
+    "dateLabel": "2026.08.07",
+    "weekday": 5,
+    "type": "tools",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "매일 쓰는데 몰랐던 개발 도구 3",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "코드 찾고, 그림 그리고,\n서버 지켜보는 시간",
+        "body": "이 세 가지만 있어도\n하루 30분은 아낄 수 있어요",
+        "subheading": "검색·설계·모니터링, 세 가지로 정리했습니다"
+      },
+      {
+        "kind": "item",
+        "heading": "Excalidraw",
+        "body": "브라우저 켜고 바로 그리는\n손그림 느낌 다이어그램\n\n딱딱한 다이어그램 툴 대신\n아키텍처 설명할 때,\n링크 하나로 팀과 같이 그릴 때 좋아요",
+        "subheading": "손그림 느낌 다이어그램"
+      },
+      {
+        "kind": "item",
+        "heading": "Grafana",
+        "body": "메트릭이랑 로그를\n한 화면에 모아서 보는 도구\n\nPrometheus랑 같이 붙여서\n서버 상태를 실시간으로\n지켜봐야 할 때 씁니다",
+        "subheading": "대시보드·모니터링"
+      },
+      {
+        "kind": "item",
+        "heading": "ripgrep",
+        "body": "grep보다 훨씬 빠른\ncode 검색기, 줄여서 rg\n\n.gitignore는 알아서 걸러주고\n기본 옵션도 똑똑해서\n코드베이스 뒤질 때 기본기로 씁니다",
+        "subheading": "가장 빠른 코드 검색"
+      },
+      {
+        "kind": "outro",
+        "heading": "이 세 개부터\n써보세요",
+        "body": "저장해두고 새 프로젝트\n세팅할 때 다시 꺼내보세요\n\n다음엔 또 다른 도구로 만나요"
+      }
+    ],
+    "caption": "코드 검색하다가, 그림 그리다가, 서버 들여다보다가 하루가 다 갑니다.\n오늘은 그 시간을 줄여주는 도구 세 개만 골랐어요.\n각각 검색, 설계, 모니터링에서 기본기처럼 쓰이는 것들입니다.\n\nExcalidraw - 손그림 느낌 다이어그램\nGrafana - 대시보드·모니터링\nripgrep - 가장 빠른 코드 검색\n\n저장해두고 새 프로젝트 세팅할 때 다시 꺼내보세요.",
+    "hashtags": [
+      "#개발도구",
+      "#Excalidraw",
+      "#Grafana",
+      "#ripgrep",
+      "#개발자",
+      "#프로그래밍",
+      "#백엔드",
+      "#인프라",
+      "#모니터링",
+      "#다이어그램",
+      "#코드검색",
+      "#개발자성장",
+      "#사이드프로젝트",
+      "#devtools"
+    ]
+  }
+}
