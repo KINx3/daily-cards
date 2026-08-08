@@ -101,5 +101,23 @@
       "out/growth/2026-08-07/03.jpg",
       "out/growth/2026-08-07/04.jpg"
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-essential"
+    ],
+    "images": [
+      "out/growth/2026-08-08/01.jpg",
+      "out/growth/2026-08-08/02.jpg",
+      "out/growth/2026-08-08/03.jpg",
+      "out/growth/2026-08-08/04.jpg",
+      "out/growth/2026-08-08/05.jpg",
+      "out/growth/2026-08-08/06.jpg"
+    ]
   }
 ]
