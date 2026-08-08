@@ -1,0 +1,81 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-08",
+    "dateLabel": "2026.08.08",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "",
+        "subheading": "이번 주 깃허브에서 발견한 프로젝트 5개",
+        "badge": "GITHUB PICK"
+      },
+      {
+        "kind": "item",
+        "heading": "anydoc",
+        "body": "워드, 파워포인트, 엑셀, PDF까지\n한 번에 깔끔한 마크다운으로.\nLLM에 바로 넣을 수 있는\n형태로 순식간에 바꿔줍니다.",
+        "subheading": "firecrawl/anydoc",
+        "meta": "Rust · ★11.6k"
+      },
+      {
+        "kind": "item",
+        "heading": "crm",
+        "body": "사람이 채우는 폼이 아니라\n에이전트가 직접 조사하고\n기록까지 하는 CRM.\n후속 일정도 스스로 잡습니다.",
+        "subheading": "trycompai/crm",
+        "meta": "TypeScript · ★7.6k"
+      },
+      {
+        "kind": "item",
+        "heading": "decimen-optical-transfer",
+        "body": "네트워크도 앱도 없이\n화면과 카메라만으로 파일 전송.\n한쪽엔 QR코드가 흘러가고\n다른 쪽 카메라가 읽어서 복원합니다.",
+        "subheading": "bashalarmistalt/decimen-optical-transfer",
+        "meta": "TypeScript · ★5.2k"
+      },
+      {
+        "kind": "item",
+        "heading": "video-shotcraft",
+        "body": "Claude Code나 Codex를\n영상 제작 스튜디오로 바꿔주는 스킬.\n샷 레시피와 모션 프리셋으로\n제품 홍보 영상을 자동 제작합니다.",
+        "subheading": "Vincentwei1021/video-shotcraft",
+        "meta": "TypeScript · ★4.1k"
+      },
+      {
+        "kind": "item",
+        "heading": "esp32-ai",
+        "body": "2890만 파라미터 언어모델을\n마이크로컨트롤러 하나에서 구동.\n서버 연결 없이 초당 약 9.88토큰으로\n화면에 텍스트를 생성합니다.",
+        "subheading": "slvDev/esp32-ai",
+        "meta": "Python · ★3.8k"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음 주말엔\n뭘 만들어볼까",
+        "body": "저장해두고\n아이디어 필요할 때 다시 꺼내보세요.\n다음 주에도 새로운 프로젝트로 돌아올게요."
+      }
+    ],
+    "caption": "깃허브엔 매주 이런 게 올라옵니다.\n문서 변환기, AI 전용 CRM, 화면으로 파일을 보내는 앱까지—\n혼자 주말에 만든 프로젝트치곤 스케일이 남다릅니다.\n\n이번 주 다룬 프로젝트\n- anydoc: 문서를 마크다운으로\n- crm: 에이전트가 직접 쓰는 CRM\n- decimen-optical-transfer: 화면으로 파일 전송\n- video-shotcraft: AI 영상 제작 스킬\n- esp32-ai: 마이크로컨트롤러 위 언어모델\n\n저장해두고 아이디어 필요할 때 다시 보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#사이드프로젝트",
+      "#AI개발",
+      "#러스트",
+      "#타입스크립트",
+      "#파이썬",
+      "#임베디드",
+      "#CRM",
+      "#개발자스택",
+      "#코딩",
+      "#프로그래밍",
+      "#IT뉴스",
+      "#테크"
+    ]
+  }
+}

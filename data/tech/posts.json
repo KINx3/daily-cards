@@ -90,5 +90,28 @@
       "out/tech/2026-08-07/04.jpg",
       "out/tech/2026-08-07/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:firecrawl/anydoc",
+      "gh:trycompai/crm",
+      "gh:bashalarmistalt/decimen-optical-transfer",
+      "gh:Vincentwei1021/video-shotcraft",
+      "gh:slvDev/esp32-ai"
+    ],
+    "images": [
+      "out/tech/2026-08-08/01.jpg",
+      "out/tech/2026-08-08/02.jpg",
+      "out/tech/2026-08-08/03.jpg",
+      "out/tech/2026-08-08/04.jpg",
+      "out/tech/2026-08-08/05.jpg",
+      "out/tech/2026-08-08/06.jpg",
+      "out/tech/2026-08-08/07.jpg"
+    ]
   }
 ]
