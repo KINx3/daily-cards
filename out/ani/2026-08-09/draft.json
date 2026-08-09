@@ -1,0 +1,64 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-09",
+    "dateLabel": "2026.08.09",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "8월 둘째 주 신작 애니 편성표",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주,\n뭐부터 볼지 고민된다면",
+        "body": "월요일부터 목요일까지\n방영작 한눈에 정리했어요",
+        "subheading": "8월 10일~13일 방영 스케줄 총정리"
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "body": "Love Unseen Beneath the Clear Night Sky 6화\nSkeleton Knight in Another World Season 2 6화",
+        "subheading": "8월 10일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "LIAR GAME 19화\nGrand Blue Dreaming Season 3 6화\nI Want to Love You Till Your Dying Day 6화\nTHE GHOST IN THE SHELL 6화",
+        "subheading": "8월 11일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "Re:ZERO Season 4 12화\nSaga of Tanya the Evil Season 2 6화\nClevatess Season 2 6화\nTrapped in a Dating Sim Season 2 6화",
+        "subheading": "8월 12일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "목요일",
+        "body": "The Villager of Level 999 8화",
+        "subheading": "8월 13일"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 뭐 볼지\n정했나요",
+        "body": "저장해두고 요일마다\n하나씩 꺼내보세요\n다음 주 편성표도 곧 올게요"
+      }
+    ],
+    "caption": "이번 주 볼 게 너무 많아서 고민이라면 이 글 저장해두세요.\n월요일부터 목요일까지 방영되는 작품들을 요일별로 정리했습니다.\n특히 수요일은 Re:ZERO 시즌4가 12화로 클라이맥스를 향해 가는 만큼 눈여겨보세요.\n\n월요일: Love Unseen Beneath the Clear Night Sky, Skeleton Knight in Another World S2\n화요일: LIAR GAME, Grand Blue Dreaming S3, I Want to Love You Till Your Dying Day, THE GHOST IN THE SHELL\n수요일: Re:ZERO S4, Saga of Tanya the Evil S2, Clevatess S2, Trapped in a Dating Sim S2\n목요일: The Villager of Level 999\n\n저장해두고 방영일마다 체크하세요. 다음 주 편성도 이 계정에서 확인하세요.",
+    "hashtags": [
+      "#애니편성표",
+      "#애니추천",
+      "#이번주애니",
+      "#애니메이션",
+      "#방영일정",
+      "#애니덕후",
+      "#리제로",
+      "#애니스케줄",
+      "#신작애니",
+      "#애니정보"
+    ]
+  }
+}
