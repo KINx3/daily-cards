@@ -1,0 +1,80 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-10",
+    "dateLabel": "2026.08.10",
+    "weekday": 1,
+    "type": "trending",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] trending 2026-08-10",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "주간 트렌딩\n카드뉴스 테스트",
+        "subheading": "2026.08.10 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m21"
+      },
+      {
+        "kind": "item",
+        "badge": "1위",
+        "heading": "ONE PIECE",
+        "meta": "TV · Toei Animation · 평점 87",
+        "body": "Action · Adventure · Comedy · Drama",
+        "imageKey": "m21"
+      },
+      {
+        "kind": "item",
+        "badge": "2위",
+        "heading": "Though I Am an Inept Villainess",
+        "meta": "TV · 11화 · Doga Kobo · 평점 76",
+        "body": "Drama · Romance",
+        "imageKey": "m188139"
+      },
+      {
+        "kind": "item",
+        "badge": "3위",
+        "heading": "You and I Are Polar Opposites Season 2",
+        "meta": "TV · 13화 · Lapin Track · 평점 82",
+        "body": "Comedy · Drama · Romance · Slice of Life",
+        "imageKey": "m210031"
+      },
+      {
+        "kind": "item",
+        "badge": "4위",
+        "heading": "That Time I Got Reincarnated as a Slime Season",
+        "meta": "TV · 8-bit · 평점 82",
+        "body": "Action · Adventure · Comedy · Fantasy",
+        "imageKey": "m182205"
+      },
+      {
+        "kind": "item",
+        "badge": "5위",
+        "heading": "Daemons of the Shadow Realm",
+        "meta": "TV · 24화 · bones film · 평점 78",
+        "body": "Action · Adventure · Comedy · Fantasy",
+        "imageKey": "m195600"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] trending 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
