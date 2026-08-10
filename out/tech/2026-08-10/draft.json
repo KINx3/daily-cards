@@ -1,0 +1,77 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-10",
+    "dateLabel": "2026.08.10",
+    "weekday": 1,
+    "type": "technews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 개발자 이슈 TOP 5",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주,\nAI가 또 판을 흔들었다",
+        "body": "칩 경쟁부터 조직 개편까지\n개발자라면 놓치면 안 되는 소식들",
+        "subheading": "5분 만에 정리하는 이번 주 테크 뉴스",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "AMD, 모델을\n반도체에 새겨버렸다",
+        "body": "AMD가 Taalas를 인수했습니다.\n모델 자체를 칩에 새겨\n초당 1.7만 토큰까지 뽑는\n추론 전용 하드웨어를 만든다는 계획입니다.",
+        "badge": "TOP 01",
+        "meta": "Hacker News · theregister.com · 937 points"
+      },
+      {
+        "kind": "news",
+        "heading": "\"코드는 원래\n어렵지 않았다\"는 말",
+        "body": "AI가 코드를 대신 짜주는 시대,\n그동안 개발자가 해온 일을\n너무 쉽게 취급하는 시선에\n반박하는 글이 큰 반응을 얻었습니다.",
+        "badge": "TOP 02",
+        "meta": "Hacker News · blog.senko.net · 893 points"
+      },
+      {
+        "kind": "news",
+        "heading": "구글 딥마인드,\n수장이 바뀝니다",
+        "body": "데미스 하사비스가 CEO에서\n의장으로 자리를 옮기고\n제프 딘도 조직을 떠난다고\n구글이 발표했습니다.",
+        "badge": "TOP 03",
+        "meta": "Hacker News · blog.google · 861 points"
+      },
+      {
+        "kind": "news",
+        "heading": "딥시크 신모델,\n추론 테스트 공개",
+        "body": "딥시크의 V4 Flash 모델이\nARC-AGI 시리즈 테스트에서\n어떤 성적을 냈는지\n결과가 공유됐습니다.",
+        "badge": "TOP 04",
+        "meta": "Hacker News · arcprize.org · 786 points"
+      },
+      {
+        "kind": "news",
+        "heading": "PyPI 패키지 오염,\n지금 확인하세요",
+        "body": "xinference 패키지 2.6.0~2.6.2\n버전이 공급망 공격을 당해\n메인테이너가 삭제했습니다.\n해당 버전을 썼다면 환경 점검이 필요합니다.",
+        "badge": "TOP 05",
+        "meta": "Hacker News · research.jfrog.com · 726 points"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 소식,\n한 장으로 정리",
+        "body": "저장해두고 나중에\n다시 꺼내보세요.\n다음 주에도 놓치기 쉬운\n소식들 모아올게요.",
+        "imageKey": "newscover"
+      }
+    ],
+    "caption": "이번 주 개발자 커뮤니티, 조용할 틈이 없었습니다.\nAI 칩부터 조직 개편, 보안 이슈까지 한꺼번에 터졌는데요.\n하나씩 짚어봤습니다.\n\n- AMD, 모델을 반도체에 새기는 추론 전용 칩 회사 인수\n- \"코드는 원래 어렵지 않았다\"는 말에 대한 개발자들의 반박\n- 구글 딥마인드, 하사비스 의장 이동·제프 딘 퇴사\n- 딥시크 V4 Flash, ARC-AGI 테스트 결과 공개\n- PyPI 패키지 공급망 공격, 특정 버전 사용자는 점검 필요\n\n저장해두고 나중에 다시 확인하세요.",
+    "hashtags": [
+      "#개발자뉴스",
+      "#테크뉴스",
+      "#AI",
+      "#AMD",
+      "#구글딥마인드",
+      "#딥시크",
+      "#보안이슈",
+      "#개발자",
+      "#IT뉴스",
+      "#해커뉴스"
+    ]
+  }
+}
