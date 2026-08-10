@@ -139,5 +139,21 @@
       "out/growth/2026-08-09/07.jpg",
       "out/growth/2026-08-09/08.jpg"
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-emerson"
+    ],
+    "images": [
+      "out/growth/2026-08-10/01.jpg",
+      "out/growth/2026-08-10/02.jpg",
+      "out/growth/2026-08-10/03.jpg",
+      "out/growth/2026-08-10/04.jpg"
+    ]
   }
 ]
