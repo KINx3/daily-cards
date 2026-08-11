@@ -1,0 +1,80 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-11",
+    "dateLabel": "2026.08.11",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것 5가지",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "AI 영상 프롬프트부터\nCPU로 돌리는 초대형 모델까지\n다섯 가지 리포를 모았습니다",
+        "subheading": "이번 주 개발자들이 별 준 리포 5개 정리"
+      },
+      {
+        "kind": "item",
+        "heading": "MiniMax-H3",
+        "body": "영상 생성 AI용 프롬프트\n작성법을 담은 스킬 모음입니다\n텍스트 모드와 참조영상 모드\n두 가지 가이드가 들어 있어요",
+        "subheading": "MiniMax-AI/MiniMax-H3",
+        "meta": "Python · ★5035"
+      },
+      {
+        "kind": "item",
+        "heading": "kimi-k3-in-c",
+        "body": "2.78조 파라미터 모델을\nGPU 없이 CPU로만 돌립니다\n메모리 8GB 정도면 실행되고\n순수 C로만 짜여 있어요",
+        "subheading": "FareedKhan-dev/kimi-k3-in-c",
+        "meta": "C · ★4769"
+      },
+      {
+        "kind": "item",
+        "heading": "FDE 가이드북",
+        "body": "실리콘밸리에서 뜨는 직군\nFDE(현장 배치 엔지니어)를\n처음부터 설명하는 무료 책입니다\n성장해커 프레임을 빌려왔어요",
+        "subheading": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+        "meta": "★3810"
+      },
+      {
+        "kind": "item",
+        "heading": "quill",
+        "body": "맥에서 회의를 녹음하고\n받아쓰기까지 해주는 앱입니다\n마이크와 시스템 오디오를\n따로 녹음해 화자까지 구분해요",
+        "subheading": "digimata/quill",
+        "meta": "Swift · ★3767"
+      },
+      {
+        "kind": "item",
+        "heading": "scriptc",
+        "body": "타입스크립트를 네이티브\n실행파일로 컴파일해줍니다\nNode나 JS엔진 없이도\n독립 실행 파일이 나와요",
+        "subheading": "vercel-labs/scriptc",
+        "meta": "TypeScript · ★3280"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음 주말엔\n이 중 하나 써보기",
+        "body": "저장해두고\n뭐 만들지 고민될 때 다시 보세요\n다음에도 재밌는 리포 모아올게요"
+      }
+    ],
+    "caption": "이번 주말, 개발자들은 뭘 만들고 있었을까요.\nAI 영상 프롬프트 스킬부터 CPU 하나로 돌리는 2.78조 파라미터 모델까지, 별 많이 받은 리포 5개를 뽑아봤습니다.\n다룬 항목은 이렇습니다\nMiniMax-H3 — 영상 AI 프롬프트 스킬\nkimi-k3-in-c — CPU에서 돌아가는 초대형 모델\nFDE 가이드북 — 실리콘밸리 신종 직군 안내서\nquill — 로컬 회의 녹음·받아쓰기 앱\nscriptc — 타입스크립트 네이티브 컴파일러\n저장해두고 주말에 하나씩 써보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#사이드프로젝트",
+      "#AI",
+      "#타입스크립트",
+      "#CPU추론",
+      "#macOS앱",
+      "#프로그래밍",
+      "#개발자커뮤니티",
+      "#깃허브트렌딩",
+      "#포트폴리오",
+      "#코딩",
+      "#소프트웨어엔지니어",
+      "#개발자성장"
+    ]
+  }
+}
