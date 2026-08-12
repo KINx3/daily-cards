@@ -158,5 +158,36 @@
       "out/ani/2026-08-11/04.jpg",
       "out/ani/2026-08-11/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "slot": 1,
+    "type": "news",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "https://www.animenewsnetwork.com/cms/.240501",
+      "https://www.animenewsnetwork.com/cms/.240474",
+      "https://www.animenewsnetwork.com/cms/.240494",
+      "https://www.animenewsnetwork.com/cms/.240483",
+      "https://www.animenewsnetwork.com/cms/.240469",
+      "https://www.animenewsnetwork.com/cms/.240463",
+      "https://www.animenewsnetwork.com/cms/.240455",
+      "https://www.animenewsnetwork.com/cms/.240417",
+      "https://www.animenewsnetwork.com/cms/.240444",
+      "https://www.animenewsnetwork.com/cms/.240451",
+      "https://www.animenewsnetwork.com/cms/.240450",
+      "https://www.animenewsnetwork.com/cms/.240448",
+      "https://www.animenewsnetwork.com/cms/.240443"
+    ],
+    "images": [
+      "out/ani/2026-08-12/01.jpg",
+      "out/ani/2026-08-12/02.jpg",
+      "out/ani/2026-08-12/03.jpg",
+      "out/ani/2026-08-12/04.jpg",
+      "out/ani/2026-08-12/05.jpg",
+      "out/ani/2026-08-12/06.jpg",
+      "out/ani/2026-08-12/07.jpg"
+    ]
   }
 ]
