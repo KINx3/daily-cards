@@ -189,5 +189,22 @@
       "out/ani/2026-08-12/06.jpg",
       "out/ani/2026-08-12/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-13",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-op-hiluluk",
+      "m21"
+    ],
+    "images": [
+      "out/ani/2026-08-13/01.jpg",
+      "out/ani/2026-08-13/02.jpg",
+      "out/ani/2026-08-13/03.jpg",
+      "out/ani/2026-08-13/04.jpg"
+    ]
   }
 ]
