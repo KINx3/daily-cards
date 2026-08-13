@@ -194,5 +194,22 @@
       "out/growth/2026-08-12/07.jpg",
       "out/growth/2026-08-12/08.jpg"
     ]
+  },
+  {
+    "date": "2026-08-13",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-parkinson"
+    ],
+    "images": [
+      "out/growth/2026-08-13/01.jpg",
+      "out/growth/2026-08-13/02.jpg",
+      "out/growth/2026-08-13/03.jpg",
+      "out/growth/2026-08-13/04.jpg",
+      "out/growth/2026-08-13/05.jpg"
+    ]
   }
 ]
