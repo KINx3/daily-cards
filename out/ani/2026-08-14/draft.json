@@ -1,0 +1,59 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-14",
+    "dateLabel": "2026.08.14",
+    "weekday": 5,
+    "type": "seasonal",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "2026년 여름, 이 작품 하나는 챙겨야 한다",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "올여름 애니\n다 못 봐도\n이건 봐야 한다",
+        "body": "학교 뒤도 아니고\n슈퍼 뒤에서 만나는\n두 사람 이야기",
+        "subheading": "2026 여름 신작, 놓치면 아까운 이유",
+        "imageKey": "m196187"
+      },
+      {
+        "kind": "item",
+        "heading": "Smoking Behind the Supermarket with You",
+        "body": "코미디·로맨스·일상\n전 12화, Asahi Production 제작\n올여름 방영작 랭킹 1위",
+        "meta": "TV 12화 · Asahi Production · 평점 82",
+        "imageKey": "m196187"
+      },
+      {
+        "kind": "item",
+        "heading": "관전 포인트",
+        "body": "제목부터 반항기 가득\n담배 연기 사이로 오가는\n어색하고 서툰 거리감이 관전 포인트",
+        "badge": "관전 포인트",
+        "imageKey": "m196187"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n방영일에 다시 열어보세요",
+        "body": "이번 분기 뭐 볼지\n고민될 때 이 카드부터\n다시 펼쳐보세요"
+      }
+    ],
+    "caption": "제목만 보고 넘기면 후회할지도 모른다.\n2026년 여름 시즌, 대중적 인기 1위에 오른 신작이 있다.\n슈퍼마켓 뒤에서 몰래 담배를 피우던 두 사람이 조금씩 가까워지는 이야기.\n\n다룬 작품\n- Smoking Behind the Supermarket with You\n\n이번 여름 라인업 궁금하면 저장해두고 하나씩 체크해보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#2026여름애니",
+      "#여름신작애니",
+      "#SmokingBehindTheSupermarketWithYou",
+      "#슈퍼뒤에서야니스우후타리",
+      "#로맨스애니",
+      "#일상애니",
+      "#코미디애니",
+      "#애니추천",
+      "#신작애니",
+      "#여름애니",
+      "#애니덕후",
+      "#애니스타그램",
+      "#애니저장"
+    ]
+  }
+}
