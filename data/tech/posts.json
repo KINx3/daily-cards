@@ -236,5 +236,24 @@
       "out/tech/2026-08-13/05.jpg",
       "out/tech/2026-08-13/06.jpg"
     ]
+  },
+  {
+    "date": "2026-08-14",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-jq",
+      "t-raycast",
+      "t-zed"
+    ],
+    "images": [
+      "out/tech/2026-08-14/01.jpg",
+      "out/tech/2026-08-14/02.jpg",
+      "out/tech/2026-08-14/03.jpg",
+      "out/tech/2026-08-14/04.jpg",
+      "out/tech/2026-08-14/05.jpg"
+    ]
   }
 ]
