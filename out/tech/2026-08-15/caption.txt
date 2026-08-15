@@ -1,0 +1,14 @@
+주말마다 깃허브엔 조용히 새 프로젝트가 쌓입니다.
+이번 주는 에이전트 프레임워크부터 사진 편집 스킬까지 결이 다른 4개를 모아봤어요.
+
+다룬 리포
+- deepseek-harness
+- watermarks-remover
+- deepseek-harness-desktop
+- photo-abstract-editorial
+
+관심 가는 거 있으면 저장해두고 나중에 찾아보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#개발자 #깃허브 #오픈소스 #사이드프로젝트 #AI에이전트 #딥시크 #파이썬 #타입스크립트 #개발자스타그램 #깃허브트렌딩

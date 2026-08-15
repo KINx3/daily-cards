@@ -255,5 +255,26 @@
       "out/tech/2026-08-14/04.jpg",
       "out/tech/2026-08-14/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:deepseek-ai/deepseek-harness",
+      "gh:guillaumemeyer/watermarks-remover",
+      "gh:anywhere-labs/deepseek-harness-desktop",
+      "gh:ZzzLc0405/photo-abstract-editorial"
+    ],
+    "images": [
+      "out/tech/2026-08-15/01.jpg",
+      "out/tech/2026-08-15/02.jpg",
+      "out/tech/2026-08-15/03.jpg",
+      "out/tech/2026-08-15/04.jpg",
+      "out/tech/2026-08-15/05.jpg",
+      "out/tech/2026-08-15/06.jpg"
+    ]
   }
 ]

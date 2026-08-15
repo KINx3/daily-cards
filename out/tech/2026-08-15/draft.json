@@ -1,0 +1,68 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-15",
+    "dateLabel": "2026.08.15",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "깃허브에 조용히 올라온\n네 개의 프로젝트를 모았다",
+        "subheading": "이번 주 개발자들 사이에서 화제였던 리포 4개 정리"
+      },
+      {
+        "kind": "item",
+        "heading": "deepseek-harness",
+        "body": "모든 걸 플러그인으로 다루는\n오픈소스 에이전트 프레임워크.\nNode.js만 있으면 웹 UI로 바로 실행돼요",
+        "subheading": "deepseek-ai/deepseek-harness",
+        "meta": "TypeScript · ★105,386"
+      },
+      {
+        "kind": "item",
+        "heading": "watermarks-remover",
+        "body": "AI가 남긴 워터마크·출처 표식을\n지워주는 에이전트 스킬.\n내가 만든 콘텐츠 정리용으로 쓰라는 취지예요",
+        "subheading": "guillaumemeyer/watermarks-remover",
+        "meta": "Python · ★8,968"
+      },
+      {
+        "kind": "item",
+        "heading": "deepseek-harness-desktop",
+        "body": "명령어 없이 클릭 몇 번으로\ndeepseek-harness를 쓰게 해주는\n비공식 데스크톱 앱이에요",
+        "subheading": "anywhere-labs/deepseek-harness-desktop",
+        "meta": "TypeScript · ★3,801"
+      },
+      {
+        "kind": "item",
+        "heading": "photo-abstract-editorial",
+        "body": "사진 한 장을 추상적인 편집 작품으로\n바꿔주는 프롬프트 스킬.\n필터가 아니라 사진의 구도와 색만 뽑아 재구성해요",
+        "subheading": "ZzzLc0405/photo-abstract-editorial",
+        "meta": "★3,770"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 소개한 4개",
+        "body": "주말에 뭐 만들지 고민될 때\n저장해두고 다시 꺼내보세요.\n다음 주에도 새로운 리포로 돌아올게요"
+      }
+    ],
+    "caption": "주말마다 깃허브엔 조용히 새 프로젝트가 쌓입니다.\n이번 주는 에이전트 프레임워크부터 사진 편집 스킬까지 결이 다른 4개를 모아봤어요.\n\n다룬 리포\n- deepseek-harness\n- watermarks-remover\n- deepseek-harness-desktop\n- photo-abstract-editorial\n\n관심 가는 거 있으면 저장해두고 나중에 찾아보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#딥시크",
+      "#파이썬",
+      "#타입스크립트",
+      "#개발자스타그램",
+      "#깃허브트렌딩"
+    ]
+  }
+}
