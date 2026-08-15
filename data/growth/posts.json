@@ -228,5 +228,23 @@
       "out/growth/2026-08-14/04.jpg",
       "out/growth/2026-08-14/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-miracle"
+    ],
+    "images": [
+      "out/growth/2026-08-15/01.jpg",
+      "out/growth/2026-08-15/02.jpg",
+      "out/growth/2026-08-15/03.jpg",
+      "out/growth/2026-08-15/04.jpg",
+      "out/growth/2026-08-15/05.jpg",
+      "out/growth/2026-08-15/06.jpg"
+    ]
   }
 ]
