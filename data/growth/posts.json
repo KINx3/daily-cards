@@ -246,5 +246,22 @@
       "out/growth/2026-08-15/05.jpg",
       "out/growth/2026-08-15/06.jpg"
     ]
+  },
+  {
+    "date": "2026-08-16",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-morning-routine"
+    ],
+    "images": [
+      "out/growth/2026-08-16/01.jpg",
+      "out/growth/2026-08-16/02.jpg",
+      "out/growth/2026-08-16/03.jpg",
+      "out/growth/2026-08-16/04.jpg",
+      "out/growth/2026-08-16/05.jpg"
+    ]
   }
 ]
