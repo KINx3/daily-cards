@@ -276,5 +276,20 @@
       "out/tech/2026-08-15/05.jpg",
       "out/tech/2026-08-15/06.jpg"
     ]
+  },
+  {
+    "date": "2026-08-16",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-kay"
+    ],
+    "images": [
+      "out/tech/2026-08-16/01.jpg",
+      "out/tech/2026-08-16/02.jpg",
+      "out/tech/2026-08-16/03.jpg"
+    ]
   }
 ]
