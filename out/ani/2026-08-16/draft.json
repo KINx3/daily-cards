@@ -1,0 +1,60 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-16",
+    "dateLabel": "2026.08.16",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 신작 애니 편성표",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주\n뭐부터 볼지 고민이라면",
+        "body": "",
+        "subheading": "월~수 신작 라인업 한 번에 정리",
+        "badge": "주간 편성",
+        "meta": ""
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "body": "Love Unseen Beneath the Clear Night Sky 7화\nSkeleton Knight in Another World Season 2 7화\nOh Boy, Was I Wrong About Her 7화",
+        "subheading": "8월 17일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "LIAR GAME 20화\nGrand Blue Dreaming Season 3 7화\nI Want to Love You Till Your Dying Day 7화\nTHE GHOST IN THE SHELL 7화",
+        "subheading": "8월 18일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "Clevatess Season 2 7화\nSaga of Tanya the Evil Season 2 7화\nRe:ZERO -Starting Life in Another World- Season 4 13화\nTrapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 7화",
+        "subheading": "8월 19일"
+      },
+      {
+        "kind": "outro",
+        "heading": "이번 주도\n놓치지 마세요",
+        "body": "저장해두고 매일 체크할 때 다시 보세요.\n다음 주 편성표도 이어서 올릴게요."
+      }
+    ],
+    "caption": "월요일부터 수요일까지, 이번 주 신작 애니 라인업을 한 장씩 정리했어요.\n요일별로 챙겨볼 작품 고르기 편하게 화수만 모았습니다.\n에피소드 번호까지 같이 적어뒀으니 스킵 없이 이어보기 좋아요.\n\n월요일 - Love Unseen Beneath the Clear Night Sky, Skeleton Knight in Another World Season 2, Oh Boy, Was I Wrong About Her\n화요일 - LIAR GAME, Grand Blue Dreaming Season 3, I Want to Love You Till Your Dying Day, THE GHOST IN THE SHELL\n수요일 - Clevatess Season 2, Saga of Tanya the Evil Season 2, Re:ZERO Season 4, Trapped in a Dating Sim Season 2\n\n저장해두고 이번 주 시청 리스트로 활용하세요.",
+    "hashtags": [
+      "#애니편성표",
+      "#애니추천",
+      "#주간애니",
+      "#신작애니",
+      "#애니메이션",
+      "#이세계애니",
+      "#애니정보",
+      "#리제로",
+      "#타냐대전기",
+      "#고스트인더쉘"
+    ]
+  }
+}
