@@ -1,0 +1,81 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-17",
+    "dateLabel": "2026.08.17",
+    "weekday": 1,
+    "type": "technews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 개발자 뉴스 TOP 5",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "광고 없는 인터넷,\n이제 한 곳에만 남았다",
+        "body": ",",
+        "subheading": "이번 주 개발자들이 가장 많이 본 뉴스 5개",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "광고 차단, 이제 파이어폭스만 지킨다",
+        "body": "크롬·엣지 등 크로미움 브라우저들이 확장 프로그램 정책을 바꾸면서 uBlock Origin 같은 강력한 광고 차단기를 못 쓰게 됐어요.\n파이어폭스만 계속 지원하겠다고 밝혔습니다.",
+        "badge": "TOP 01",
+        "meta": "Hacker News · pcworld.com · 1720 points"
+      },
+      {
+        "kind": "news",
+        "heading": "16년 묵은 SQLite 버그,\n결국 잡았다",
+        "body": "Tailscale과 SQLite 개발자들이 원인 모를 데이터 손상 사고를 추적하다 'WAL 리셋' 경쟁 조건 버그를 찾아냈어요.\n찾다 보니 두 번째 인덱스 버그까지 함께 발견했습니다.",
+        "badge": "TOP 02",
+        "meta": "Hacker News · tailscale.com · 1212 points"
+      },
+      {
+        "kind": "news",
+        "heading": "내 컴퓨터에서 계속 돌아가는\nAI 에이전트",
+        "body": "메타가 일반 PC에서도 항상 켜둘 수 있는 300억 파라미터 오픈 에이전트 모델 'Muse Glimmer'를 내놨습니다.\n로컬에서 계속 일하는 AI 워크플로에 맞췄대요.",
+        "badge": "TOP 03",
+        "meta": "Hacker News · research.meta.ai · 1205 points"
+      },
+      {
+        "kind": "news",
+        "heading": "딥시크 새 모델,\n100만 토큰을 한 번에 읽는다",
+        "body": "딥시크가 대규모 MoE 구조의 신모델 V4 Pro를 공개했어요.\n입력 100만 토큰 이상을 처리하고, 9개 제공사를 통해 안정적으로 쓸 수 있습니다.",
+        "badge": "TOP 04",
+        "meta": "Hacker News · openrouter.ai · 1036 points"
+      },
+      {
+        "kind": "news",
+        "heading": "에이전트도 이제\n부품처럼 갈아 끼운다",
+        "body": "딥시크가 에이전트 개발 도구 'Harness'를 개발자 미리보기로 공개하고 소스코드도 함께 풀었어요.\n모든 기능이 플러그인이라 원하는 대로 조합할 수 있습니다.",
+        "badge": "TOP 05",
+        "meta": "Hacker News · deepseek.com · 734 points"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 소식,\n저장해두고 다시 보세요",
+        "body": "바빠서 못 읽은 링크는 저장 눌러두고\n주말에 천천히 꺼내보세요.\n다음 주 개발자 뉴스도 정리해서 올게요."
+      }
+    ],
+    "caption": "광고 차단 기능이 브라우저에서 하나둘 사라지고 있다는 거, 체감하고 계셨나요.\n이번 주는 브라우저 이야기부터 16년 만에 잡힌 버그, 그리고 계속 쏟아지는 AI 에이전트/모델 소식까지 다양했어요.\n\n이번 주 다룬 소식\n- 파이어폭스만 남은 uBlock Origin 지원\n- 16년 묵은 SQLite WAL 리셋 버그 추적기\n- 메타의 로컬 상시구동 AI 에이전트 Muse Glimmer\n- 딥시크 V4 Pro, 100만 토큰 컨텍스트\n- 딥시크 에이전트 개발 도구 Harness 공개\n\n저장해두고 다음에 다시 훑어보세요. 팔로우하면 매주 이런 정리 받아볼 수 있어요.",
+    "hashtags": [
+      "#개발자뉴스",
+      "#해커뉴스",
+      "#SQLite",
+      "#딥시크",
+      "#DeepSeek",
+      "#AI에이전트",
+      "#파이어폭스",
+      "#uBlockOrigin",
+      "#오픈소스",
+      "#Tailscale",
+      "#메타AI",
+      "#개발자",
+      "#테크뉴스",
+      "#IT뉴스",
+      "#소프트웨어엔지니어"
+    ]
+  }
+}
