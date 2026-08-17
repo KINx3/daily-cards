@@ -263,5 +263,21 @@
       "out/growth/2026-08-16/04.jpg",
       "out/growth/2026-08-16/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-17",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-churchill"
+    ],
+    "images": [
+      "out/growth/2026-08-17/01.jpg",
+      "out/growth/2026-08-17/02.jpg",
+      "out/growth/2026-08-17/03.jpg",
+      "out/growth/2026-08-17/04.jpg"
+    ]
   }
 ]
