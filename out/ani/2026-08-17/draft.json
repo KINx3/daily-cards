@@ -1,0 +1,81 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-17",
+    "dateLabel": "2026.08.17",
+    "weekday": 1,
+    "type": "trending",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 다들 이거 본다",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주\n다들 뭐 보고 있을까",
+        "body": "애니 인기 순위 TOP5,\n지금 바로 확인해보세요",
+        "subheading": "이번 주 가장 화제인 작품 5개 한번에 정리",
+        "imageKey": "m269"
+      },
+      {
+        "kind": "item",
+        "heading": "블리치",
+        "body": "2004년 작품이 다시\n1위에 올랐습니다\n스트리밍 재조명 효과",
+        "badge": "1위",
+        "meta": "TV 366화 · Studio Pierrot · 평점 79",
+        "imageKey": "m269"
+      },
+      {
+        "kind": "item",
+        "heading": "너를 정말 좋아하는\n100명의 여자친구 3기",
+        "body": "시즌3까지 이어진\n독특한 러브코미디\n이번 여름 신작",
+        "badge": "2위",
+        "meta": "TV 12화 · Bibury Animation Studios · 평점 79",
+        "imageKey": "m200637"
+      },
+      {
+        "kind": "item",
+        "heading": "블리치 천년혈전편-禍進譚-",
+        "body": "블리치 최종장이\n올여름 다시 시작\n평점 88로 화제",
+        "badge": "3위",
+        "meta": "TV 10화 · PIERROT FILMS · 평점 88",
+        "imageKey": "m185874"
+      },
+      {
+        "kind": "item",
+        "heading": "세계 최강의 후위",
+        "body": "던전 탐색물 신작\n이번 여름 라인업에\n조용히 순위권 진입",
+        "badge": "4위",
+        "meta": "TV 12화 · Maho Film · 평점 55",
+        "imageKey": "m198409"
+      },
+      {
+        "kind": "item",
+        "heading": "Sparks of Tomorrow",
+        "body": "교토 애니메이션\n신작이 5위로 등장\n모험과 로맨스 조합",
+        "badge": "5위",
+        "meta": "TV 13화 · Kyoto Animation · 평점 75",
+        "imageKey": "m103303"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n하나씩 챙겨보세요",
+        "body": "이번 주 순위는 여기까지\n다음 주 순위도\n놓치지 말고 확인해요"
+      }
+    ],
+    "caption": "요즘 다들 뭐 보나 궁금했는데 순위 보니 이유가 있었네요.\n2004년 작품이 다시 1위에 오르고, 블리치 최종장까지 3위에 올라왔어요.\n신작들도 조용히 순위권에 들어와 있습니다.\n\n1위 블리치\n2위 너를 정말 좋아하는 100명의 여자친구 3기\n3위 블리치 천년혈전편-禍進譚-\n4위 세계 최강의 후위\n5위 Sparks of Tomorrow\n\n이번 주 순위 저장해두고 하나씩 챙겨보세요",
+    "hashtags": [
+      "#애니추천",
+      "#애니메이션",
+      "#블리치",
+      "#BLEACH",
+      "#애니순위",
+      "#여름애니",
+      "#교토애니메이션",
+      "#애니덕후",
+      "#신작애니",
+      "#애니스타그램"
+    ]
+  }
+}

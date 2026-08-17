@@ -257,5 +257,28 @@
       "out/ani/2026-08-16/04.jpg",
       "out/ani/2026-08-16/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-17",
+    "slot": 1,
+    "type": "trending",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m269",
+      "m200637",
+      "m185874",
+      "m198409",
+      "m103303"
+    ],
+    "images": [
+      "out/ani/2026-08-17/01.jpg",
+      "out/ani/2026-08-17/02.jpg",
+      "out/ani/2026-08-17/03.jpg",
+      "out/ani/2026-08-17/04.jpg",
+      "out/ani/2026-08-17/05.jpg",
+      "out/ani/2026-08-17/06.jpg",
+      "out/ani/2026-08-17/07.jpg"
+    ]
   }
 ]
