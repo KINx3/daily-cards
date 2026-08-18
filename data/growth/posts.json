@@ -279,5 +279,22 @@
       "out/growth/2026-08-17/03.jpg",
       "out/growth/2026-08-17/04.jpg"
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-titans"
+    ],
+    "images": [
+      "out/growth/2026-08-18/01.jpg",
+      "out/growth/2026-08-18/02.jpg",
+      "out/growth/2026-08-18/03.jpg",
+      "out/growth/2026-08-18/04.jpg",
+      "out/growth/2026-08-18/05.jpg"
+    ]
   }
 ]
