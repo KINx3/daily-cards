@@ -324,5 +324,24 @@
       "out/tech/2026-08-17/06.jpg",
       "out/tech/2026-08-17/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:awesome-dsh-plugin/awesome-dsh-plugin",
+      "gh:yjh051108/dsh-routing-suite",
+      "gh:zhu1090093659/dsh-web-ui"
+    ],
+    "images": [
+      "out/tech/2026-08-18/01.jpg",
+      "out/tech/2026-08-18/02.jpg",
+      "out/tech/2026-08-18/03.jpg",
+      "out/tech/2026-08-18/04.jpg",
+      "out/tech/2026-08-18/05.jpg"
+    ]
   }
 ]

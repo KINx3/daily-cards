@@ -1,0 +1,13 @@
+주말마다 깃허브에 이런 게 올라오는 거 아세요.
+DeepSeek Harness라는 오픈소스 에이전트가 '모든 게 플러그인'이라는 구조로 나오면서, 커뮤니티가 직접 만든 확장 도구들이 쏟아지고 있습니다.
+이번 카드에서는 스타 수천 개를 찍은 플러그인 3개를 정리했어요.
+
+- awesome-dsh-plugin: 설치 가능한 DSH 플러그인 큐레이션 리스트
+- dsh-routing-suite: 런타임 인젝터 + 추론 모드 라우터 프리셋
+- dsh-web-ui: DSH 웹 UI 확장 플러그인·스킨 모음
+
+저장해두고 필요할 때 꺼내보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#deepseek #deepseekharness #오픈소스 #github #개발자도구 #플러그인 #사이드프로젝트 #AI에이전트 #devtools #깃허브트렌딩

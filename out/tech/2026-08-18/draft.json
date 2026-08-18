@@ -1,0 +1,61 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-18",
+    "dateLabel": "2026.08.18",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 DeepSeek 플러그인 모음",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "공식 기능만으로는\n부족했던 사람들 이야기",
+        "subheading": "스타 수천 개 찍은 DSH 플러그인 3개 정리"
+      },
+      {
+        "kind": "item",
+        "heading": "awesome-dsh-plugin",
+        "body": "DeepSeek의 오픈소스 에이전트 실행기\nDSH용 플러그인 모음집이에요.\nDsh plugin add로 바로 설치되는\n커뮤니티 플러그인만 큐레이션했습니다.",
+        "subheading": "awesome-dsh-plugin/awesome-dsh-plugin",
+        "meta": "Python · ★8,214"
+      },
+      {
+        "kind": "item",
+        "heading": "dsh-routing-suite",
+        "body": "런타임 재시작 없이 붙이는 인젝터와\n작업에 맞게 추론 모드를 바꿔주는\n라우터 프리셋을 한 번에 설치합니다.\nP1~P23까지 실측해서 검증했다고 해요.",
+        "subheading": "yjh051108/dsh-routing-suite",
+        "meta": "PowerShell · ★5,789"
+      },
+      {
+        "kind": "item",
+        "heading": "dsh-web-ui",
+        "body": "DSH 웹 UI를 꾸미고 확장하는\n플러그인·스킨 모음이에요.\n작업 보드, git 그래프, 원격 모바일 UI,\n실시간 토큰 통계까지 골라 붙일 수 있습니다.",
+        "subheading": "zhu1090093659/dsh-web-ui",
+        "meta": "TypeScript · ★4,416"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 정리는 여기까지",
+        "body": "저장해두고 DSH 세팅할 때\n하나씩 꺼내 써보세요.\n다음에도 쓸만한 리포 모아올게요."
+      }
+    ],
+    "caption": "주말마다 깃허브에 이런 게 올라오는 거 아세요.\nDeepSeek Harness라는 오픈소스 에이전트가 '모든 게 플러그인'이라는 구조로 나오면서, 커뮤니티가 직접 만든 확장 도구들이 쏟아지고 있습니다.\n이번 카드에서는 스타 수천 개를 찍은 플러그인 3개를 정리했어요.\n\n- awesome-dsh-plugin: 설치 가능한 DSH 플러그인 큐레이션 리스트\n- dsh-routing-suite: 런타임 인젝터 + 추론 모드 라우터 프리셋\n- dsh-web-ui: DSH 웹 UI 확장 플러그인·스킨 모음\n\n저장해두고 필요할 때 꺼내보세요.",
+    "hashtags": [
+      "#deepseek",
+      "#deepseekharness",
+      "#오픈소스",
+      "#github",
+      "#개발자도구",
+      "#플러그인",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#devtools",
+      "#깃허브트렌딩"
+    ]
+  }
+}
