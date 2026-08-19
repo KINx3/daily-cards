@@ -296,5 +296,22 @@
       "out/growth/2026-08-18/04.jpg",
       "out/growth/2026-08-18/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-tomorrow-prep"
+    ],
+    "images": [
+      "out/growth/2026-08-19/01.jpg",
+      "out/growth/2026-08-19/02.jpg",
+      "out/growth/2026-08-19/03.jpg",
+      "out/growth/2026-08-19/04.jpg",
+      "out/growth/2026-08-19/05.jpg"
+    ]
   }
 ]
