@@ -1,0 +1,75 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-19",
+    "dateLabel": "2026.08.19",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] ainews 2026-08-19",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "AI NEWS",
+        "heading": "이번 주\nAI 뉴스 다이제스트",
+        "subheading": "2026.08.19 기준",
+        "body": "오늘의 AI 소식을\n카드로 정리했습니다.",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "Cursor capitalizes on GitHub frustration, laun",
+        "body": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub. ",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "OpenAI institutes new safeguards after Hugging",
+        "body": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Etched&#8217;s valuation doubles to $21B in a ",
+        "body": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "Why Apple&#8217;s camera-equipped AirPods may ",
+        "body": "Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "Warp&#8217;s new system is an out-of-the-box s",
+        "body": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] ainews 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
