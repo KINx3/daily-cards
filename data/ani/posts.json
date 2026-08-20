@@ -332,5 +332,22 @@
       "out/ani/2026-08-19/06.jpg",
       "out/ani/2026-08-19/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-20",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-mushoku",
+      "m108465"
+    ],
+    "images": [
+      "out/ani/2026-08-20/01.jpg",
+      "out/ani/2026-08-20/02.jpg",
+      "out/ani/2026-08-20/03.jpg",
+      "out/ani/2026-08-20/04.jpg"
+    ]
   }
 ]

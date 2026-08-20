@@ -1,0 +1,55 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-20",
+    "dateLabel": "2026.08.20",
+    "weekday": 4,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-08-20",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "오늘의 명대사",
+        "heading": "한 문장이\n오래 남을 때",
+        "subheading": "무직전생",
+        "body": "작품 속 한 문장을\n오늘의 카드로 전합니다.",
+        "imageKey": "m108465"
+      },
+      {
+        "kind": "quote",
+        "heading": "루데우스 그레이랫",
+        "subheading": "무직전생",
+        "body": "이번 인생은, 진심으로 살아간다.",
+        "imageKey": "m108465"
+      },
+      {
+        "kind": "item",
+        "heading": "무직전생",
+        "subheading": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+        "meta": "TV · 11화 · Studio Bind · 평점 82",
+        "body": "Adventure · Drama · Ecchi · Fantasy",
+        "imageKey": "m108465"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
