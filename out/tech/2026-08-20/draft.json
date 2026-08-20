@@ -1,0 +1,58 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-20",
+    "dateLabel": "2026.08.20",
+    "weekday": 4,
+    "type": "concept",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "MCP가 없어서 매번 새로 만드는 연결",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "AI에 새 도구 하나 붙일 때마다\n처음부터 다시 짜본 적 있나요",
+        "body": "연동할 때마다 코드가\n따로 노는 이유가 있습니다",
+        "subheading": "AI와 도구를 잇는 표준, 3장으로 정리했어요"
+      },
+      {
+        "kind": "news",
+        "heading": "이게 MCP입니다",
+        "body": "Model Context Protocol.\nAI가 외부 도구·데이터에\n표준 방식으로 붙는 규격이에요.\n'AI계의 USB-C'로 불립니다",
+        "badge": "WHAT"
+      },
+      {
+        "kind": "news",
+        "heading": "왜 필요할까요",
+        "body": "AI마다, 도구마다 연결\n방식이 다 다르면 매번\n새로 짜야 합니다.\nMCP는 이걸 하나의\n규격으로 통일해줍니다",
+        "badge": "WHY"
+      },
+      {
+        "kind": "news",
+        "heading": "예를 들면 이렇습니다",
+        "body": "AI 코딩 도구에 파일 시스템,\nDB, 깃 저장소를 MCP로\n연결하면 AI가 코드를 직접\n읽고 커밋까지 확인합니다",
+        "badge": "EXAMPLE"
+      },
+      {
+        "kind": "outro",
+        "heading": "USB-C 하나로\n다 꽂히듯이",
+        "body": "저장해두고 새 AI 도구\n붙일 때 다시 꺼내보세요\n다음 개념도 이어서 갑니다"
+      }
+    ],
+    "caption": "USB-C가 없던 시절엔 기기마다 다른 케이블을 들고 다녔죠.\nAI와 외부 도구 사이도 그랬습니다. 그걸 표준화한 게 MCP입니다.\n오늘 다룬 내용\nWHAT - MCP란 무엇인가\nWHY - 왜 필요한가\nEXAMPLE - 실제 활용 예시\n저장해두고 새 도구 연동할 때 다시 보세요",
+    "hashtags": [
+      "#MCP",
+      "#ModelContextProtocol",
+      "#AI개발",
+      "#개발자",
+      "#AI도구",
+      "#프로그래밍",
+      "#테크개념",
+      "#소프트웨어개발",
+      "#AI연동",
+      "#개발자공부"
+    ]
+  }
+}
