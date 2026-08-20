@@ -313,5 +313,22 @@
       "out/growth/2026-08-19/04.jpg",
       "out/growth/2026-08-19/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-20",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-flow"
+    ],
+    "images": [
+      "out/growth/2026-08-20/01.jpg",
+      "out/growth/2026-08-20/02.jpg",
+      "out/growth/2026-08-20/03.jpg",
+      "out/growth/2026-08-20/04.jpg",
+      "out/growth/2026-08-20/05.jpg"
+    ]
   }
 ]
