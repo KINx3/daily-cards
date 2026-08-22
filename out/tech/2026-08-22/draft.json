@@ -1,0 +1,73 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-22",
+    "dateLabel": "2026.08.22",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것들",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "",
+        "subheading": "이번 주 깃허브에서 뜬 프로젝트 4개",
+        "imageKey": ""
+      },
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "이번 주 깃허브에서 별을 많이 받은\n프로젝트들을 모아봤어요",
+        "subheading": "AI 에이전트부터 파일 변환기까지"
+      },
+      {
+        "kind": "item",
+        "heading": "arc-task-gen",
+        "body": "AI가 한 번도 못 본 문제를\n계속 만들어주는 도구예요.\n모델이 진짜 '생각'하는지\n테스트할 때 씁니다.",
+        "subheading": "pathwaycom/arc-task-gen",
+        "meta": "Python · ★4297"
+      },
+      {
+        "kind": "item",
+        "heading": "flyingmouse-format",
+        "body": "인터넷 없이도 쓰는\n올인원 파일 변환 프로그램.\n사진, 문서, PDF, 음성까지\n한 번에 바꿔줍니다.",
+        "subheading": "LaoFeng-mouse/flyingmouse-format",
+        "meta": "JavaScript · ★4150"
+      },
+      {
+        "kind": "item",
+        "heading": "dsh-anchored-standard",
+        "body": "AI 에이전트가 처음엔 가볍게 시작했다가\n필요할 때 더 강한 도구를\n스스로 꺼내 쓰게 만드는\n실험적인 설정 모음이에요.",
+        "subheading": "xiaobright/dsh-anchored-standard",
+        "meta": "JavaScript · ★3705"
+      },
+      {
+        "kind": "item",
+        "heading": "ip-as-logo-skill",
+        "body": "귀엽고 단순한\n마스코트 로고를\nAI가 자동으로\n그려주는 스킬이에요.",
+        "subheading": "s1dashu/ip-as-logo-skill",
+        "meta": "★3587"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 볼 건 여기까지",
+        "body": "저장해두고 주말에\n하나씩 써보세요.\n다음 주에 또 새로운\n리포 모아올게요."
+      }
+    ],
+    "caption": "깃허브 트렌딩만 봐도 요즘 뭐가 뜨는지 감이 옵니다.\n이번 주엔 AI 추론 테스트 도구부터 오프라인 파일 변환기, AI 에이전트 설정, 로고 생성 스킬까지 다양하게 올라왔어요.\n다룬 리포\n- arc-task-gen\n- flyingmouse-format\n- dsh-anchored-standard\n- ip-as-logo-skill\n저장해두고 주말 사이드 프로젝트 아이디어로 써보세요.",
+    "hashtags": [
+      "#깃허브",
+      "#github",
+      "#오픈소스",
+      "#개발자",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#파일변환",
+      "#트렌딩리포"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+깃허브 트렌딩만 봐도 요즘 뭐가 뜨는지 감이 옵니다.
+이번 주엔 AI 추론 테스트 도구부터 오프라인 파일 변환기, AI 에이전트 설정, 로고 생성 스킬까지 다양하게 올라왔어요.
+다룬 리포
+- arc-task-gen
+- flyingmouse-format
+- dsh-anchored-standard
+- ip-as-logo-skill
+저장해두고 주말 사이드 프로젝트 아이디어로 써보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#깃허브 #github #오픈소스 #개발자 #사이드프로젝트 #AI에이전트 #파일변환 #트렌딩리포
