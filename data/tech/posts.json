@@ -434,5 +434,20 @@
       "out/tech/2026-08-22/06.jpg",
       "out/tech/2026-08-22/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-23",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-linus"
+    ],
+    "images": [
+      "out/tech/2026-08-23/01.jpg",
+      "out/tech/2026-08-23/02.jpg",
+      "out/tech/2026-08-23/03.jpg"
+    ]
   }
 ]

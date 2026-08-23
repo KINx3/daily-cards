@@ -1,0 +1,45 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-23",
+    "dateLabel": "2026.08.23",
+    "weekday": 0,
+    "type": "devquote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] devquote 2026-08-23",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "DEV QUOTE",
+        "heading": "일요일의\n개발자 명언",
+        "subheading": "리누스 토르발스",
+        "body": "오늘의 개발자 명언을\n소개합니다."
+      },
+      {
+        "kind": "quote",
+        "heading": "리누스 토르발스",
+        "subheading": "리눅스 커널 메일링리스트 (2000)",
+        "body": "말은 쉽다. 코드를 보여줘."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] devquote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
