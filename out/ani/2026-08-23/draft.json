@@ -1,0 +1,59 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-23",
+    "dateLabel": "2026.08.23",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "8월 넷째 주 애니 방영 일정",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주\n뭐 나오는지 알아?",
+        "body": "월~수 방영작만 골라\n한 장으로 정리했어요",
+        "subheading": "8월 24일~26일 방영 일정 총정리",
+        "badge": "주간편성표"
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "body": "Love Unseen Beneath the Clear Night Sky 8화\nSkeleton Knight in Another World Season 2 8화\nOh Boy, Was I Wrong About Her 8화",
+        "subheading": "8월 24일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "LIAR GAME 21화\nGrand Blue Dreaming Season 3 8화\nI Want to Love You Till Your Dying Day 8화\nTHE GHOST IN THE SHELL 8화",
+        "subheading": "8월 25일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "Clevatess Season 2 8화\nSaga of Tanya the Evil Season 2 8화\nRe:ZERO -Starting Life in Another World- Season 4 14화\nTrapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 8화",
+        "subheading": "8월 26일"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n하나씩 챙겨보세요",
+        "body": "편성표는 매주 바뀌니까\n놓치기 전에 저장해두세요\n다음 주 일정도 곧 올라옵니다"
+      }
+    ],
+    "caption": "월요일부터 수요일까지, 이번 주 챙겨볼 애니 정리했습니다.\n신작부터 시즌 후반부까지 골고루 섞여있어서 뭐부터 볼지 고민되실 거예요.\n\n월요일 - Love Unseen Beneath the Clear Night Sky 외 2편\n화요일 - LIAR GAME 외 3편\n수요일 - Clevatess 외 3편\n\n저장해두고 요일별로 하나씩 챙겨보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#애니추천",
+      "#방영일정",
+      "#주간애니",
+      "#애니편성표",
+      "#신작애니",
+      "#이번주애니",
+      "#애니정보",
+      "#애니스타그램",
+      "#덕스타그램"
+    ]
+  }
+}
