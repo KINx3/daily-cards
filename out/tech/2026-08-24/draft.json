@@ -1,0 +1,86 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-08-24",
+    "dateLabel": "2026.08.24",
+    "weekday": 1,
+    "type": "technews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 개발자들이 주목한 이슈 5가지",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "당신도 모르게\n벌어지고 있는 일들",
+        "body": "",
+        "subheading": "이번 주 개발자들이 놓치지 않은 이슈 5가지",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "로지텍 소프트웨어,\n이제 안 써도 됩니다",
+        "body": "로지텍 마우스 프로그램을 대체하는 오픈소스 도구가 나왔습니다. 계정 로그인도, 사용자 추적도 없이 버튼 설정과 감도 조절이 가능합니다.",
+        "badge": "TOP 01",
+        "meta": "Hacker News · openlogi.org · 1624 points"
+      },
+      {
+        "kind": "news",
+        "heading": "검색결과에서\n유료기사 뺄 수 있다",
+        "body": "유료 검색엔진 Kagi가 결제 장벽에 막힌 링크를 검색결과에서 제외하는 설정을 추가했습니다. 클릭했다가 못 읽는 상황을 줄여줍니다.",
+        "badge": "TOP 02",
+        "meta": "Hacker News · kagi.com · 1252 points"
+      },
+      {
+        "kind": "news",
+        "heading": "알리익스프레스가\n몰래 하던 짓",
+        "body": "알리익스프레스가 브라우저 오디오 기능을 이용해 사용자를 은밀히 식별하고 있었습니다. 이 과정에서 블루투스 이어폰 멀티포인트 연결까지 끊기는 부작용이 발견됐습니다.",
+        "badge": "TOP 03",
+        "meta": "Hacker News · blog.laserphile.com · 1032 points"
+      },
+      {
+        "kind": "news",
+        "heading": "자바스크립트 없이도\n이만큼 됩니다",
+        "body": "드롭다운, 팝업, 탭 전환처럼 예전엔 자바스크립트가 필요했던 기능들을 이제 순수 HTML만으로 구현할 수 있습니다. 정리된 사례 목록이 공개됐습니다.",
+        "badge": "TOP 04",
+        "meta": "Hacker News · chrisburnell.com · 1004 points"
+      },
+      {
+        "kind": "news",
+        "heading": "AI API 중개 서비스,\n스트라이프 품으로",
+        "body": "여러 AI 모델을 하나의 API로 연결해주던 OpenRouter가 결제회사 Stripe와 합류합니다. 제품과 로드맵은 그대로 유지된다고 밝혔습니다.",
+        "badge": "TOP 05",
+        "meta": "Hacker News · openrouter.ai · 957 points"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음 이슈도\n놓치지 마세요",
+        "body": "저장해두고 팀 회의 전에\n한 번 더 훑어보세요.\n다음 주에 또 정리해드릴게요."
+      }
+    ],
+    "caption": "당신이 쓰는 앱, 진짜 아무 짓도 안 하고 있을까요.\n이번 주 해커뉴스 상위권엔 유독 '몰래' 벌어지는 일들이 많았습니다. 오픈소스 대체 도구부터 은밀한 트래킹까지, 개발자라면 알아둘 만한 5가지를 정리했습니다.\n\n- 로지텍 소프트웨어 대체 오픈소스 도구\n- 검색결과에서 유료기사 빼는 기능\n- 알리익스프레스의 은밀한 사용자 추적\n- 자바스크립트 없이 구현하는 UI 기능들\n- OpenRouter와 Stripe의 합류\n\n저장해두고 필요할 때 다시 꺼내보세요.",
+    "hashtags": [
+      "#개발자뉴스",
+      "#해커뉴스",
+      "#HackerNews",
+      "#오픈소스",
+      "#웹개발",
+      "#자바스크립트",
+      "#HTML",
+      "#프론트엔드",
+      "#개인정보보호",
+      "#트래킹",
+      "#AI",
+      "#OpenRouter",
+      "#Kagi",
+      "#검색엔진",
+      "#테크뉴스",
+      "#개발자",
+      "#IT뉴스",
+      "#소프트웨어",
+      "#프라이버시",
+      "#브라우저보안"
+    ]
+  }
+}
