@@ -1,0 +1,80 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-24",
+    "dateLabel": "2026.08.24",
+    "weekday": 1,
+    "type": "trending",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] trending 2026-08-24",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "주간 트렌딩\n카드뉴스 테스트",
+        "subheading": "2026.08.24 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m178789"
+      },
+      {
+        "kind": "item",
+        "badge": "1위",
+        "heading": "Mushoku Tensei: Jobless Reincarnation Season 3",
+        "meta": "TV · 14화 · Studio Bind · 평점 84",
+        "body": "Adventure · Drama · Ecchi · Fantasy",
+        "imageKey": "m178789"
+      },
+      {
+        "kind": "item",
+        "badge": "2위",
+        "heading": "ONE PIECE",
+        "meta": "TV · Toei Animation · 평점 87",
+        "body": "Action · Adventure · Comedy · Drama",
+        "imageKey": "m21"
+      },
+      {
+        "kind": "item",
+        "badge": "3위",
+        "heading": "You and I Are Polar Opposites Season 2",
+        "meta": "TV · 13화 · Lapin Track · 평점 82",
+        "body": "Comedy · Drama · Romance · Slice of Life",
+        "imageKey": "m210031"
+      },
+      {
+        "kind": "item",
+        "badge": "4위",
+        "heading": "BLEACH: Thousand-Year Blood War - The Calamity",
+        "meta": "TV · 10화 · PIERROT FILMS · 평점 89",
+        "body": "Action · Adventure · Supernatural",
+        "imageKey": "m185874"
+      },
+      {
+        "kind": "item",
+        "badge": "5위",
+        "heading": "Bleach",
+        "meta": "TV · 366화 · Studio Pierrot · 평점 79",
+        "body": "Action · Adventure · Supernatural",
+        "imageKey": "m269"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] trending 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
