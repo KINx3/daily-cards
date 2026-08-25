@@ -397,5 +397,23 @@
       "out/growth/2026-08-24/03.jpg",
       "out/growth/2026-08-24/04.jpg"
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-flow"
+    ],
+    "images": [
+      "out/growth/2026-08-25/01.jpg",
+      "out/growth/2026-08-25/02.jpg",
+      "out/growth/2026-08-25/03.jpg",
+      "out/growth/2026-08-25/04.jpg",
+      "out/growth/2026-08-25/05.jpg",
+      "out/growth/2026-08-25/06.jpg"
+    ]
   }
 ]
