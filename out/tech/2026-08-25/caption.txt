@@ -1,0 +1,13 @@
+깃허브에 매일 올라오는 리포는 셀 수 없이 많지만, 이번 주 유독 눈에 띈 5개만 골랐습니다.
+AI 데스크톱 앱부터 협업툴, 코드 린트 규칙까지 결이 다양해요.
+다룬 리포
+- dsh-desktop
+- dsh-web
+- threeui
+- anti-slop
+- cumora
+주말에 뭐 만들지 고민된다면 저장해두고 하나씩 열어보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#개발자 #깃허브 #githubtrending #오픈소스 #사이드프로젝트 #AI개발 #타입스크립트 #개발자소통 #코딩 #프로그래밍 #devtools #opensource #AI에이전트 #린트 #웹개발

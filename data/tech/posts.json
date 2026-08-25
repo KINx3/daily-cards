@@ -482,5 +482,28 @@
       "out/tech/2026-08-24/06.jpg",
       "out/tech/2026-08-24/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:anywhere-labs/dsh-desktop",
+      "gh:zhu1090093659/dsh-web",
+      "gh:MengTo/threeui",
+      "gh:dmmulroy/anti-slop",
+      "gh:yetone/cumora"
+    ],
+    "images": [
+      "out/tech/2026-08-25/01.jpg",
+      "out/tech/2026-08-25/02.jpg",
+      "out/tech/2026-08-25/03.jpg",
+      "out/tech/2026-08-25/04.jpg",
+      "out/tech/2026-08-25/05.jpg",
+      "out/tech/2026-08-25/06.jpg",
+      "out/tech/2026-08-25/07.jpg"
+    ]
   }
 ]
