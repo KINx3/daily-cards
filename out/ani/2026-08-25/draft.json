@@ -1,0 +1,64 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-25",
+    "dateLabel": "2026.08.25",
+    "weekday": 2,
+    "type": "classic",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] classic 2026-08-25",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "명작 추천\n카드뉴스 테스트",
+        "subheading": "2026.08.25 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m21827"
+      },
+      {
+        "kind": "item",
+        "heading": "바이올렛 에버가든",
+        "subheading": "Violet Evergarden",
+        "meta": "TV · 13화 · Kyoto Animation · 평점 85",
+        "body": "Drama · Fantasy · Slice of Life",
+        "imageKey": "m21827"
+      },
+      {
+        "kind": "item",
+        "heading": "늑대아이",
+        "subheading": "Wolf Children",
+        "meta": "MOVIE · 1화 · MADHOUSE · 평점 83",
+        "body": "Drama · Fantasy · Romance · Slice of Life",
+        "imageKey": "m12355"
+      },
+      {
+        "kind": "item",
+        "heading": "마법소녀 마도카☆마기카",
+        "subheading": "Puella Magi Madoka Magica",
+        "meta": "TV · 12화 · Shaft · 평점 83",
+        "body": "Action · Drama · Fantasy · Mahou Shoujo",
+        "imageKey": "m9756"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] classic 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
