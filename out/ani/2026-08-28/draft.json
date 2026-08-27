@@ -1,0 +1,54 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-28",
+    "dateLabel": "2026.08.28",
+    "weekday": 5,
+    "type": "seasonal",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "2026년 여름, 이 고양이 애니 하나는 봐야 한다",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "고양이가 골초라면\n믿을 수 있나요",
+        "body": "",
+        "imageKey": "m207141"
+      },
+      {
+        "kind": "item",
+        "heading": "고양이가 담배를 피우는 만화",
+        "body": "코미디, 에치, 일상 장르가\n섞인 이번 여름 신작입니다.\n스튜디오는 Bibury Animation.",
+        "meta": "TV · Bibury Animation Studios · 평점 67",
+        "imageKey": "m207141"
+      },
+      {
+        "kind": "item",
+        "heading": "관전 포인트",
+        "body": "인기도 68000대를 넘긴\n이번 분기 화제작 1위.\n가볍게 웃고 싶을 때 딱입니다.",
+        "badge": "관전 포인트",
+        "imageKey": "m207141"
+      },
+      {
+        "kind": "outro",
+        "heading": "놓치면 아쉬운 신작",
+        "body": "저장해두고 이번 주말\n첫 화 정주행해보세요.\n다음 신작 소식도 기다려주세요."
+      }
+    ],
+    "caption": "고양이가 담배를 피우는 만화라니, 제목만 봐도 궁금해지지 않나요.\n2026년 여름 신작 중 인기도 1위를 차지한 작품, 코미디와 일상 장르 특유의 힘을 뺀 분위기가 매력입니다.\n\n- 제목: Chainsmoker Cat (ヤニねこ)\n- 장르: 코미디, 에치, 일상\n- 스튜디오: Bibury Animation Studios\n- 평점: 67 / 인기도: 68340\n\n저장해두고 이번 여름 시청 리스트에 올려보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#여름신작애니",
+      "#2026여름애니",
+      "#신작애니",
+      "#애니추천",
+      "#일상애니",
+      "#코미디애니",
+      "#애니정보",
+      "#애니덕후",
+      "#이번주애니"
+    ]
+  }
+}
