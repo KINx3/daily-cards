@@ -538,5 +538,24 @@
       "out/tech/2026-08-26/06.jpg",
       "out/tech/2026-08-26/07.jpg"
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-fzf",
+      "t-bun",
+      "t-sentry"
+    ],
+    "images": [
+      "out/tech/2026-08-28/01.jpg",
+      "out/tech/2026-08-28/02.jpg",
+      "out/tech/2026-08-28/03.jpg",
+      "out/tech/2026-08-28/04.jpg",
+      "out/tech/2026-08-28/05.jpg"
+    ]
   }
 ]
