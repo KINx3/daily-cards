@@ -432,5 +432,21 @@
       "out/growth/2026-08-26/04.jpg",
       "out/growth/2026-08-26/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-clear"
+    ],
+    "images": [
+      "out/growth/2026-08-28/01.jpg",
+      "out/growth/2026-08-28/02.jpg",
+      "out/growth/2026-08-28/03.jpg",
+      "out/growth/2026-08-28/04.jpg"
+    ]
   }
 ]
