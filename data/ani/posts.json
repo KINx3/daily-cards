@@ -508,5 +508,20 @@
       "out/ani/2026-08-29/04.jpg",
       "out/ani/2026-08-29/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-30",
+    "slot": 1,
+    "type": "schedule",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [],
+    "images": [
+      "out/ani/2026-08-30/01.jpg",
+      "out/ani/2026-08-30/02.jpg",
+      "out/ani/2026-08-30/03.jpg",
+      "out/ani/2026-08-30/04.jpg",
+      "out/ani/2026-08-30/05.jpg"
+    ]
   }
 ]

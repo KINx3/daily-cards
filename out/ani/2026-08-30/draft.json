@@ -1,0 +1,63 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-08-30",
+    "dateLabel": "2026.08.30",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "9월 첫째 주 애니 편성표",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주\n놓치면 억울한 애니",
+        "body": "월요일부터 수요일까지\n방영작 한 번에 정리했어요",
+        "subheading": "8월 31일 ~ 9월 2일 방영 스케줄",
+        "badge": "위클리 편성표"
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "body": "Love Unseen Beneath the Clear Night Sky 9화\nSkeleton Knight in Another World Season 2 9화\nOh Boy, Was I Wrong About Her 9화",
+        "subheading": "8월 31일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "LIAR GAME 22화\nGrand Blue Dreaming Season 3 9화\nI Want to Love You Till Your Dying Day 9화\nTHE GHOST IN THE SHELL 9화",
+        "subheading": "9월 1일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "Clevatess Season 2 9화\nSaga of Tanya the Evil Season 2 9화\nRe:ZERO -Starting Life in Another World- Season 4 15화\nTrapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 9화",
+        "subheading": "9월 2일"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음 편도\n놓치지 마세요",
+        "body": "저장해두고 방영일마다\n다시 확인해보세요\n다음 주 편성표도 곧 올릴게요"
+      }
+    ],
+    "caption": "이번 주 뭐 볼지 고민할 시간, 아껴드릴게요.\n월요일부터 수요일까지 방영하는 작품들을 요일별로 모았습니다.\n좋아하는 작품이 몇 화까지 왔는지 슬라이드에서 바로 확인해보세요.\n\n월요일 - Love Unseen Beneath the Clear Night Sky, Skeleton Knight in Another World Season 2, Oh Boy, Was I Wrong About Her\n화요일 - LIAR GAME, Grand Blue Dreaming Season 3, I Want to Love You Till Your Dying Day, THE GHOST IN THE SHELL\n수요일 - Clevatess Season 2, Saga of Tanya the Evil Season 2, Re:ZERO -Starting Life in Another World- Season 4, Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2\n\n저장해두고 방영 요일마다 꺼내보세요.",
+    "hashtags": [
+      "#애니편성표",
+      "#주간애니",
+      "#애니메이션",
+      "#신작애니",
+      "#방영정보",
+      "#애니추천",
+      "#리제로",
+      "#타냐의제국",
+      "#라이어게임",
+      "#그랑블루드리밍",
+      "#애니일정",
+      "#가을애니",
+      "#애니덕후",
+      "#오늘의애니"
+    ]
+  }
+}
