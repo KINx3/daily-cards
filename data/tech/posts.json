@@ -557,5 +557,21 @@
       "out/tech/2026-08-28/04.jpg",
       "out/tech/2026-08-28/05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-30",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-hopper"
+    ],
+    "images": [
+      "out/tech/2026-08-30/01.jpg",
+      "out/tech/2026-08-30/02.jpg",
+      "out/tech/2026-08-30/03.jpg",
+      "out/tech/2026-08-30/04.jpg"
+    ]
   }
 ]
