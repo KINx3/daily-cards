@@ -1,0 +1,64 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-01",
+    "dateLabel": "2026.09.01",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "연애편지부터 AI 연구원까지\n깃허브에 올라온 걸 모아봤다",
+        "subheading": "이번 주 눈에 띈 리포 3개 정리"
+      },
+      {
+        "kind": "item",
+        "heading": "PRAXIST",
+        "body": "목표는 있는데\n방법을 모를 때 쓰는 도구.\n여러 연구 과정을\n혼자 계속 이어서\n결과를 쌓아준다",
+        "subheading": "sapientinc/PRAXIST",
+        "meta": "Python · ★5,860"
+      },
+      {
+        "kind": "item",
+        "heading": "my-girlfriend-jingtian-latex",
+        "body": "여자친구에게 쓰는 편지를\n논문처럼 정교하게\n조판한 리포.\n코드로 마음을 짜본\n사람의 결과물",
+        "subheading": "HEJustinSun/my-girlfriend-jingtian-latex",
+        "meta": "TeX · ★4,213"
+      },
+      {
+        "kind": "item",
+        "heading": "dsh-desktop",
+        "body": "DeepSeek을\n터미널 대신 앱으로.\n설정과 세션을 따로 보관해\n켜면 바로\n작업 화면이 뜬다",
+        "subheading": "dataelement/dsh-desktop",
+        "meta": "TypeScript · ★3,691"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 본 것들\n저장해두기",
+        "body": "주말에 뭐 만들지\n고민될 때 다시 열어보세요.\n다음 주도 눈에 띄는\n리포 골라올게요"
+      }
+    ],
+    "caption": "깃허브 트렌딩에 이번 주 올라온 리포 세 개, 방향이 완전히 다르다.\n하나는 연구를 대신 굴려주는 자율 시스템, 하나는 여자친구에게 쓰는 편지를 논문 조판 수준으로 짠 프로젝트, 하나는 DeepSeek을 데스크톱 앱으로 감싼 것.\n다룬 리포\nPRAXIST\nmy-girlfriend-jingtian-latex\ndsh-desktop\n마음에 드는 거 있으면 저장해두고 나중에 클론해보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#github",
+      "#githubtrending",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#deepseek",
+      "#파이썬",
+      "#타입스크립트",
+      "#latex",
+      "#개발자일상",
+      "#주말개발"
+    ]
+  }
+}

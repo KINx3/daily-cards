@@ -573,5 +573,24 @@
       "out/tech/2026-08-30/03.jpg",
       "out/tech/2026-08-30/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-01",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:sapientinc/PRAXIST",
+      "gh:HEJustinSun/my-girlfriend-jingtian-latex",
+      "gh:dataelement/dsh-desktop"
+    ],
+    "images": [
+      "out/tech/2026-09-01/01.jpg",
+      "out/tech/2026-09-01/02.jpg",
+      "out/tech/2026-09-01/03.jpg",
+      "out/tech/2026-09-01/04.jpg",
+      "out/tech/2026-09-01/05.jpg"
+    ]
   }
 ]

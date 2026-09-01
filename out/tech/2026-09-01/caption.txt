@@ -1,0 +1,11 @@
+깃허브 트렌딩에 이번 주 올라온 리포 세 개, 방향이 완전히 다르다.
+하나는 연구를 대신 굴려주는 자율 시스템, 하나는 여자친구에게 쓰는 편지를 논문 조판 수준으로 짠 프로젝트, 하나는 DeepSeek을 데스크톱 앱으로 감싼 것.
+다룬 리포
+PRAXIST
+my-girlfriend-jingtian-latex
+dsh-desktop
+마음에 드는 거 있으면 저장해두고 나중에 클론해보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#개발자 #깃허브 #오픈소스 #github #githubtrending #사이드프로젝트 #AI에이전트 #deepseek #파이썬 #타입스크립트 #latex #개발자일상 #주말개발
