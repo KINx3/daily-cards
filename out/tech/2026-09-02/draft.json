@@ -1,0 +1,76 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-02",
+    "dateLabel": "2026.09.02",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "오늘의 AI 뉴스 5",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "오픈AI를 둘러싼\n소송이 갑자기 늘어난 이유",
+        "body": "하루 사이 벌어진\nAI 업계 핵심 소식 5가지",
+        "subheading": "오늘 꼭 알아야 할 AI 뉴스 정리",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "오픈AI, 소송 30건\n추가로 걸렸다",
+        "body": "한 로펌이 총기 사건과 관련해\n오픈AI에 소송 30건을 새로 냈어요.\n이번엔 '방조' 혐의까지 주장합니다.",
+        "badge": "NEWS 01",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "오픈AI의 새 모델,\n해킹에 특화됐다",
+        "body": "오픈AI가 준비 중인 신규 모델 'Astra'는\n보안 침투 능력이 뛰어나다고 해요.\n그만큼 안전장치도 함께 공개했습니다.",
+        "badge": "NEWS 02",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "애플, 전직원의\n오픈AI 유출 의혹 공개",
+        "body": "애플이 전직원이 데이터를 빼돌린 뒤\n증거를 없앴다는 자료를 내놨어요.\n해당 직원은 오픈AI 이적 관련 의혹을 받고 있습니다.",
+        "badge": "NEWS 03",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "앤스로픽 Fable 5.1,\n더 싸고 덜 막힌다",
+        "body": "앤스로픽이 Fable 5.1을 내놨어요.\n토큰 비용을 줄이고\n불필요한 제한도 줄였습니다.",
+        "badge": "NEWS 04",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "5개월 만에\n유니콘 된 AI 스타트업",
+        "body": "AI 모델 학습 스타트업 AfterQuery가\n기업가치 3.2조원을 인정받았대요.\n지난 4월엔 3천억원 밸류였습니다.",
+        "badge": "NEWS 05",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장하고\n다시 훑어보세요",
+        "body": "오늘 소식, 나중에 정리할 때\n다시 꺼내보기 좋아요.\n내일 또 새 소식으로 만나요."
+      }
+    ],
+    "caption": "오픈AI 하루에만 소송 30건이 더 걸렸다는 소식, 보셨나요.\n오늘은 소송·보안 모델·유출 의혹·모델 업데이트·유니콘 소식까지 한 번에 정리했습니다.\n\n- 오픈AI, 소송 30건 추가\n- 해킹 특화 신규 모델 Astra\n- 애플 vs 전직원 유출 의혹\n- 앤스로픽 Fable 5.1 업데이트\n- AfterQuery 5개월 유니콘 등극\n\n저장해두고 필요할 때 다시 확인하세요.",
+    "hashtags": [
+      "#AI뉴스",
+      "#오픈AI",
+      "#앤스로픽",
+      "#테크뉴스",
+      "#개발자",
+      "#인공지능",
+      "#IT소식",
+      "#스타트업",
+      "#실리콘밸리",
+      "#AI스타트업"
+    ]
+  }
+}
