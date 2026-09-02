@@ -501,5 +501,22 @@
       "out/growth/2026-09-01/05.jpg",
       "out/growth/2026-09-01/06.jpg"
     ]
+  },
+  {
+    "date": "2026-09-02",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-deepwork-block"
+    ],
+    "images": [
+      "out/growth/2026-09-02/01.jpg",
+      "out/growth/2026-09-02/02.jpg",
+      "out/growth/2026-09-02/03.jpg",
+      "out/growth/2026-09-02/04.jpg",
+      "out/growth/2026-09-02/05.jpg"
+    ]
   }
 ]
