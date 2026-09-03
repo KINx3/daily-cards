@@ -1,0 +1,58 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-03",
+    "dateLabel": "2026.09.03",
+    "weekday": 4,
+    "type": "concept",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "API 하나 부를 때마다\n데이터가 넘치거나 부족하다면",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "화면 하나 그리려고\nAPI를 5번 부른 적 있나요",
+        "body": "필요한 건 이름 하나인데\n응답엔 필드가 20개.\n그 반대인 적도 있었을 겁니다.",
+        "subheading": "API 설계 방식 두 가지, 3장으로 정리했어요"
+      },
+      {
+        "kind": "news",
+        "heading": "REST와 GraphQL, 뭐가 다른가",
+        "body": "REST는 엔드포인트마다\n정해진 응답을 그대로 돌려줍니다.\nGraphQL은 클라이언트가\n필요한 필드만 직접 질의해요.",
+        "badge": "WHAT"
+      },
+      {
+        "kind": "news",
+        "heading": "왜 이 차이가 중요한가",
+        "body": "REST는 필요 없는 데이터까지\n같이 오는 오버페칭이 잦아요.\nGraphQL은 딱 필요한 것만 받지만\n서버 쪽 쿼리 설계가 더 복잡해집니다.",
+        "badge": "WHY"
+      },
+      {
+        "kind": "news",
+        "heading": "화면 하나, 요청 하나로",
+        "body": "유저 이름과 최근 글 3개만 필요할 때\nREST면 유저 API·글 목록 API를\n따로 불러 합쳐야 하지만\nGraphQL은 한 번의 질의로 끝냅니다.",
+        "badge": "EXAMPLE"
+      },
+      {
+        "kind": "outro",
+        "heading": "결국은 트레이드오프",
+        "body": "REST는 단순하고 캐싱이 쉽고\nGraphQL은 유연하지만 복잡합니다.\n저장해두고 API 설계할 때 다시 보세요."
+      }
+    ],
+    "caption": "화면 하나 그리려고 API를 여러 번 호출한 경험, 다들 있으실 거예요.\nREST와 GraphQL은 이 문제를 다루는 방식이 서로 다릅니다.\n오버페칭 문제부터 구체적인 예시까지 정리했어요.\n\n다룬 내용\nREST vs GraphQL 정의\n왜 중요한지, 언제 쓰는지\n실제 화면 예시로 보는 차이\n\n저장해두고 API 설계 고민될 때 다시 꺼내보세요.",
+    "hashtags": [
+      "#REST",
+      "#GraphQL",
+      "#API설계",
+      "#백엔드",
+      "#개발자",
+      "#웹개발",
+      "#프로그래밍",
+      "#소프트웨어엔지니어링",
+      "#개발공부",
+      "#코딩"
+    ]
+  }
+}
