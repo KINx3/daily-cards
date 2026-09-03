@@ -575,5 +575,22 @@
       "out/ani/2026-09-02/06.jpg",
       "out/ani/2026-09-02/07.jpg"
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-haikyuu-oikawa",
+      "m20464"
+    ],
+    "images": [
+      "out/ani/2026-09-03/01.jpg",
+      "out/ani/2026-09-03/02.jpg",
+      "out/ani/2026-09-03/03.jpg",
+      "out/ani/2026-09-03/04.jpg"
+    ]
   }
 ]
