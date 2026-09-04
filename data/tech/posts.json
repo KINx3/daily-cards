@@ -642,5 +642,24 @@
       "out/tech/2026-09-03/04.jpg",
       "out/tech/2026-09-03/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-playwright",
+      "t-uv",
+      "t-caddy"
+    ],
+    "images": [
+      "out/tech/2026-09-04/01.jpg",
+      "out/tech/2026-09-04/02.jpg",
+      "out/tech/2026-09-04/03.jpg",
+      "out/tech/2026-09-04/04.jpg",
+      "out/tech/2026-09-04/05.jpg"
+    ]
   }
 ]

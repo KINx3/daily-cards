@@ -1,0 +1,58 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-04",
+    "dateLabel": "2026.09.04",
+    "weekday": 5,
+    "type": "tools",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "수고를 아껴주는 개발 도구 3가지",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "세팅 시간을\n반으로 줄이는 법",
+        "body": "매번 같은 설정 반복하다\n하루 날리는 사람들에게.\n도구 3개만 바꿔보세요.",
+        "subheading": "테스트·패키지·서버, 삽질 줄이는 도구 3가지"
+      },
+      {
+        "kind": "item",
+        "heading": "Playwright",
+        "body": "크롬·파폭·사파리를\n하나의 API로 자동화.\n테스트, 스크래핑, 스크린샷까지\n한 번에 끝내야 할 때 씁니다.",
+        "subheading": "브라우저 자동화·E2E"
+      },
+      {
+        "kind": "item",
+        "heading": "uv",
+        "body": "pip와 venv를 대체하는\nRust 기반 초고속 도구.\n의존성 설치가 초 단위로 끝나서\n새 파이썬 프로젝트 시작할 때 딱입니다.",
+        "subheading": "파이썬 패키지 매니저"
+      },
+      {
+        "kind": "item",
+        "heading": "Caddy",
+        "body": "인증서 발급·갱신을\n알아서 처리해줍니다.\nnginx 설정 붙잡고 씨름하기 싫을 때\n설정 몇 줄로 리버스 프록시까지 끝냅니다.",
+        "subheading": "HTTPS 자동 웹서버"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음에 또 헤매기 전에",
+        "body": "저장해두고 새 프로젝트 시작할 때\n다시 꺼내보세요.\n다음 편도 이어집니다."
+      }
+    ],
+    "caption": "같은 설정 반복하느라 하루를 날린 적 있나요.\n테스트, 파이썬 세팅, 서버 배포에서 시간 아껴주는 도구 3가지를 모았습니다.\n\n- Playwright: 브라우저 자동화·E2E\n- uv: 파이썬 패키지 매니저\n- Caddy: HTTPS 자동 웹서버\n\n저장해두고 다음 프로젝트 시작할 때 다시 보세요.",
+    "hashtags": [
+      "#개발도구",
+      "#Playwright",
+      "#uv",
+      "#Caddy",
+      "#개발자",
+      "#파이썬",
+      "#웹서버",
+      "#자동화테스트",
+      "#개발팁",
+      "#프로그래밍"
+    ]
+  }
+}
