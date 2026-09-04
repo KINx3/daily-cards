@@ -535,5 +535,21 @@
       "out/growth/2026-09-03/04.jpg",
       "out/growth/2026-09-03/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-rohn"
+    ],
+    "images": [
+      "out/growth/2026-09-04/01.jpg",
+      "out/growth/2026-09-04/02.jpg",
+      "out/growth/2026-09-04/03.jpg",
+      "out/growth/2026-09-04/04.jpg"
+    ]
   }
 ]
