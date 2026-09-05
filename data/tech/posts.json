@@ -661,5 +661,28 @@
       "out/tech/2026-09-04/04.jpg",
       "out/tech/2026-09-04/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:CopilotKit/OpenBot",
+      "gh:wang2122/sprix-sage-router",
+      "gh:b-nnett/grok-bot-0.18-reconstructed",
+      "gh:crmne/fastpotify",
+      "gh:lnkiai/m3e-canvas"
+    ],
+    "images": [
+      "out/tech/2026-09-05/01.jpg",
+      "out/tech/2026-09-05/02.jpg",
+      "out/tech/2026-09-05/03.jpg",
+      "out/tech/2026-09-05/04.jpg",
+      "out/tech/2026-09-05/05.jpg",
+      "out/tech/2026-09-05/06.jpg",
+      "out/tech/2026-09-05/07.jpg"
+    ]
   }
 ]

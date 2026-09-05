@@ -1,0 +1,80 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-05",
+    "dateLabel": "2026.09.05",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "AI 에이전트부터 리버스 엔지니어링까지\n스타 수천 개 찍은 5개 저장소를 모았습니다",
+        "subheading": "이번 주 GitHub에서 뜬 프로젝트 5선"
+      },
+      {
+        "kind": "item",
+        "heading": "OpenBot",
+        "body": "각자 자기 브라우저와 파일, 도구를\n갖는 AI 동료를 만드는 프로젝트예요\n행동 하나하나를 실행 전 결정하고\n실행 후 기록해서 믿고 맡길 수 있게 합니다",
+        "subheading": "CopilotKit/OpenBot",
+        "meta": "TypeScript · ★4287"
+      },
+      {
+        "kind": "item",
+        "heading": "sprix-sage-router",
+        "body": "여러 AI 에이전트가 협업하는 네트워크에서\n지금 작업을 계속할지, 동료를 부를지,\n넘길지를 상황 보고 판단하는 라우터예요\n남은 작업량과 마감, 실패 이력까지 고려합니다",
+        "subheading": "wang2122/sprix-sage-router",
+        "meta": "Python · ★3555"
+      },
+      {
+        "kind": "item",
+        "heading": "grok-bot-0.18-reconstructed",
+        "body": "맥용 Grok Bot 앱이 어떻게 만들어졌는지\n궁금해서 시작한 비공식 재구성 프로젝트예요\nElectron 구조부터 렌더러까지\n읽을 수 있는 TypeScript로 다시 짰습니다",
+        "subheading": "b-nnett/grok-bot-0.18-reconstructed",
+        "meta": "TypeScript · ★3485"
+      },
+      {
+        "kind": "item",
+        "heading": "fastpotify",
+        "body": "스포티파이를 Rust로 새로 만든\n가볍고 빠른 네이티브 클라이언트예요\n메모리를 100~250MB만 쓰고\n1초도 안 걸려 켜집니다",
+        "subheading": "crmne/fastpotify",
+        "meta": "Rust · ★3137"
+      },
+      {
+        "kind": "item",
+        "heading": "m3e-canvas",
+        "body": "브라우저에서 머티리얼 디자인 화면을\n드래그 앤 드롭으로 스케치하는 도구예요\n버튼, 카드, 내비게이션 등을 배치하면\n바이브 코딩용 프롬프트로 바꿔줍니다",
+        "subheading": "lnkiai/m3e-canvas",
+        "meta": "TypeScript · ★3067"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n하나씩 열어보세요",
+        "body": "주말에 뭐 만들지 고민될 때\n다시 꺼내보기 좋은 리스트예요\n다음 주에도 새로운 5개로 찾아올게요"
+      }
+    ],
+    "caption": "이번 주말엔 뭐 만들지 고민이라면 여기서 힌트 얻어가세요.\nGitHub에서 스타 수천 개를 모은 프로젝트 5개를 골라봤습니다.\nAI 에이전트 협업 도구부터 리버스 엔지니어링, 데스크톱 앱까지 다양합니다.\n\n- OpenBot: 믿고 맡기는 AI 동료 만들기\n- sprix-sage-router: 멀티 에이전트 상황판단 라우터\n- grok-bot-0.18-reconstructed: Grok 앱 재구성 프로젝트\n- fastpotify: Rust로 만든 가벼운 스포티파이\n- m3e-canvas: 드래그로 UI 짜서 프롬프트로 변환\n\n저장해두고 다음 사이드 프로젝트 아이디어 필요할 때 다시 열어보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#멀티에이전트",
+      "#리버스엔지니어링",
+      "#러스트",
+      "#타입스크립트",
+      "#파이썬",
+      "#바이브코딩",
+      "#개발자일상",
+      "#GitHub트렌딩",
+      "#코딩",
+      "#프로그래밍"
+    ]
+  }
+}
