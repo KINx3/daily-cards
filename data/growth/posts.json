@@ -551,5 +551,23 @@
       "out/growth/2026-09-04/03.jpg",
       "out/growth/2026-09-04/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-onething"
+    ],
+    "images": [
+      "out/growth/2026-09-05/01.jpg",
+      "out/growth/2026-09-05/02.jpg",
+      "out/growth/2026-09-05/03.jpg",
+      "out/growth/2026-09-05/04.jpg",
+      "out/growth/2026-09-05/05.jpg",
+      "out/growth/2026-09-05/06.jpg"
+    ]
   }
 ]
