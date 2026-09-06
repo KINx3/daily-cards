@@ -569,5 +569,25 @@
       "out/growth/2026-09-05/05.jpg",
       "out/growth/2026-09-05/06.jpg"
     ]
+  },
+  {
+    "date": "2026-09-06",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-ifthen"
+    ],
+    "images": [
+      "out/growth/2026-09-06/01.jpg",
+      "out/growth/2026-09-06/02.jpg",
+      "out/growth/2026-09-06/03.jpg",
+      "out/growth/2026-09-06/04.jpg",
+      "out/growth/2026-09-06/05.jpg",
+      "out/growth/2026-09-06/06.jpg",
+      "out/growth/2026-09-06/07.jpg",
+      "out/growth/2026-09-06/08.jpg"
+    ]
   }
 ]
