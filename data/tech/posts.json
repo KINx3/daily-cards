@@ -684,5 +684,21 @@
       "out/tech/2026-09-05/06.jpg",
       "out/tech/2026-09-05/07.jpg"
     ]
+  },
+  {
+    "date": "2026-09-06",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-brooks"
+    ],
+    "images": [
+      "out/tech/2026-09-06/01.jpg",
+      "out/tech/2026-09-06/02.jpg",
+      "out/tech/2026-09-06/03.jpg",
+      "out/tech/2026-09-06/04.jpg"
+    ]
   }
 ]
