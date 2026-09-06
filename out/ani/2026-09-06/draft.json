@@ -1,0 +1,58 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-09-06",
+    "dateLabel": "2026.09.06",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "9월 첫째 주 방영 스케줄",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주\n뭐부터 볼지 고민이라면",
+        "body": "월화수 방영작을 한 번에 정리했어요.\n놓친 화 확인하고 정주행 준비하세요.",
+        "subheading": "월~수 방영작 한눈에 정리"
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "body": "Love Unseen Beneath the Clear Night Sky 10화\nSkeleton Knight in Another World Season 2 10화\nOh Boy, Was I Wrong About Her 10화",
+        "subheading": "9월 7일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "Grand Blue Dreaming Season 3 10화\nLIAR GAME 23화\nI Want to Love You Till Your Dying Day 10화\nTHE GHOST IN THE SHELL 10화",
+        "subheading": "9월 8일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "Clevatess Season 2 10화\nSaga of Tanya the Evil Season 2 10화\nRe:ZERO -Starting Life in Another World- Season 4 16화\nTrapped in a Dating Sim Season 2 10화",
+        "subheading": "9월 9일"
+      },
+      {
+        "kind": "outro",
+        "heading": "이번 주도\n놓치지 말고 챙겨보세요",
+        "body": "저장해두고 방영일마다\n다시 확인하세요.\n다음 주 스케줄도 곧 올게요."
+      }
+    ],
+    "caption": "이번 주 뭐 볼지 고민할 시간에 저장부터 하세요.\n월요일부터 수요일까지 방영작을 요일별로 정리했습니다.\nRe:ZERO 4기, 라이어 게임, 텐야 애비타 등 화제작들 화수까지 함께 확인해보세요.\n\n월요일: Love Unseen Beneath the Clear Night Sky 외 2편\n화요일: Grand Blue Dreaming Season 3 외 3편\n수요일: Re:ZERO Season 4 외 3편\n\n저장해두고 매주 편성표 대신 써보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#애니추천",
+      "#방영스케줄",
+      "#애니편성표",
+      "#리제로",
+      "#라이어게임",
+      "#그랑블루",
+      "#이번주애니",
+      "#애니메이션정보",
+      "#애니덕후"
+    ]
+  }
+}
