@@ -589,5 +589,23 @@
       "out/growth/2026-09-06/07.jpg",
       "out/growth/2026-09-06/08.jpg"
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-habit-power"
+    ],
+    "images": [
+      "out/growth/2026-09-08/01.jpg",
+      "out/growth/2026-09-08/02.jpg",
+      "out/growth/2026-09-08/03.jpg",
+      "out/growth/2026-09-08/04.jpg",
+      "out/growth/2026-09-08/05.jpg",
+      "out/growth/2026-09-08/06.jpg"
+    ]
   }
 ]
