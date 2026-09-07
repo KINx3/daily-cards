@@ -700,5 +700,28 @@
       "out/tech/2026-09-06/03.jpg",
       "out/tech/2026-09-06/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:yanliudesign/mono-color-skill",
+      "gh:amagine-ai/Amagine3D",
+      "gh:XiaoDuoYa/codex-with-chatgpt",
+      "gh:rakanki911/DLSS5-Swapper",
+      "gh:tobi/walgit"
+    ],
+    "images": [
+      "out/tech/2026-09-08/01.jpg",
+      "out/tech/2026-09-08/02.jpg",
+      "out/tech/2026-09-08/03.jpg",
+      "out/tech/2026-09-08/04.jpg",
+      "out/tech/2026-09-08/05.jpg",
+      "out/tech/2026-09-08/06.jpg",
+      "out/tech/2026-09-08/07.jpg"
+    ]
   }
 ]

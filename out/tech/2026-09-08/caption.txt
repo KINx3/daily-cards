@@ -1,0 +1,13 @@
+깃허브에 갑자기 스타 2000개 넘게 받은 리포들, 다 이유가 있더라고요.
+한 가지 색 잉크로 포스터 뽑는 AI 스킬부터, 스펙만 넣으면 하드웨어 케이스 설계까지 해주는 툴, 챗GPT 구독으로 코딩 에이전트 굴리는 방법, DLSS5 관리 툴, 서버 없이 git 호스팅하는 프로젝트까지.
+오늘 다룬 리포
+mono-color-skill
+Amagine3D
+codex-with-chatgpt
+DLSS5-Swapper
+walgit
+저장해두고 주말 프로젝트 고를 때 다시 보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#개발자 #깃허브 #오픈소스 #사이드프로젝트 #AI에이전트 #Rust #Python #TypeScript #개발자스타그램 #코딩

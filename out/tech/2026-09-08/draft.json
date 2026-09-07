@@ -1,0 +1,79 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-08",
+    "dateLabel": "2026.09.08",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것 5선",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "",
+        "subheading": "깃허브 스타 2400+ 신상 리포 5개 모아봤어요",
+        "badge": "REPO PICK",
+        "meta": ""
+      },
+      {
+        "kind": "item",
+        "heading": "mono-color-skill",
+        "body": "한 가지 잉크색으로\n포스터·잡지 이미지 뽑는\nAI 스킬이에요",
+        "subheading": "yanliudesign/mono-color-skill",
+        "meta": "Python · ★2855"
+      },
+      {
+        "kind": "item",
+        "heading": "Amagine3D",
+        "body": "하드웨어 스펙만 넣으면\n케이스 3D 설계까지\n자동으로 뽑아줘요",
+        "subheading": "amagine-ai/Amagine3D",
+        "meta": "Python · ★2643"
+      },
+      {
+        "kind": "item",
+        "heading": "codex-with-chatgpt",
+        "body": "놀고 있는 챗GPT 웹 구독으로\n생각하고, Codex는\n코딩만 시켜요",
+        "subheading": "XiaoDuoYa/codex-with-chatgpt",
+        "meta": "TypeScript · ★2596"
+      },
+      {
+        "kind": "item",
+        "heading": "DLSS5-Swapper",
+        "body": "게임·에뮬레이터에\nDLSS 5를 설치·관리\n해주는 툴이에요",
+        "subheading": "rakanki911/DLSS5-Swapper",
+        "meta": "JavaScript · ★2585"
+      },
+      {
+        "kind": "item",
+        "heading": "walgit",
+        "body": "DB도 서버 상태도 없이\nS3 버킷 하나로\ngit을 호스팅해요",
+        "subheading": "tobi/walgit",
+        "meta": "Rust · ★2445"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 소개한 5개\n저장해두세요",
+        "body": "나중에 사이드 프로젝트\n아이디어 필요할 때\n다시 꺼내보세요",
+        "subheading": "",
+        "meta": ""
+      }
+    ],
+    "caption": "깃허브에 갑자기 스타 2000개 넘게 받은 리포들, 다 이유가 있더라고요.\n한 가지 색 잉크로 포스터 뽑는 AI 스킬부터, 스펙만 넣으면 하드웨어 케이스 설계까지 해주는 툴, 챗GPT 구독으로 코딩 에이전트 굴리는 방법, DLSS5 관리 툴, 서버 없이 git 호스팅하는 프로젝트까지.\n오늘 다룬 리포\nmono-color-skill\nAmagine3D\ncodex-with-chatgpt\nDLSS5-Swapper\nwalgit\n저장해두고 주말 프로젝트 고를 때 다시 보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#Rust",
+      "#Python",
+      "#TypeScript",
+      "#개발자스타그램",
+      "#코딩"
+    ]
+  }
+}
