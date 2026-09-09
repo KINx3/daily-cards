@@ -642,5 +642,38 @@
       "out/ani/2026-09-06/04.jpg",
       "out/ani/2026-09-06/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "slot": 1,
+    "type": "news",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "https://www.animenewsnetwork.com/cms/.241557",
+      "https://www.animenewsnetwork.com/cms/.241549",
+      "https://www.animenewsnetwork.com/cms/.241541",
+      "https://www.animenewsnetwork.com/cms/.241508",
+      "https://www.animenewsnetwork.com/cms/.241533",
+      "https://www.animenewsnetwork.com/cms/.241515",
+      "https://www.animenewsnetwork.com/cms/.241517",
+      "https://www.animenewsnetwork.com/cms/.241514",
+      "https://www.animenewsnetwork.com/cms/.241512",
+      "https://www.animenewsnetwork.com/cms/.241498",
+      "https://www.animenewsnetwork.com/cms/.241487",
+      "https://www.animenewsnetwork.com/cms/.241496",
+      "https://www.animenewsnetwork.com/cms/.241458",
+      "https://www.animenewsnetwork.com/cms/.241493",
+      "https://www.animenewsnetwork.com/cms/.241488"
+    ],
+    "images": [
+      "out/ani/2026-09-09/01.jpg",
+      "out/ani/2026-09-09/02.jpg",
+      "out/ani/2026-09-09/03.jpg",
+      "out/ani/2026-09-09/04.jpg",
+      "out/ani/2026-09-09/05.jpg",
+      "out/ani/2026-09-09/06.jpg",
+      "out/ani/2026-09-09/07.jpg"
+    ]
   }
 ]
