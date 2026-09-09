@@ -607,5 +607,22 @@
       "out/growth/2026-09-08/05.jpg",
       "out/growth/2026-09-08/06.jpg"
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-powernap"
+    ],
+    "images": [
+      "out/growth/2026-09-09/01.jpg",
+      "out/growth/2026-09-09/02.jpg",
+      "out/growth/2026-09-09/03.jpg",
+      "out/growth/2026-09-09/04.jpg",
+      "out/growth/2026-09-09/05.jpg"
+    ]
   }
 ]
