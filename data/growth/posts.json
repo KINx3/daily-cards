@@ -624,5 +624,22 @@
       "out/growth/2026-09-09/04.jpg",
       "out/growth/2026-09-09/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-compound"
+    ],
+    "images": [
+      "out/growth/2026-09-10/01.jpg",
+      "out/growth/2026-09-10/02.jpg",
+      "out/growth/2026-09-10/03.jpg",
+      "out/growth/2026-09-10/04.jpg",
+      "out/growth/2026-09-10/05.jpg"
+    ]
   }
 ]
