@@ -774,5 +774,24 @@
       "out/tech/2026-09-10/05.jpg",
       "out/tech/2026-09-10/06.jpg"
     ]
+  },
+  {
+    "date": "2026-09-11",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-direnv",
+      "t-pnpm",
+      "t-warp"
+    ],
+    "images": [
+      "out/tech/2026-09-11/01.jpg",
+      "out/tech/2026-09-11/02.jpg",
+      "out/tech/2026-09-11/03.jpg",
+      "out/tech/2026-09-11/04.jpg",
+      "out/tech/2026-09-11/05.jpg"
+    ]
   }
 ]
