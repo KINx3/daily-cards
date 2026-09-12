@@ -1,0 +1,76 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-12",
+    "dateLabel": "2026.09.12",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "본업 아닌 사이드 프로젝트로\n스타 2000개 넘긴 사람들이 있습니다.",
+        "subheading": "이번 주 GitHub에서 뜬 레포 5개 정리",
+        "imageKey": ""
+      },
+      {
+        "kind": "item",
+        "heading": "human-atlas",
+        "body": "3D 인체 해부도를 브라우저에서\n뜯어보는 도구예요.\n뼈, 장기 등 2234개 부위를\n하나씩 클릭해서 볼 수 있어요.",
+        "subheading": "ashemag/human-atlas",
+        "meta": "TypeScript · ★3250"
+      },
+      {
+        "kind": "item",
+        "heading": "commerce-agents",
+        "body": "쇼핑·업무용 AI 에이전트를\n만드는 참고 설계도예요.\n리테일, 통신 등 4개 업종\n예제가 들어있어요.",
+        "subheading": "anthropics/commerce-agents",
+        "meta": "Python · ★2761"
+      },
+      {
+        "kind": "item",
+        "heading": "PawWork_ZhuaZhua",
+        "body": "크롬 화면에서 원하는 부분을\n선택하고 결과를 말하면\n엑셀·문서 파일로 만들어주는\n크롬 확장 프로그램이에요.",
+        "subheading": "Player-YN/PawWork_ZhuaZhua",
+        "meta": "JavaScript · ★2587"
+      },
+      {
+        "kind": "item",
+        "heading": "sepia",
+        "body": "AI가 쓴 티 나는 문장을\n다듬어주는 스킬이에요.\n소설은 구조부터, 실무 문서는\n용도에 맞게 고쳐줍니다.",
+        "subheading": "Nanako0129/sepia",
+        "meta": "Python · ★2565"
+      },
+      {
+        "kind": "item",
+        "heading": "niubigeo",
+        "body": "AI가 내 브랜드를 어떻게\n말하는지 확인하는 도구예요.\n도메인 입력하면 경쟁사와\n비교해서 보여줘요.",
+        "subheading": "Albert-Weasker/niubigeo",
+        "meta": "TypeScript · ★2361"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음에 뭐 만들지\n고민될 때",
+        "body": "저장해두고 사이드 프로젝트\n아이디어 필요할 때 다시 보세요.\n다음 주에도 새로운 레포로\n찾아올게요."
+      }
+    ],
+    "caption": "주말에 뭐 만들지 고민이라면 이 리스트부터 보세요.\n이번 주 GitHub에서 스타를 많이 받은 레포 5개를 골라봤어요.\n인체 3D 뷰어부터 AI 문장 다듬기 도구까지 결이 다양합니다.\n\n- human-atlas: 3D 인체 해부도 탐색기\n- commerce-agents: 쇼핑 AI 에이전트 설계도\n- PawWork_ZhuaZhua: 크롬 화면 자동화 확장\n- sepia: AI 티 없애는 글쓰기 스킬\n- niubigeo: AI 답변 속 브랜드 노출 확인\n\n저장해두고 아이디어 필요할 때 꺼내보세요.",
+    "hashtags": [
+      "#GitHub",
+      "#오픈소스",
+      "#사이드프로젝트",
+      "#개발자",
+      "#AI에이전트",
+      "#크롬확장",
+      "#3D개발",
+      "#TypeScript",
+      "#Python",
+      "#포트폴리오"
+    ]
+  }
+}

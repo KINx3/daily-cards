@@ -1,0 +1,15 @@
+주말에 뭐 만들지 고민이라면 이 리스트부터 보세요.
+이번 주 GitHub에서 스타를 많이 받은 레포 5개를 골라봤어요.
+인체 3D 뷰어부터 AI 문장 다듬기 도구까지 결이 다양합니다.
+
+- human-atlas: 3D 인체 해부도 탐색기
+- commerce-agents: 쇼핑 AI 에이전트 설계도
+- PawWork_ZhuaZhua: 크롬 화면 자동화 확장
+- sepia: AI 티 없애는 글쓰기 스킬
+- niubigeo: AI 답변 속 브랜드 노출 확인
+
+저장해두고 아이디어 필요할 때 꺼내보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#GitHub #오픈소스 #사이드프로젝트 #개발자 #AI에이전트 #크롬확장 #3D개발 #TypeScript #Python #포트폴리오
