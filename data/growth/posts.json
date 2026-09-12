@@ -657,5 +657,23 @@
       "out/growth/2026-09-11/03.jpg",
       "out/growth/2026-09-11/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-12",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-reverse"
+    ],
+    "images": [
+      "out/growth/2026-09-12/01.jpg",
+      "out/growth/2026-09-12/02.jpg",
+      "out/growth/2026-09-12/03.jpg",
+      "out/growth/2026-09-12/04.jpg",
+      "out/growth/2026-09-12/05.jpg",
+      "out/growth/2026-09-12/06.jpg"
+    ]
   }
 ]
