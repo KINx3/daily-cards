@@ -675,5 +675,22 @@
       "out/growth/2026-09-12/05.jpg",
       "out/growth/2026-09-12/06.jpg"
     ]
+  },
+  {
+    "date": "2026-09-13",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-phone-distance"
+    ],
+    "images": [
+      "out/growth/2026-09-13/01.jpg",
+      "out/growth/2026-09-13/02.jpg",
+      "out/growth/2026-09-13/03.jpg",
+      "out/growth/2026-09-13/04.jpg",
+      "out/growth/2026-09-13/05.jpg"
+    ]
   }
 ]
