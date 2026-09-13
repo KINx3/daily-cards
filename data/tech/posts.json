@@ -816,5 +816,21 @@
       "out/tech/2026-09-12/06.jpg",
       "out/tech/2026-09-12/07.jpg"
     ]
+  },
+  {
+    "date": "2026-09-13",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-beck"
+    ],
+    "images": [
+      "out/tech/2026-09-13/01.jpg",
+      "out/tech/2026-09-13/02.jpg",
+      "out/tech/2026-09-13/03.jpg",
+      "out/tech/2026-09-13/04.jpg"
+    ]
   }
 ]
