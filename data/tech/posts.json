@@ -832,5 +832,24 @@
       "out/tech/2026-09-13/03.jpg",
       "out/tech/2026-09-13/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:crmne/spotifast",
+      "gh:sdli1995/dlssg_for_sm86",
+      "gh:Rion-Wu-tech/wechat-intelligence-hub"
+    ],
+    "images": [
+      "out/tech/2026-09-15/01.jpg",
+      "out/tech/2026-09-15/02.jpg",
+      "out/tech/2026-09-15/03.jpg",
+      "out/tech/2026-09-15/04.jpg",
+      "out/tech/2026-09-15/05.jpg"
+    ]
   }
 ]
