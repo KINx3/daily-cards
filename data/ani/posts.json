@@ -762,5 +762,22 @@
       "out/ani/2026-09-16/06.jpg",
       "out/ani/2026-09-16/07.jpg"
     ]
+  },
+  {
+    "date": "2026-09-17",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-jjk-gojo",
+      "m113415"
+    ],
+    "images": [
+      "out/ani/2026-09-17/01.jpg",
+      "out/ani/2026-09-17/02.jpg",
+      "out/ani/2026-09-17/03.jpg",
+      "out/ani/2026-09-17/04.jpg"
+    ]
   }
 ]
