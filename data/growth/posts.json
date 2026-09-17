@@ -727,5 +727,22 @@
       "out/growth/2026-09-16/04.jpg",
       "out/growth/2026-09-16/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-17",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-resilience"
+    ],
+    "images": [
+      "out/growth/2026-09-17/01.jpg",
+      "out/growth/2026-09-17/02.jpg",
+      "out/growth/2026-09-17/03.jpg",
+      "out/growth/2026-09-17/04.jpg",
+      "out/growth/2026-09-17/05.jpg"
+    ]
   }
 ]
