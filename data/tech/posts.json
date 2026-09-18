@@ -901,5 +901,24 @@
       "out/tech/2026-09-17/04.jpg",
       "out/tech/2026-09-17/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-ngrok",
+      "t-posthog",
+      "t-vite"
+    ],
+    "images": [
+      "out/tech/2026-09-18/01.jpg",
+      "out/tech/2026-09-18/02.jpg",
+      "out/tech/2026-09-18/03.jpg",
+      "out/tech/2026-09-18/04.jpg",
+      "out/tech/2026-09-18/05.jpg"
+    ]
   }
 ]
