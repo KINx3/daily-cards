@@ -744,5 +744,21 @@
       "out/growth/2026-09-17/04.jpg",
       "out/growth/2026-09-17/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-wooden"
+    ],
+    "images": [
+      "out/growth/2026-09-18/01.jpg",
+      "out/growth/2026-09-18/02.jpg",
+      "out/growth/2026-09-18/03.jpg",
+      "out/growth/2026-09-18/04.jpg"
+    ]
   }
 ]
