@@ -779,5 +779,21 @@
       "out/ani/2026-09-17/03.jpg",
       "out/ani/2026-09-17/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "slot": 1,
+    "type": "seasonal",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m196187"
+    ],
+    "images": [
+      "out/ani/2026-09-18/01.jpg",
+      "out/ani/2026-09-18/02.jpg",
+      "out/ani/2026-09-18/03.jpg",
+      "out/ani/2026-09-18/04.jpg"
+    ]
   }
 ]

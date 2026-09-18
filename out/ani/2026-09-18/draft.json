@@ -1,0 +1,60 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-09-18",
+    "dateLabel": "2026.09.18",
+    "weekday": 5,
+    "type": "seasonal",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "2026년 여름, 이 작품 하나는 챙기세요",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "어른들의 연애는\n담배 냄새부터 시작된다",
+        "body": "2026년 여름 애니 중\n놓치면 아쉬운 한 작품을\n소개합니다",
+        "subheading": "올여름 이 작품 하나는 꼭 챙기세요",
+        "imageKey": "m196187"
+      },
+      {
+        "kind": "item",
+        "heading": "Smoking Behind the Supermarket with You",
+        "body": "슈퍼마켓 뒤 흡연 구역에서\n마주친 두 사람의 이야기\nAsahi Production 제작, 전 12부작",
+        "meta": "TV 12부작 · Asahi Production · 평점 82",
+        "imageKey": "m196187"
+      },
+      {
+        "kind": "item",
+        "heading": "관전 포인트",
+        "body": "코미디, 로맨스, 일상이\n한 화면에 자연스럽게 섞여요\n담배 한 대 태우는 시간처럼\n느슨하고 편안한 리듬이 매력입니다",
+        "badge": "관전 포인트",
+        "imageKey": "m196187"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n방영일에 다시 보세요",
+        "body": "이번 시즌 신작 정보\n놓치기 아까우면 팔로우로\n다음 소개도 받아보세요"
+      }
+    ],
+    "caption": "슈퍼 뒤 흡연 구역에서 시작되는 이 어른스러운 로맨스, 이번 여름 신작 중 눈여겨볼 이유가 있습니다.\nAsahi Production이 만드는 전 12부작, 코미디와 로맨스와 일상이 느슨하게 섞여 있는 분위기가 특징이에요.\n\n다룬 작품\n- Smoking Behind the Supermarket with You\n\n저장해두고 방영 시작하면 다시 확인해보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#2026년여름애니",
+      "#여름신작",
+      "#스마이니",
+      "#SmokingBehindTheSupermarketWithYou",
+      "#애니추천",
+      "#일상애니",
+      "#로맨스애니",
+      "#코미디애니",
+      "#애니덕후",
+      "#신작애니",
+      "#여름애니",
+      "#애니정보",
+      "#애니뉴스",
+      "#애니메이션추천"
+    ]
+  }
+}
