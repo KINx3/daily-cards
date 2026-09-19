@@ -920,5 +920,28 @@
       "out/tech/2026-09-18/04.jpg",
       "out/tech/2026-09-18/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-19",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:browser-use/jev-ultrafast",
+      "gh:eternity4719/HowToLiveBetter",
+      "gh:tamaratran/fast-jev-compaction",
+      "gh:Human-Agent-Society/reef",
+      "gh:yang0/handraw-style"
+    ],
+    "images": [
+      "out/tech/2026-09-19/01.jpg",
+      "out/tech/2026-09-19/02.jpg",
+      "out/tech/2026-09-19/03.jpg",
+      "out/tech/2026-09-19/04.jpg",
+      "out/tech/2026-09-19/05.jpg",
+      "out/tech/2026-09-19/06.jpg",
+      "out/tech/2026-09-19/07.jpg"
+    ]
   }
 ]

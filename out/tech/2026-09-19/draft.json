@@ -1,0 +1,77 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-19",
+    "dateLabel": "2026.09.19",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "별 수천 개 받은 깃허브 프로젝트\n5개를 골라봤어요",
+        "subheading": "이번 주 화제의 GitHub 리포 5선"
+      },
+      {
+        "kind": "item",
+        "heading": "jev-ultrafast",
+        "body": "자연어로 목표만 주면\n브라우저를 자동 조작하는 에이전트예요.\n취리히→런던 항공권 검색을\n7초대에 끝내는 속도가 화제입니다.",
+        "subheading": "browser-use/jev-ultrafast",
+        "meta": "Python · ★6851"
+      },
+      {
+        "kind": "item",
+        "heading": "HowToLiveBetter",
+        "body": "건강·돈·법률·연애·창업까지\n544개 항목을 근거와 함께 정리한\n실용 가이드 모음이에요.\n논문·공문서만 인용한 게 특징입니다.",
+        "subheading": "eternity4719/HowToLiveBetter",
+        "meta": "HTML · ★5622"
+      },
+      {
+        "kind": "item",
+        "heading": "fast-jev-compaction",
+        "body": "AI 코딩툴 Claude Code의 컨텍스트를\n요약 대신 점수로 골라내는 플러그인이에요.\n중요한 파일 경로나 에러 로그가\n요약 과정에서 사라지는 걸 막아줍니다.",
+        "subheading": "tamaratran/fast-jev-compaction",
+        "meta": "TypeScript · ★3809"
+      },
+      {
+        "kind": "item",
+        "heading": "reef",
+        "body": "에이전트가 대화하면서\n스스로 배우고 성장하게 만드는\n오픈소스 인프라예요.\n모델 학습부터 프롬프트 개선까지 이어줍니다.",
+        "subheading": "Human-Agent-Society/reef",
+        "meta": "Python · ★3633"
+      },
+      {
+        "kind": "item",
+        "heading": "handraw-style",
+        "body": "274가지 손그림 스타일을\n번호로 골라 바로 쓸 수 있는\n한중 이중언어 프롬프트 모음이에요.\n그림 스타일 표현이 막막할 때 유용합니다.",
+        "subheading": "yang0/handraw-style",
+        "meta": "HTML · ★2467"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음 주말엔\n뭘 만들어볼까요",
+        "body": "저장해두고 주말 프로젝트\n아이디어 필요할 때 다시 보세요.\n다음에도 재밌는 리포 모아올게요."
+      }
+    ],
+    "caption": "주말마다 깃허브에 올라오는 프로젝트들, 다 보기엔 너무 많죠.\n이번 주 별 수천 개 받은 리포 5개를 추려봤어요.\n\n- 7초 만에 항공권 검색 끝내는 브라우저 에이전트\n- 544개 항목짜리 근거 기반 생활 가이드\n- 코딩 AI 컨텍스트를 통째로 지우지 않고 골라내는 플러그인\n- 스스로 배우는 에이전트 인프라\n- 274가지 손그림 스타일 프롬프트 모음\n\n저장해두고 주말에 뭐 만들지 고민될 때 다시 꺼내보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#GitHub",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#클로드코드",
+      "#브라우저자동화",
+      "#개발자프로젝트",
+      "#주말코딩",
+      "#테크뉴스",
+      "#AI개발"
+    ]
+  }
+}
