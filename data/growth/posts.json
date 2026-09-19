@@ -760,5 +760,23 @@
       "out/growth/2026-09-18/03.jpg",
       "out/growth/2026-09-18/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-19",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-peak"
+    ],
+    "images": [
+      "out/growth/2026-09-19/01.jpg",
+      "out/growth/2026-09-19/02.jpg",
+      "out/growth/2026-09-19/03.jpg",
+      "out/growth/2026-09-19/04.jpg",
+      "out/growth/2026-09-19/05.jpg",
+      "out/growth/2026-09-19/06.jpg"
+    ]
   }
 ]
