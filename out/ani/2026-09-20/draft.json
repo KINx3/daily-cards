@@ -1,0 +1,63 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-09-20",
+    "dateLabel": "2026.09.20",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] schedule 2026-09-20",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "NEXT WEEK",
+        "heading": "다음 주\n방영 일정",
+        "subheading": "인기작 기준",
+        "body": "다음 주 방영작을\n요일별로 정리했습니다."
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "subheading": "9. 21.",
+        "body": "Love Unseen Beneath the  12화\nSkeleton Knight in Anoth 12화\nOh Boy, Was I Wrong Abou 12화"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "subheading": "9. 22.",
+        "body": "Grand Blue Dreaming Seas 12화\nLIAR GAME 25화\nI Want to Love You Till  12화"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "subheading": "9. 23.",
+        "body": "Clevatess Season 2 12화\nSaga of Tanya the Evil S 12화\nRe:ZERO -Starting Life i 18화\nTrapped in a Dating Sim: 12화"
+      },
+      {
+        "kind": "schedule",
+        "heading": "목요일",
+        "subheading": "9. 24.",
+        "body": "Smoking Behind the Super 12화"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] schedule 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
