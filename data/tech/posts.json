@@ -943,5 +943,21 @@
       "out/tech/2026-09-19/06.jpg",
       "out/tech/2026-09-19/07.jpg"
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-woods"
+    ],
+    "images": [
+      "out/tech/2026-09-20/01.jpg",
+      "out/tech/2026-09-20/02.jpg",
+      "out/tech/2026-09-20/03.jpg",
+      "out/tech/2026-09-20/04.jpg"
+    ]
   }
 ]
