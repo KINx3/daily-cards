@@ -1,0 +1,68 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-22",
+    "dateLabel": "2026.09.22",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것 5가지",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "AI가 글을 안 쓰고도\n결정을 내릴 수 있을까",
+        "body": "채팅 없이, 생성 없이\n0.03초 안에 답만 내놓는 모델\n요즘 깃허브에서 뜨는 이유",
+        "subheading": "이번 주 스타 급상승 리포 4개 정리"
+      },
+      {
+        "kind": "item",
+        "heading": "laya",
+        "body": "100개 넘는 언어로 된 질문에\n글자 하나 안 쓰고 답만 골라주는 모델.\n선택형·점수형 판단을 33ms에 끝냅니다.",
+        "subheading": "NandhaKishorM/laya",
+        "meta": "Python · ★8602"
+      },
+      {
+        "kind": "item",
+        "heading": "ZCode",
+        "body": "Z.ai가 만든 AI 코딩 에이전트 도구.\n데스크톱 앱, 브라우저, 터미널까지\n한 세트로 코드를 짜고 실행합니다.",
+        "subheading": "zai-org/ZCode",
+        "meta": "TypeScript · ★5316"
+      },
+      {
+        "kind": "item",
+        "heading": "Compositor",
+        "body": "포토샵값이 아까워서 만든\n맥용 무료 이미지 편집기.\n합성·후보정 작업에 맞춰져 있어요.",
+        "subheading": "robbietilton/Compositor",
+        "meta": "Swift · ★4229"
+      },
+      {
+        "kind": "item",
+        "heading": "laya-mlx",
+        "body": "laya 모델을 애플 실리콘에서\n직접 돌리는 런타임.\n클라우드 API도 파이토치도 없이\nM3 맥에서 7~14ms에 답이 나옵니다.",
+        "subheading": "mizorewww/laya-mlx",
+        "meta": "Python · ★3101"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음엔 뭘 만들지\n고민될 때",
+        "body": "이 리스트 저장해두고\n주말 프로젝트 고를 때 다시 꺼내보세요.\n다음 주에도 새 리포 모아올게요."
+      }
+    ],
+    "caption": "채팅창에 뭘 쓰지도 않았는데 0.03초 만에 판단이 끝나는 모델이 있다면 믿기시나요.\n이번 주 깃허브에서 스타가 몰린 리포 4개를 살펴봤습니다. 텍스트 생성 없이 판단만 하는 모델부터, 코딩 에이전트, 무료 포토샵 대안, 애플 실리콘 전용 런타임까지 방향이 다 다릅니다.\n\n- laya : 100개 언어로 판단만 내리는 초경량 모델\n- ZCode : Z.ai의 AI 코딩 에이전트 워크스페이스\n- Compositor : 맥용 무료 오픈소스 포토샵 대안\n- laya-mlx : laya를 애플 실리콘에서 직접 돌리는 런타임\n\n주말 프로젝트 아이디어 필요할 때 저장해두고 다시 꺼내보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#AI모델",
+      "#사이드프로젝트",
+      "#코딩에이전트",
+      "#애플실리콘",
+      "#개발자성장",
+      "#깃허브트렌딩",
+      "#테크뉴스"
+    ]
+  }
+}
