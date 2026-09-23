@@ -1,0 +1,76 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-23",
+    "dateLabel": "2026.09.23",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "하루 만에 갈아엎힌 AI 지형",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "하루 만에 뒤집힌\nAI 모델 순위",
+        "body": "오늘 하루에만\n큰 발표가 다섯 건.\n무슨 일이 있었는지 정리했어요.",
+        "subheading": "오늘 쏟아진 AI 소식 5가지 정리",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "오픈AI, 새 모델\n두 개를 동시에 공개",
+        "body": "오픈AI가 Sol과 Luna,\n두 모델을 새로 냈어요.\n비용은 낮추고 실수는 줄였대요.",
+        "badge": "NEWS 01",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "앤스로픽, 역대 최고\n성능 모델 공개",
+        "body": "앤스로픽이 Opus 5.5를\n더 낮은 가격에 내놨어요.\n자체 최고 성능이라고 밝혔죠.",
+        "badge": "NEWS 02",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "메타, AI 비서\n표절 의혹 인정",
+        "body": "메타는 Muse를 처음부터\n직접 만들었다고 하면서도,\nOpenClaw 영향을 인정했어요.",
+        "badge": "NEWS 03",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "퀄컴, AI 힘준\n새 스마트폰 칩 공개",
+        "body": "퀄컴이 AI 강화 칩 두 종 발표\n최상위 칩은 300억 파라미터급\nMoE 모델을 폰에서 바로 돌려요",
+        "badge": "NEWS 04",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "AI 학습데이터 스타트업\n몸값 3배 뛰었다",
+        "body": "스노클AI가 시리즈E로\n3억5천만 달러를 유치했어요.\n밸류에이션은 3배인 35억 달러예요.",
+        "badge": "NEWS 05",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘의 AI 소식\n정리 끝",
+        "body": "저장해두고 나중에\n다시 훑어보세요.\n내일 또 새 소식 가져올게요."
+      }
+    ],
+    "caption": "오늘 하루 만에 AI 판이 또 한 번 바뀌었어요.\n오픈AI와 앤스로픽이 나란히 새 모델을 냈고, 메타는 표절 논란에 직접 답했어요. 퀄컴은 폰 안에 AI를 더 밀어넣었고, 데이터 스타트업의 몸값도 세 배 뛰었어요.\n\n오늘 다룬 소식\n- 오픈AI 신규 모델 Sol·Luna\n- 앤스로픽 Opus 5.5\n- 메타 Muse 표절 논란\n- 퀄컴 신규 AI 칩\n- 스노클AI 밸류에이션 급등\n\n저장해두고 필요할 때 다시 꺼내보세요.",
+    "hashtags": [
+      "#AI뉴스",
+      "#인공지능",
+      "#오픈AI",
+      "#앤스로픽",
+      "#메타",
+      "#퀄컴",
+      "#스타트업",
+      "#테크뉴스",
+      "#개발자",
+      "#IT소식"
+    ]
+  }
+}
