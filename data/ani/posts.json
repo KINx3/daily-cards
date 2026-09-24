@@ -875,5 +875,22 @@
       "out/ani/2026-09-23/06.jpg",
       "out/ani/2026-09-23/07.jpg"
     ]
+  },
+  {
+    "date": "2026-09-24",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-mha-allmight",
+      "m21459"
+    ],
+    "images": [
+      "out/ani/2026-09-24/01.jpg",
+      "out/ani/2026-09-24/02.jpg",
+      "out/ani/2026-09-24/03.jpg",
+      "out/ani/2026-09-24/04.jpg"
+    ]
   }
 ]
