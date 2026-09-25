@@ -1030,5 +1030,24 @@
       "out/tech/2026-09-24/04.jpg",
       "out/tech/2026-09-24/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-obsidian",
+      "t-tmux",
+      "t-bruno"
+    ],
+    "images": [
+      "out/tech/2026-09-25/01.jpg",
+      "out/tech/2026-09-25/02.jpg",
+      "out/tech/2026-09-25/03.jpg",
+      "out/tech/2026-09-25/04.jpg",
+      "out/tech/2026-09-25/05.jpg"
+    ]
   }
 ]
