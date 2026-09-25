@@ -847,5 +847,21 @@
       "out/growth/2026-09-24/04.jpg",
       "out/growth/2026-09-24/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-confucius"
+    ],
+    "images": [
+      "out/growth/2026-09-25/01.jpg",
+      "out/growth/2026-09-25/02.jpg",
+      "out/growth/2026-09-25/03.jpg",
+      "out/growth/2026-09-25/04.jpg"
+    ]
   }
 ]
