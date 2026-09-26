@@ -863,5 +863,23 @@
       "out/growth/2026-09-25/03.jpg",
       "out/growth/2026-09-25/04.jpg"
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-deepwork"
+    ],
+    "images": [
+      "out/growth/2026-09-26/01.jpg",
+      "out/growth/2026-09-26/02.jpg",
+      "out/growth/2026-09-26/03.jpg",
+      "out/growth/2026-09-26/04.jpg",
+      "out/growth/2026-09-26/05.jpg",
+      "out/growth/2026-09-26/06.jpg"
+    ]
   }
 ]
