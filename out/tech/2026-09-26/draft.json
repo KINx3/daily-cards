@@ -1,0 +1,70 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-09-26",
+    "dateLabel": "2026.09.26",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "주말 코딩러들이 만든 화제의 리포 4선",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "깃허브에 조용히 올라온\n스타 급상승 프로젝트들",
+        "subheading": "이번 주 눈에 띈 리포 4개 모아봤어요"
+      },
+      {
+        "kind": "item",
+        "heading": "kev",
+        "body": "작은 크기의 의사결정 모델이에요.\nQwen 계열 모델 위에 올려서\n직접 학습·구동할 수 있어요.",
+        "subheading": "jaredpalmer/kev",
+        "meta": "Python · ★7135"
+      },
+      {
+        "kind": "item",
+        "heading": "jev-chat-jarvis",
+        "body": "QQ·X·페이슈 같은 채팅앱에서\n상대 메시지를 읽고 답변 초안을\n입력창에 채워주는 도구예요.",
+        "subheading": "jev-chat/jev-chat-jarvis",
+        "meta": "Kotlin · ★6626"
+      },
+      {
+        "kind": "item",
+        "heading": "SemIf-OpenJev",
+        "body": "오픈소스 모델로 조건 판단 로직을\n재현한 개인 연구 프로젝트예요.\n집에 있는 3090 한 대로 돌려요.",
+        "subheading": "TheoLeeCJ/SemIf-OpenJev",
+        "meta": "Python · ★4364"
+      },
+      {
+        "kind": "item",
+        "heading": "AirCard",
+        "body": "탈옥 없이 iOS 18 이상에서\n애플 월렛 카드 디자인과\n잠금화면 테마를 바꿔주는 툴이에요.",
+        "subheading": "Mak5er/AirCard",
+        "meta": "Swift · ★4288"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n주말에 하나씩 열어보세요",
+        "body": "네 개 다 지금 스타가 오르는 중이에요.\n나중에 시간 날 때 다시 찾아보게\n저장 한 번 눌러두세요."
+      }
+    ],
+    "caption": "주말에 개발자들이 뭘 만드는지 궁금해서 스타 급상승 리포를 살펴봤어요.\n작은 의사결정 모델부터 채팅 답변 보조, 로컬 연구 프로젝트, 아이폰 커스텀 툴까지 결이 다 달라요.\n이번에 다룬 리포는\n- kev\n- jev-chat-jarvis\n- SemIf-OpenJev\n- AirCard\n저장해두고 나중에 하나씩 열어보세요.",
+    "hashtags": [
+      "#깃허브",
+      "#오픈소스",
+      "#개발자",
+      "#사이드프로젝트",
+      "#Python",
+      "#Kotlin",
+      "#Swift",
+      "#LLM",
+      "#AI모델",
+      "#iOS개발",
+      "#개발트렌드",
+      "#GitHubTrending"
+    ]
+  }
+}

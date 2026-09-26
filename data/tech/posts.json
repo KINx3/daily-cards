@@ -1049,5 +1049,26 @@
       "out/tech/2026-09-25/04.jpg",
       "out/tech/2026-09-25/05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:jaredpalmer/kev",
+      "gh:jev-chat/jev-chat-jarvis",
+      "gh:TheoLeeCJ/SemIf-OpenJev",
+      "gh:Mak5er/AirCard"
+    ],
+    "images": [
+      "out/tech/2026-09-26/01.jpg",
+      "out/tech/2026-09-26/02.jpg",
+      "out/tech/2026-09-26/03.jpg",
+      "out/tech/2026-09-26/04.jpg",
+      "out/tech/2026-09-26/05.jpg",
+      "out/tech/2026-09-26/06.jpg"
+    ]
   }
 ]

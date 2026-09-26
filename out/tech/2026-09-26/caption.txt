@@ -1,0 +1,12 @@
+주말에 개발자들이 뭘 만드는지 궁금해서 스타 급상승 리포를 살펴봤어요.
+작은 의사결정 모델부터 채팅 답변 보조, 로컬 연구 프로젝트, 아이폰 커스텀 툴까지 결이 다 달라요.
+이번에 다룬 리포는
+- kev
+- jev-chat-jarvis
+- SemIf-OpenJev
+- AirCard
+저장해두고 나중에 하나씩 열어보세요.
+
+출처: Hacker News · GitHub · 각 기사 원문 (캡션 표기)
+
+#깃허브 #오픈소스 #개발자 #사이드프로젝트 #Python #Kotlin #Swift #LLM #AI모델 #iOS개발 #개발트렌드 #GitHubTrending
