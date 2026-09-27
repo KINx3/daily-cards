@@ -1,0 +1,75 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-09-27",
+    "dateLabel": "2026.09.27",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 애니 방영 스케줄",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주\n뭐부터 볼지 고민이라면",
+        "body": "화요일부터 토요일까지\n방영작 총정리",
+        "subheading": "요일별로 정리한 신작 라인업"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "라이어 게임 26화\nI Want to Love You Till Your Dying Day 13화",
+        "subheading": "9월 29일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "클레바테스 시즌2 13화\nRe:제로부터 시작하는 이세계 생활 시즌4 19화",
+        "subheading": "9월 30일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "목요일",
+        "body": "전생했더니 검이었습니다 시즌2 1화\nTomb Raider King 12화",
+        "subheading": "10월 1일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "금요일",
+        "body": "The Exiled Heavy Knight Knows How to Game the System 14화\n죠죠의 기묘한 모험 스틸 볼 런 2화\n약사의 혼잣말 시즌3 1화\nThe Elusive Samurai 시즌2 12화",
+        "subheading": "10월 2일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "토요일",
+        "body": "책벌레의 하극상: 어느 대공의 양녀 24화\n명탐정 코난 1215화",
+        "subheading": "10월 3일"
+      },
+      {
+        "kind": "outro",
+        "heading": "이번 주도\n놓치지 말고 챙겨보기",
+        "body": "저장해두고 요일별로\n하나씩 확인해보세요\n다음 주 라인업도 곧 공개됩니다"
+      }
+    ],
+    "caption": "이번 주에 뭘 봐야 할지 고민된다면 여기서 끝내세요.\n화요일 라이어 게임부터 토요일 명탐정 코난까지, 5일간의 방영작을 요일별로 정리했습니다.\n금요일엔 신작만 4개, 놓치면 아쉬운 라인업이에요.\n\n화요일 - 라이어 게임, I Want to Love You Till Your Dying Day\n수요일 - 클레바테스 시즌2, Re:제로 시즌4\n목요일 - 전생했더니 검이었습니다 시즌2, Tomb Raider King\n금요일 - The Exiled Heavy Knight Knows How to Game the System, 죠죠의 기묘한 모험 스틸 볼 런, 약사의 혼잣말 시즌3, The Elusive Samurai 시즌2\n토요일 - 책벌레의 하극상: 어느 대공의 양녀, 명탐정 코난\n\n저장해두고 하나씩 챙겨보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#애니추천",
+      "#방영스케줄",
+      "#주간애니",
+      "#애니일정",
+      "#라이어게임",
+      "#리제로",
+      "#전생했더니검이었습니다",
+      "#약사의혼잣말",
+      "#죠죠의기묘한모험",
+      "#책벌레의하극상",
+      "#명탐정코난",
+      "#애니메이션추천",
+      "#이번주애니",
+      "#가을신작애니"
+    ]
+  }
+}
