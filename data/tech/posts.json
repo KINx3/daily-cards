@@ -1070,5 +1070,21 @@
       "out/tech/2026-09-26/05.jpg",
       "out/tech/2026-09-26/06.jpg"
     ]
+  },
+  {
+    "date": "2026-09-27",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-mckinley"
+    ],
+    "images": [
+      "out/tech/2026-09-27/01.jpg",
+      "out/tech/2026-09-27/02.jpg",
+      "out/tech/2026-09-27/03.jpg",
+      "out/tech/2026-09-27/04.jpg"
+    ]
   }
 ]
