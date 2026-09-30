@@ -995,5 +995,22 @@
       "out/ani/2026-09-30/06.jpg",
       "out/ani/2026-09-30/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-howl",
+      "m431"
+    ],
+    "images": [
+      "out/ani/2026-10-01/01.jpg",
+      "out/ani/2026-10-01/02.jpg",
+      "out/ani/2026-10-01/03.jpg",
+      "out/ani/2026-10-01/04.jpg"
+    ]
   }
 ]
