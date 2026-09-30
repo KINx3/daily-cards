@@ -1119,5 +1119,22 @@
       "out/tech/2026-09-30/06.jpg",
       "out/tech/2026-09-30/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "slot": 1,
+    "type": "concept",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "c-websocket"
+    ],
+    "images": [
+      "out/tech/2026-10-01/01.jpg",
+      "out/tech/2026-10-01/02.jpg",
+      "out/tech/2026-10-01/03.jpg",
+      "out/tech/2026-10-01/04.jpg",
+      "out/tech/2026-10-01/05.jpg"
+    ]
   }
 ]
