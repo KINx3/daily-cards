@@ -1012,5 +1012,30 @@
       "out/ani/2026-10-01/03.jpg",
       "out/ani/2026-10-01/04.jpg"
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "slot": 1,
+    "type": "seasonal",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m195516",
+      "m195539",
+      "m195604",
+      "m159042",
+      "m189123",
+      "m210482"
+    ],
+    "images": [
+      "out/ani/2026-10-02/01.jpg",
+      "out/ani/2026-10-02/02.jpg",
+      "out/ani/2026-10-02/03.jpg",
+      "out/ani/2026-10-02/04.jpg",
+      "out/ani/2026-10-02/05.jpg",
+      "out/ani/2026-10-02/06.jpg",
+      "out/ani/2026-10-02/07.jpg",
+      "out/ani/2026-10-02/08.jpg"
+    ]
   }
 ]
