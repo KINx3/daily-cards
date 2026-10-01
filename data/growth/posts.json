@@ -950,5 +950,21 @@
       "out/growth/2026-10-01/04.jpg",
       "out/growth/2026-10-01/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-murakami"
+    ],
+    "images": [
+      "out/growth/2026-10-02/01.jpg",
+      "out/growth/2026-10-02/02.jpg",
+      "out/growth/2026-10-02/03.jpg",
+      "out/growth/2026-10-02/04.jpg"
+    ]
   }
 ]
