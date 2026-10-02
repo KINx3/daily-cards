@@ -966,5 +966,23 @@
       "out/growth/2026-10-02/03.jpg",
       "out/growth/2026-10-02/04.jpg"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-money-psych"
+    ],
+    "images": [
+      "out/growth/2026-10-03/01.jpg",
+      "out/growth/2026-10-03/02.jpg",
+      "out/growth/2026-10-03/03.jpg",
+      "out/growth/2026-10-03/04.jpg",
+      "out/growth/2026-10-03/05.jpg",
+      "out/growth/2026-10-03/06.jpg"
+    ]
   }
 ]
