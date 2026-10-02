@@ -1155,5 +1155,24 @@
       "out/tech/2026-10-02/04.jpg",
       "out/tech/2026-10-02/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:cdyforever/how-to-live-better",
+      "gh:Niko1221/Strata",
+      "gh:KKKKhazix/AIHOT"
+    ],
+    "images": [
+      "out/tech/2026-10-03/01.jpg",
+      "out/tech/2026-10-03/02.jpg",
+      "out/tech/2026-10-03/03.jpg",
+      "out/tech/2026-10-03/04.jpg",
+      "out/tech/2026-10-03/05.jpg"
+    ]
   }
 ]

@@ -1,0 +1,63 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-10-03",
+    "dateLabel": "2026.10.03",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "혼자 만든 사이드 프로젝트가\n수천 개의 별을 받았습니다.\n어떤 걸 만들었는지 궁금하지 않나요.",
+        "subheading": "깃허브 급상승 리포 3개, 2분 요약"
+      },
+      {
+        "kind": "item",
+        "heading": "how-to-live-better",
+        "body": "528개 인생 조언을 담은 책을\n폰에서 바로 읽게 만든 페이지.\n인터넷 없이도, 검색하면서 읽혀요.",
+        "subheading": "cdyforever/how-to-live-better",
+        "meta": "HTML · ★6,318"
+      },
+      {
+        "kind": "item",
+        "heading": "Strata",
+        "body": "서버에서나 돌아가던 큰 AI 모델을\n내 PC(GPU 12GB 이상)에서 돌리는 엔진.\n대화·코딩·이미지까지, 데이터는 밖으로 안 나가요.",
+        "subheading": "Niko1221/Strata",
+        "meta": "C++ · ★5,667"
+      },
+      {
+        "kind": "item",
+        "heading": "AIHOT",
+        "body": "AI가 매일 자료를 모아 걸러내고\n내 업계 맞춤 일간 뉴스를 써주는 틀.\n소스랑 기준만 바꾸면 내 업계 핫이슈 사이트가 돼요.",
+        "subheading": "KKKKhazix/AIHOT",
+        "meta": "TypeScript · ★4,922"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음에 또 뭐가 뜰까",
+        "body": "주말에 뭐 만들지 고민될 때\n저장해두고 다시 꺼내보세요.\n다음 급상승 리포도 들고 올게요."
+      }
+    ],
+    "caption": "별이 수천 개씩 붙는 사이드 프로젝트, 보면 다 이유가 있습니다.\n이번 주 깃허브에서 눈에 띈 리포 3개 정리했어요.\n거창한 서비스가 아니라, 각자 필요해서 만든 것들이라 더 재밌습니다.\n\n· how-to-live-better — 책 한 권을 오프라인 HTML 페이지로\n· Strata — 내 PC에서 큰 AI 모델 돌리는 엔진\n· AIHOT — AI가 대신 써주는 업계 맞춤 일간지\n\n주말 프로젝트 아이디어 필요할 때 저장해두고 다시 보세요.",
+    "hashtags": [
+      "#깃허브",
+      "#github",
+      "#사이드프로젝트",
+      "#오픈소스",
+      "#개발자",
+      "#AI모델",
+      "#로컬LLM",
+      "#뉴스레터자동화",
+      "#개발자스택",
+      "#주말코딩",
+      "#devtools",
+      "#opensource"
+    ]
+  }
+}
