@@ -1174,5 +1174,21 @@
       "out/tech/2026-10-03/04.jpg",
       "out/tech/2026-10-03/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-torvalds-taste"
+    ],
+    "images": [
+      "out/tech/2026-10-04/01.jpg",
+      "out/tech/2026-10-04/02.jpg",
+      "out/tech/2026-10-04/03.jpg",
+      "out/tech/2026-10-04/04.jpg"
+    ]
   }
 ]
