@@ -1001,5 +1001,23 @@
       "out/growth/2026-10-04/04.jpg",
       "out/growth/2026-10-04/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-06",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-carnegie"
+    ],
+    "images": [
+      "out/growth/2026-10-06/01.jpg",
+      "out/growth/2026-10-06/02.jpg",
+      "out/growth/2026-10-06/03.jpg",
+      "out/growth/2026-10-06/04.jpg",
+      "out/growth/2026-10-06/05.jpg",
+      "out/growth/2026-10-06/06.jpg"
+    ]
   }
 ]
