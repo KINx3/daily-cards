@@ -1019,5 +1019,22 @@
       "out/growth/2026-10-06/05.jpg",
       "out/growth/2026-10-06/06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-stacking"
+    ],
+    "images": [
+      "out/growth/2026-10-07/01.jpg",
+      "out/growth/2026-10-07/02.jpg",
+      "out/growth/2026-10-07/03.jpg",
+      "out/growth/2026-10-07/04.jpg",
+      "out/growth/2026-10-07/05.jpg"
+    ]
   }
 ]
