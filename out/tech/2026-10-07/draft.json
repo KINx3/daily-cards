@@ -1,0 +1,76 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-10-07",
+    "dateLabel": "2026.10.07",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "오늘의 AI 뉴스 5",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "오픈AI가 조용히\n바꾼 한 가지",
+        "body": "유럽에서 챗GPT 답변에\n보이지 않는 표시가 생겼습니다.\n오늘자 AI 소식 5개를 정리했어요.",
+        "subheading": "오늘 AI 업계에서 벌어진 일, 5분 요약",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "챗GPT 답변에\n워터마크가 생긴다",
+        "body": "오픈AI가 EU AI법 준수를 위해\n챗GPT·코덱스 출력에 워터마크를 넣기로 했습니다.\n수정하면 표시가 흐려질 수 있다고 밝혔어요.",
+        "badge": "NEWS 01",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "미스트랄,\n1조 파라미터 모델 공개",
+        "body": "프랑스 AI랩 미스트랄이\n대형 멀티모달 모델 Large 4를 내놨습니다.\n미국·중국 경쟁 모델을 넘어서려는 시도예요.",
+        "badge": "NEWS 02",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "중국 모델 겨냥한\n오픈웨이트 모델 등장",
+        "body": "리플렉션이 Beam을 공개했습니다.\n기업과 국가가 자체 데이터로\n학습시켜 쓰는 'AI 팩토리'를 노립니다.",
+        "badge": "NEWS 03",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "리브레오피스,\n\"AI 없음\"을 기능으로",
+        "body": "오픈소스 문서 편집기 리브레오피스가\n기본 설정에 AI를 넣지 않겠다고 밝혔습니다.\n이유는 사용자 프라이버시예요.",
+        "badge": "NEWS 04",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "heading": "중국발\n'AI 에이전트 무리' 포착",
+        "body": "연구자들이 텐센트 인프라에서 움직이는\nAI 에이전트 무리를 발견했습니다.\n알리바바 지도 서비스 아맵을 대상으로 했다고 해요.",
+        "badge": "NEWS 05",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "오늘 뉴스,\n저장해두고 다시 보기",
+        "body": "워터마크, 오픈웨이트, 프라이버시.\n오늘 하루에 담긴 흐름을\n필요할 때 다시 꺼내보세요.\n내일도 정리해서 가져올게요."
+      }
+    ],
+    "caption": "챗GPT 답변에 표시가 생겼다는 거, 알고 계셨나요.\n오늘 AI 업계에서 눈여겨볼 소식 5가지를 모아봤습니다.\n워터마크 규제부터 오픈웨이트 모델 경쟁, 프라이버시를 내세운 소프트웨어까지 — 방향이 꽤 다양하게 갈리고 있어요.\n\n다룬 소식\n- 챗GPT EU 워터마크 도입\n- 미스트랄 Large 4 공개\n- 리플렉션 Beam 오픈웨이트 모델\n- 리브레오피스 'No AI' 방침\n- 중국발 AI 에이전트 무리 포착\n\n저장해두고 하나씩 찾아보세요. 매일 정리해서 올립니다.",
+    "hashtags": [
+      "#AI뉴스",
+      "#챗GPT",
+      "#오픈AI",
+      "#미스트랄",
+      "#오픈소스AI",
+      "#AI업계",
+      "#개발자뉴스",
+      "#테크뉴스",
+      "#AI트렌드",
+      "#인공지능"
+    ]
+  }
+}
