@@ -1124,5 +1124,22 @@
       "out/ani/2026-10-07/06.jpg",
       "out/ani/2026-10-07/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-spy-loid",
+      "m140960"
+    ],
+    "images": [
+      "out/ani/2026-10-08/01.jpg",
+      "out/ani/2026-10-08/02.jpg",
+      "out/ani/2026-10-08/03.jpg",
+      "out/ani/2026-10-08/04.jpg"
+    ]
   }
 ]
