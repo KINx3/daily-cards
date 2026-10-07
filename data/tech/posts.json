@@ -1223,5 +1223,24 @@
       "out/tech/2026-10-07/06.jpg",
       "out/tech/2026-10-07/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "slot": 1,
+    "type": "concept",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "c-serverless"
+    ],
+    "images": [
+      "out/tech/2026-10-08/01.jpg",
+      "out/tech/2026-10-08/02.jpg",
+      "out/tech/2026-10-08/03.jpg",
+      "out/tech/2026-10-08/04.jpg",
+      "out/tech/2026-10-08/05.jpg",
+      "out/tech/2026-10-08/06.jpg",
+      "out/tech/2026-10-08/07.jpg"
+    ]
   }
 ]
