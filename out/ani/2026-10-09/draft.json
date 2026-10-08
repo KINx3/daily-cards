@@ -1,0 +1,55 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-09",
+    "dateLabel": "2026.10.09",
+    "weekday": 5,
+    "type": "seasonal",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 가을, 도쿄리벤저스가 돌아온다",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "과거로 돌아가\n다 바꿀 수 있다면",
+        "body": "이번 분기, 이거 하나는\n봐야 한다",
+        "subheading": "도쿄리벤저스 신작 시즌 정보 담았습니다",
+        "imageKey": "m178083"
+      },
+      {
+        "kind": "item",
+        "heading": "Tokyo Revengers: War of the Three Titans Arc",
+        "body": "2026년 가을 방영\n전체 13화\n리덴필름 제작",
+        "meta": "TV 13화 · LIDENFILMS · 평점 76",
+        "imageKey": "m178083"
+      },
+      {
+        "kind": "item",
+        "heading": "왜 봐야 하냐면",
+        "body": "시간을 되돌려 미래를 바꾸는\n이야기가 이번엔 새로운 국면으로\n갑니다",
+        "badge": "관전 포인트",
+        "imageKey": "m178083"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n방영일 체크하세요",
+        "body": "가을 신작 쏟아지기 전에\n미리 저장해두면 편해요\n다음 작품도 이어서 올립니다"
+      }
+    ],
+    "caption": "이번 가을, 다시 과거로 돌아갈 시간입니다.\n도쿄리벤저스 신작 소식 가져왔어요.\n\n- Tokyo Revengers: War of the Three Titans Arc\n- 2026년 가을 방영, 전체 13화\n- 제작 LIDENFILMS\n\n저장해두고 방영일 다가오면 다시 확인하세요.",
+    "hashtags": [
+      "#도쿄리벤저스",
+      "#TokyoRevengers",
+      "#애니메이션",
+      "#가을애니",
+      "#2026가을애니",
+      "#신작애니",
+      "#애니추천",
+      "#애니정보",
+      "#LIDENFILMS",
+      "#애니메이션추천"
+    ]
+  }
+}
