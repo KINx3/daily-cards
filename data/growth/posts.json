@@ -1053,5 +1053,21 @@
       "out/growth/2026-10-08/04.jpg",
       "out/growth/2026-10-08/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-frankl"
+    ],
+    "images": [
+      "out/growth/2026-10-09/01.jpg",
+      "out/growth/2026-10-09/02.jpg",
+      "out/growth/2026-10-09/03.jpg",
+      "out/growth/2026-10-09/04.jpg"
+    ]
   }
 ]
