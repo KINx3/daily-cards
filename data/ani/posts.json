@@ -1157,5 +1157,24 @@
       "out/ani/2026-10-09/03.jpg",
       "out/ani/2026-10-09/04.jpg"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "slot": 1,
+    "type": "classic",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m205",
+      "m21507",
+      "m20954"
+    ],
+    "images": [
+      "out/ani/2026-10-10/01.jpg",
+      "out/ani/2026-10-10/02.jpg",
+      "out/ani/2026-10-10/03.jpg",
+      "out/ani/2026-10-10/04.jpg",
+      "out/ani/2026-10-10/05.jpg"
+    ]
   }
 ]
