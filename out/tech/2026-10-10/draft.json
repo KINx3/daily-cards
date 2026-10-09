@@ -1,0 +1,81 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-10-10",
+    "dateLabel": "2026.10.10",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "포토샵도, 라이트룸도\n직접 다시 만들어버렸다",
+        "subheading": "이번 주 깃허브에서 뜬 리포 5개 정리"
+      },
+      {
+        "kind": "item",
+        "heading": "photocraft",
+        "body": "포토샵을 러스트로\n처음부터 새로 짠 오픈소스 앱.\n레이어·마스크·PSD까지 그대로 됩니다",
+        "subheading": "storytold/photocraft",
+        "meta": "Rust · ★32,930"
+      },
+      {
+        "kind": "item",
+        "heading": "math",
+        "body": "오픈AI 내부 모델이 푼\n수학 난제 풀이와 증명 모음.\n일부는 린(Lean) 검증까지 거쳤어요",
+        "subheading": "openai/math",
+        "meta": "Lean · ★12,898"
+      },
+      {
+        "kind": "item",
+        "heading": "DiPlay",
+        "body": "BYD 차량 안드로이드 헤드유닛에서\n카플레이를 쓰게 해주는 앱.\n탈옥·동글 없이 설치만 하면 끝",
+        "subheading": "shihabal3amri/DiPlay",
+        "meta": "Kotlin · ★8,117"
+      },
+      {
+        "kind": "item",
+        "heading": "magpie",
+        "body": "클로드 코드로 딥시크 쓰고\nCodex로 GLM 쓰고.\n메뉴바 하나로 AI 모델 다 갈아끼우는 게이트웨이",
+        "subheading": "yetone/magpie",
+        "meta": "Go · ★7,376"
+      },
+      {
+        "kind": "item",
+        "heading": "lightcraft",
+        "body": "라이트룸을 러스트로 다시 만든 앱.\n맥·윈도우·리눅스에 브라우저까지\n원본 안 건드리는 비파괴 편집",
+        "subheading": "storytold/lightcraft",
+        "meta": "Rust · ★7,138"
+      },
+      {
+        "kind": "outro",
+        "heading": "이 리스트, 지금 저장해두세요",
+        "body": "나중에 \"그 앱 이름이 뭐였더라\" 할 때\n여기로 다시 돌아오면 됩니다",
+        "subheading": ""
+      }
+    ],
+    "caption": "포토샵이랑 라이트롬, 누가 러스트로 통째로 다시 만들어 버렸습니다.\n이번 주 깃허브 트렌딩에 올라온 리포 5개를 정리했어요.\n어도비 대체 에디터부터 AI 모델 게이트웨이, 수학 난제 풀이 아카이브까지 결이 다 다릅니다.\n\n- photocraft : 러스트로 짠 포토샵 클론\n- math : 오픈AI가 공개한 수학 증명 모음\n- DiPlay : BYD 차량용 카플레이 리시버\n- magpie : 여러 AI 에이전트 모델을 한 곳에서 돌리는 게이트웨이\n- lightcraft : 러스트로 짠 라이트룸 클론\n\n나중에 다시 찾아볼 거면 지금 저장해두세요.",
+    "hashtags": [
+      "#깃허브",
+      "#github",
+      "#오픈소스",
+      "#개발자",
+      "#사이드프로젝트",
+      "#러스트",
+      "#rust",
+      "#포토샵",
+      "#라이트룸",
+      "#AI",
+      "#LLM",
+      "#개발자스택",
+      "#트렌딩리포",
+      "#코딩",
+      "#프로그래밍"
+    ]
+  }
+}

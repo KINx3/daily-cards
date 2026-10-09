@@ -1261,5 +1261,28 @@
       "out/tech/2026-10-09/04.jpg",
       "out/tech/2026-10-09/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:storytold/photocraft",
+      "gh:openai/math",
+      "gh:shihabal3amri/DiPlay",
+      "gh:yetone/magpie",
+      "gh:storytold/lightcraft"
+    ],
+    "images": [
+      "out/tech/2026-10-10/01.jpg",
+      "out/tech/2026-10-10/02.jpg",
+      "out/tech/2026-10-10/03.jpg",
+      "out/tech/2026-10-10/04.jpg",
+      "out/tech/2026-10-10/05.jpg",
+      "out/tech/2026-10-10/06.jpg",
+      "out/tech/2026-10-10/07.jpg"
+    ]
   }
 ]
