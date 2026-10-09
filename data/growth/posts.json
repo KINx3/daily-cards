@@ -1069,5 +1069,23 @@
       "out/growth/2026-10-09/03.jpg",
       "out/growth/2026-10-09/04.jpg"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-kahneman"
+    ],
+    "images": [
+      "out/growth/2026-10-10/01.jpg",
+      "out/growth/2026-10-10/02.jpg",
+      "out/growth/2026-10-10/03.jpg",
+      "out/growth/2026-10-10/04.jpg",
+      "out/growth/2026-10-10/05.jpg",
+      "out/growth/2026-10-10/06.jpg"
+    ]
   }
 ]
