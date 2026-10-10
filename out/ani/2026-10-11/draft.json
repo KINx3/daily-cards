@@ -1,0 +1,76 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-11",
+    "dateLabel": "2026.10.11",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 애니 방영 스케줄 총정리",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주\n뭐부터 볼지 고민된다면",
+        "body": "월~금 신작·속편 라인업\n한 장으로 정리했습니다",
+        "subheading": "10월 12일~16일 방영 스케줄",
+        "badge": "주간편성표"
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "body": "I'm Dating a Dark Summoner 2화\nHello, I am a Witch and my Crush Wants me to Make a Love Potion! 2화\nPSYREN 2화",
+        "subheading": "10월 12일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "Nia Liston: The Merciless Maiden 2화",
+        "subheading": "10월 13일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life 2화\nThe Detective Is Already Dead Season 2 2화",
+        "subheading": "10월 14일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "목요일",
+        "body": "Reincarnated as a Sword Season 2 3화\nA Returner's Magic Should be Special Season 2 2화\nThe Ramparts of Ice Season 2 3화",
+        "subheading": "10월 15일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "금요일",
+        "body": "Rascal Does Not Dream of a Dear Friend 1화\nThe Exiled Heavy Knight Knows How to Game the System 16화\nLink Click Season 3 11화",
+        "subheading": "10월 16일"
+      },
+      {
+        "kind": "outro",
+        "heading": "저장해두고\n하나씩 챙겨보세요",
+        "body": "매주 바뀌는 편성,\n놓치면 아깝잖아요\n다음 주 스케줄도 올립니다"
+      }
+    ],
+    "caption": "이번 주 금요일, 신작 하나에 속편만 셋입니다.\n월요일부터 금요일까지 챙겨볼 작품들을 요일별로 정리했어요.\n\n월요일 - I'm Dating a Dark Summoner, Hello, I am a Witch and my Crush Wants me to Make a Love Potion!, PSYREN\n화요일 - Nia Liston: The Merciless Maiden\n수요일 - The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life, The Detective Is Already Dead Season 2\n목요일 - Reincarnated as a Sword Season 2, A Returner's Magic Should be Special Season 2, The Ramparts of Ice Season 2\n금요일 - Rascal Does Not Dream of a Dear Friend, The Exiled Heavy Knight Knows How to Game the System, Link Click Season 3\n\n저장해두고 요일마다 체크해보세요.",
+    "hashtags": [
+      "#애니편성표",
+      "#주간애니",
+      "#애니추천",
+      "#신작애니",
+      "#속편애니",
+      "#애니일정",
+      "#월요일애니",
+      "#화요일애니",
+      "#수요일애니",
+      "#목요일애니",
+      "#금요일애니",
+      "#애니메이션",
+      "#애니정보",
+      "#오늘의애니",
+      "#애니스케줄"
+    ]
+  }
+}
