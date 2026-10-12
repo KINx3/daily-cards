@@ -1333,5 +1333,28 @@
       "out/tech/2026-10-12/06.jpg",
       "out/tech/2026-10-12/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:Ebony-Vinyl/dsh-our-free-model",
+      "gh:storytold/filmcraft",
+      "gh:storytold/pdfcraft",
+      "gh:storytold/wordcraft",
+      "gh:storytold/vectorcraft"
+    ],
+    "images": [
+      "out/tech/2026-10-13/01.jpg",
+      "out/tech/2026-10-13/02.jpg",
+      "out/tech/2026-10-13/03.jpg",
+      "out/tech/2026-10-13/04.jpg",
+      "out/tech/2026-10-13/05.jpg",
+      "out/tech/2026-10-13/06.jpg",
+      "out/tech/2026-10-13/07.jpg"
+    ]
   }
 ]
