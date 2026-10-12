@@ -1120,5 +1120,23 @@
       "out/growth/2026-10-12/03.jpg",
       "out/growth/2026-10-12/04.jpg"
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-sayno"
+    ],
+    "images": [
+      "out/growth/2026-10-13/01.jpg",
+      "out/growth/2026-10-13/02.jpg",
+      "out/growth/2026-10-13/03.jpg",
+      "out/growth/2026-10-13/04.jpg",
+      "out/growth/2026-10-13/05.jpg",
+      "out/growth/2026-10-13/06.jpg"
+    ]
   }
 ]
