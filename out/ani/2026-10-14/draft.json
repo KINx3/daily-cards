@@ -1,0 +1,77 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-14",
+    "dateLabel": "2026.10.14",
+    "weekday": 3,
+    "type": "news",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "이번 주 애니메이션 소식 총정리",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "원펀맨, 드디어\n2027년 1월에 돌아온다",
+        "body": "기다리던 팬들을 위한\n이번 주 애니 소식 모음.\n지금 바로 확인해보세요.",
+        "subheading": "한 주간 가장 뜨거웠던 애니메이션 뉴스 5가지",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "heading": "원펀맨 시즌3 후반부\n2027년 1월 공개",
+        "body": "새 PV에서 2027년 1월 방영이 확정됐습니다.\n오프닝은 다시 JAM Project가 맡습니다.",
+        "badge": "NEWS 01",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "heading": "드래곤볼 슈퍼: 비루스\n훌루에서도 스트리밍",
+        "body": "크런치롤과 훌루 모두 10월 11일 공개됐고,\n넷플릭스는 10월 17일 합류합니다.",
+        "badge": "NEWS 02",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "heading": "약사의 혼잣말 극장판\n진시·마오마오 영상 공개",
+        "body": "두 주인공을 조명하는 신규 영상이 공개됐습니다.\n앞으로 3일간 캐릭터 영상이 추가로 풀릴 예정입니다.",
+        "badge": "NEWS 03",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "heading": "더 페이블 시즌2\n내년 1월 9일 방영",
+        "body": "호시노 타카노리, 야마데라 코이치 등\n새 캐스트 합류 소식이 전해졌습니다.",
+        "badge": "NEWS 04",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "heading": "SSS급 회귀헌터\n2차 PV·엔딩 아티스트 공개",
+        "body": "마스다 토시키, 한 메구미 등 8명이 추가 합류했고,\n1월 방영을 앞두고 엔딩 테마 아티스트도 공개됐습니다.",
+        "badge": "NEWS 05",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "outro",
+        "heading": "이번 주 소식\n한눈에 정리 끝",
+        "body": "저장해두고 나중에\n다시 꺼내 보세요.\n다음 주 소식도 가져올게요.",
+        "meta": "Anime News Network"
+      }
+    ],
+    "caption": "원펀맨이 돌아온다는 소식, 이미 들으셨나요.\n이번 주에도 굵직한 애니메이션 소식들이 쏟아졌습니다.\n놓치기 아까운 5가지만 골라 정리했어요.\n\n- 원펀맨 시즌3 후반부 2027년 1월 공개\n- 드래곤볼 슈퍼: 비루스 훌루 스트리밍 추가\n- 약사의 혼잣말 극장판 진시·마오마오 영상 공개\n- 더 페이블 시즌2 1월 9일 방영 확정\n- SSS급 회귀헌터 2차 PV 및 엔딩 아티스트 공개\n\n저장해두고 방영일 가까워지면 다시 확인하세요.",
+    "hashtags": [
+      "#애니메이션뉴스",
+      "#애니뉴스",
+      "#원펀맨",
+      "#드래곤볼슈퍼",
+      "#약사의혼잣말",
+      "#더페이블",
+      "#SSS급회귀헌터",
+      "#애니정보",
+      "#애니메이션",
+      "#일본애니"
+    ]
+  }
+}
