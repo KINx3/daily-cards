@@ -1138,5 +1138,22 @@
       "out/growth/2026-10-13/05.jpg",
       "out/growth/2026-10-13/06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-journaling"
+    ],
+    "images": [
+      "out/growth/2026-10-14/01.jpg",
+      "out/growth/2026-10-14/02.jpg",
+      "out/growth/2026-10-14/03.jpg",
+      "out/growth/2026-10-14/04.jpg",
+      "out/growth/2026-10-14/05.jpg"
+    ]
   }
 ]
