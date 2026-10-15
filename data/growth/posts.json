@@ -1155,5 +1155,22 @@
       "out/growth/2026-10-14/04.jpg",
       "out/growth/2026-10-14/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-15",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-identity"
+    ],
+    "images": [
+      "out/growth/2026-10-15/01.jpg",
+      "out/growth/2026-10-15/02.jpg",
+      "out/growth/2026-10-15/03.jpg",
+      "out/growth/2026-10-15/04.jpg",
+      "out/growth/2026-10-15/05.jpg"
+    ]
   }
 ]
