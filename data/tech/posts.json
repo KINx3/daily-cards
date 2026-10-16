@@ -1406,5 +1406,24 @@
       "out/tech/2026-10-15/04.jpg",
       "out/tech/2026-10-15/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-16",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-caddy",
+      "t-uv",
+      "t-tmux"
+    ],
+    "images": [
+      "out/tech/2026-10-16/01.jpg",
+      "out/tech/2026-10-16/02.jpg",
+      "out/tech/2026-10-16/03.jpg",
+      "out/tech/2026-10-16/04.jpg",
+      "out/tech/2026-10-16/05.jpg"
+    ]
   }
 ]
