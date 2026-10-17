@@ -1,0 +1,73 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-10-17",
+    "dateLabel": "2026.10.17",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것들",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "클로드한테 뭘 시키면\n이런 게 나올까요",
+        "subheading": "깃허브에서 발견한 신기한 리포 4개"
+      },
+      {
+        "kind": "item",
+        "heading": "anatomy",
+        "body": "기술 개념을 설명해달라고 하면\nAI가 그걸 비유하는 '기계'를\n직접 그려줍니다.\n캐시키 개념이 자물쇠가 되는 식이죠.",
+        "subheading": "wheresryan22/anatomy",
+        "meta": "JavaScript · ★14,606"
+      },
+      {
+        "kind": "item",
+        "heading": "universal-modder",
+        "body": "가지고 있는 PC 게임을\nAI 에이전트가 직접 분석해서\n모드를 만들어주는 도구.\n리버스엔지니어링부터 영상 제작까지 합니다.",
+        "subheading": "rehan-remade/universal-modder",
+        "meta": "Python · ★8,149"
+      },
+      {
+        "kind": "item",
+        "heading": "effectcraft",
+        "body": "애프터이펙트 같은\n모션그래픽 툴을\n러스트로 처음부터 새로 짠 오픈소스.\n306개 이펙트, 3D 카메라까지 들어있어요.",
+        "subheading": "storytold/effectcraft",
+        "meta": "Rust · ★7,089"
+      },
+      {
+        "kind": "item",
+        "heading": "awesome-opus5-5-videos",
+        "body": "클로드 오푸스 5.5로 만든\n바이럴 영상들을 모아놓은 저장소.\n영상마다 실제 사용한 프롬프트가\n공개돼 있어 따라 해볼 수 있어요.",
+        "subheading": "yihui-dev/awesome-opus5-5-videos",
+        "meta": "★5,637"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음 주말엔\n뭘 만들어볼까요",
+        "body": "저장해두고\n주말 프로젝트 고를 때\n다시 꺼내보세요"
+      }
+    ],
+    "caption": "AI 에이전트한테 시키면 도대체 뭐가 나오는지 궁금해서 깃허브를 뒤져봤습니다.\n개념 설명을 그림으로 그려주는 도구부터, 게임을 통째로 분석해서 모드를 만드는 에이전트, 러스트로 짠 모션그래픽 툴, 바이럴 영상 프롬프트 모음집까지.\n주말에 뭔가 만들어보고 싶은 분들한테 참고가 될 것 같아요.\n\n다룬 리포\n- anatomy (개념 시각화)\n- universal-modder (게임 모딩 에이전트)\n- effectcraft (러스트 모션그래픽)\n- awesome-opus5-5-videos (AI 영상 프롬프트 모음)\n\n저장해두고 주말에 하나씩 꺼내보세요.",
+    "hashtags": [
+      "#개발자",
+      "#깃허브",
+      "#오픈소스",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#클로드",
+      "#클로드코드",
+      "#모션그래픽",
+      "#게임모딩",
+      "#개발자인스타",
+      "#주말프로젝트",
+      "#깃헙트렌딩",
+      "#러스트",
+      "#파이썬",
+      "#자바스크립트"
+    ]
+  }
+}

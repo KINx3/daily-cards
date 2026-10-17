@@ -1425,5 +1425,26 @@
       "out/tech/2026-10-16/04.jpg",
       "out/tech/2026-10-16/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:wheresryan22/anatomy",
+      "gh:rehan-remade/universal-modder",
+      "gh:storytold/effectcraft",
+      "gh:yihui-dev/awesome-opus5-5-videos"
+    ],
+    "images": [
+      "out/tech/2026-10-17/01.jpg",
+      "out/tech/2026-10-17/02.jpg",
+      "out/tech/2026-10-17/03.jpg",
+      "out/tech/2026-10-17/04.jpg",
+      "out/tech/2026-10-17/05.jpg",
+      "out/tech/2026-10-17/06.jpg"
+    ]
   }
 ]
