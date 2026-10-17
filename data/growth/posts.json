@@ -1188,5 +1188,23 @@
       "out/growth/2026-10-16/03.jpg",
       "out/growth/2026-10-16/04.jpg"
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-atomic"
+    ],
+    "images": [
+      "out/growth/2026-10-17/01.jpg",
+      "out/growth/2026-10-17/02.jpg",
+      "out/growth/2026-10-17/03.jpg",
+      "out/growth/2026-10-17/04.jpg",
+      "out/growth/2026-10-17/05.jpg",
+      "out/growth/2026-10-17/06.jpg"
+    ]
   }
 ]
