@@ -1446,5 +1446,21 @@
       "out/tech/2026-10-17/05.jpg",
       "out/tech/2026-10-17/06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-dijkstra"
+    ],
+    "images": [
+      "out/tech/2026-10-18/01.jpg",
+      "out/tech/2026-10-18/02.jpg",
+      "out/tech/2026-10-18/03.jpg",
+      "out/tech/2026-10-18/04.jpg"
+    ]
   }
 ]
