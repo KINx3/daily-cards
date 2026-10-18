@@ -1,0 +1,66 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-18",
+    "dateLabel": "2026.10.18",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "10월 3주차 신작 애니 편성표",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "이번 주,\n뭐부터 볼지 고민된다면",
+        "body": "요일별로 정리했어요.\n저장하고 하나씩 체크해보세요.",
+        "subheading": "10월 19일~22일 방영작 한눈에 정리",
+        "badge": "주간 편성표"
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "body": "I'm Dating a Dark Summoner 3화\nHello, I am a Witch and my Crush Wants me to Make a Love Potion! 3화\nSo What's Wrong with Getting Reborn as a Goblin? 4화\n블리치: 천년혈전 - 상극담 9화",
+        "subheading": "10월 19일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "body": "사이버펑크: 엣지러너 2 1~10화 한꺼번에 공개\nNia Liston: The Merciless Maiden 3화\nThe Cold Sato-san is Only Sweet to Me 3화",
+        "subheading": "10월 20일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "body": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life 3화\n명탐정은 이미 죽어 있다 시즌2 3화",
+        "subheading": "10월 21일"
+      },
+      {
+        "kind": "schedule",
+        "heading": "목요일",
+        "body": "전생했더니 검이었습니다 시즌2 4화\n회귀자의 마법은 특별해야 합니다 시즌2 3화",
+        "subheading": "10월 22일"
+      },
+      {
+        "kind": "outro",
+        "heading": "놓치면 아쉬운 한 주",
+        "body": "저장해두고 볼 때마다\n체크해보세요.\n다음 주 편성표도 올릴게요.",
+        "badge": "다음 주 예고"
+      }
+    ],
+    "caption": "화요일에 사이버펑크 엣지러너 2가 10화를 한 번에 풀어버려서 정주행각 잡아야 할 것 같아요.\n이번 주는 월요일부터 목요일까지 신작이 꽤 몰려있는데, 요일별로 정리해봤습니다.\n\n월요일 - 다크 서머너, 마녀 러브포션, 고블린 환생, 블리치 상극담\n화요일 - 사이버펑크 엣지러너 2, 니아 리스톤, 사토상\n수요일 - 해고된 치트 마법사, 명탐정은 이미 죽어 있다 시즌2\n목요일 - 전생검 시즌2, 회귀자의 마법 시즌2\n\n저장해두고 요일마다 하나씩 체크해보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#애니편성표",
+      "#애니추천",
+      "#주간애니",
+      "#신작애니",
+      "#애니스케줄",
+      "#블리치",
+      "#사이버펑크엣지러너2",
+      "#전생했더니검이었습니다",
+      "#회귀자의마법은특별해야합니다"
+    ]
+  }
+}
