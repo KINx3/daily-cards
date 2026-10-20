@@ -1462,5 +1462,24 @@
       "out/tech/2026-10-18/03.jpg",
       "out/tech/2026-10-18/04.jpg"
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:google-research/harness2",
+      "gh:Gathin23/cleanyourtv",
+      "gh:deepseek-ai/DeepInfer"
+    ],
+    "images": [
+      "out/tech/2026-10-20/01.jpg",
+      "out/tech/2026-10-20/02.jpg",
+      "out/tech/2026-10-20/03.jpg",
+      "out/tech/2026-10-20/04.jpg",
+      "out/tech/2026-10-20/05.jpg"
+    ]
   }
 ]

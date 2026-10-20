@@ -1,0 +1,61 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-10-20",
+    "dateLabel": "2026.10.20",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "요즘 개발자들이 주말에 만드는 것",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "요즘 개발자들이\n주말에 만드는 것",
+        "body": "스타 수천 개 받은\n깃허브 프로젝트 3개를 모았습니다",
+        "subheading": "이번 주 주목받은 리포 3가지 정리"
+      },
+      {
+        "kind": "item",
+        "heading": "harness2",
+        "body": "에이전트를 움직이게 하는\n프롬프트·도구·메모리 설계를\n자동으로 다듬어주는 프레임워크예요.\n모델은 그대로 두고 시스템만 최적화합니다.",
+        "subheading": "google-research/harness2",
+        "meta": "Python · ★14,154"
+      },
+      {
+        "kind": "item",
+        "heading": "cleanyourtv",
+        "body": "안드로이드·구글 TV에 낀\n광고와 불필요한 앱을 와이파이로\n싹 지워주는 도구예요.\n홈 화면도 애플TV처럼 깔끔하게 바뀝니다.",
+        "subheading": "Gathin23/cleanyourtv",
+        "meta": "Java · ★9,628"
+      },
+      {
+        "kind": "item",
+        "heading": "DeepInfer",
+        "body": "딥시크가 실제 서비스에 쓰는\n대규모 추론 엔진을 공개한 거예요.\n모델을 빠르게, 많은 요청을\n동시에 처리하도록 설계됐습니다.",
+        "subheading": "deepseek-ai/DeepInfer",
+        "meta": "Python · ★8,527"
+      },
+      {
+        "kind": "outro",
+        "heading": "다음에 또 뭐 나올지",
+        "body": "저장해두고\n주말에 하나씩 뜯어보세요.\n다음 주에도 새로운 리포 모아올게요."
+      }
+    ],
+    "caption": "깃허브에 올라오는 프로젝트들, 생각보다 우리 삶과 가깝습니다.\n이번에 모은 3개는 에이전트 설계, TV 광고 제거, 초대형 추론 엔진까지 결이 다 다릅니다.\n\n- harness2: 에이전트 시스템 자동 최적화 프레임워크\n- cleanyourtv: 안드로이드 TV 블로트웨어 제거 도구\n- DeepInfer: 딥시크의 대규모 추론 엔진 공개\n\n저장해두고 주말에 하나씩 써보세요.",
+    "hashtags": [
+      "#깃허브",
+      "#오픈소스",
+      "#개발자",
+      "#사이드프로젝트",
+      "#AI에이전트",
+      "#딥시크",
+      "#안드로이드TV",
+      "#개발자스타그램",
+      "#깃헙트렌딩",
+      "#테크뉴스"
+    ]
+  }
+}
