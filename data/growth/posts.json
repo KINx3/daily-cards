@@ -1241,5 +1241,22 @@
       "out/growth/2026-10-20/05.jpg",
       "out/growth/2026-10-20/06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-weekly-review"
+    ],
+    "images": [
+      "out/growth/2026-10-21/01.jpg",
+      "out/growth/2026-10-21/02.jpg",
+      "out/growth/2026-10-21/03.jpg",
+      "out/growth/2026-10-21/04.jpg",
+      "out/growth/2026-10-21/05.jpg"
+    ]
   }
 ]
