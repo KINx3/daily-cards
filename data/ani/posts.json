@@ -1384,5 +1384,22 @@
       "out/ani/2026-10-21/06.jpg",
       "out/ani/2026-10-21/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-eva-shinji",
+      "m30"
+    ],
+    "images": [
+      "out/ani/2026-10-22/01.jpg",
+      "out/ani/2026-10-22/02.jpg",
+      "out/ani/2026-10-22/03.jpg",
+      "out/ani/2026-10-22/04.jpg"
+    ]
   }
 ]
