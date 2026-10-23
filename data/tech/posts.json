@@ -1531,5 +1531,24 @@
       "out/tech/2026-10-22/04.jpg",
       "out/tech/2026-10-22/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-ripgrep",
+      "t-warp",
+      "t-uv"
+    ],
+    "images": [
+      "out/tech/2026-10-23/01.jpg",
+      "out/tech/2026-10-23/02.jpg",
+      "out/tech/2026-10-23/03.jpg",
+      "out/tech/2026-10-23/04.jpg",
+      "out/tech/2026-10-23/05.jpg"
+    ]
   }
 ]
