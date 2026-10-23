@@ -1,0 +1,59 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-23",
+    "dateLabel": "2026.10.23",
+    "weekday": 5,
+    "type": "seasonal",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "2026년 가을, 이 작품 하나는 챙기세요",
+    "slides": [
+      {
+        "kind": "cover",
+        "heading": "올가을\n한 번은 울게 될 이야기",
+        "body": "드라마와 로맨스,\n이 조합을 놓치면 아쉽습니다",
+        "subheading": "이번 분기 주목작 한 편 소개합니다",
+        "imageKey": "m205909"
+      },
+      {
+        "kind": "item",
+        "heading": "Firefly Wedding",
+        "body": "david production 제작,\n전체 12화로 완결되는 TV 애니메이션입니다.\n드라마와 로맨스 장르를 담았습니다.",
+        "meta": "TV 12화 · david production · 평점 75",
+        "imageKey": "m205909"
+      },
+      {
+        "kind": "item",
+        "heading": "왜 봐야 할까요",
+        "body": "장르 조합 자체가 드뭅니다.\n가볍게 보다 훅 빠지는 로맨스,\n그 안에 묵직한 드라마가 섞여 있습니다.",
+        "badge": "관전 포인트",
+        "imageKey": "m205909"
+      },
+      {
+        "kind": "outro",
+        "heading": "일단 저장해두세요",
+        "body": "방영 시작하면\n이 카드 다시 열어보세요.\n다음 분기 라인업도 정리해드릴게요."
+      }
+    ],
+    "caption": "가을 신작 중에 조용히 눈에 띄는 작품이 있습니다.\nFirefly Wedding, david production이 만드는 12화짜리 드라마 로맨스입니다.\n화려하진 않아도 담백하게 끌리는 이야기가 될 것 같습니다.\n\n다룬 내용\n- 작품 개요 (제작사, 화수, 장르)\n- 이 작품을 봐야 하는 이유\n\n저장해두고 방영 시작하면 꺼내보세요.",
+    "hashtags": [
+      "#애니메이션",
+      "#애니추천",
+      "#가을신작",
+      "#2026가을애니",
+      "#FireflyWedding",
+      "#ホタルの嫁入り",
+      "#davidproduction",
+      "#로맨스애니",
+      "#드라마애니",
+      "#신작애니",
+      "#애니스타그램",
+      "#애니정보",
+      "#애니메이션추천",
+      "#가을애니"
+    ]
+  }
+}
