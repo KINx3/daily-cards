@@ -1550,5 +1550,28 @@
       "out/tech/2026-10-23/04.jpg",
       "out/tech/2026-10-23/05.jpg"
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:tangency-labs/solidcraft",
+      "gh:storytold/cadcraft",
+      "gh:storytold/gridcraft",
+      "gh:ARahim3/DigUp",
+      "gh:ly05010419/MacNativeGames"
+    ],
+    "images": [
+      "out/tech/2026-10-24/01.jpg",
+      "out/tech/2026-10-24/02.jpg",
+      "out/tech/2026-10-24/03.jpg",
+      "out/tech/2026-10-24/04.jpg",
+      "out/tech/2026-10-24/05.jpg",
+      "out/tech/2026-10-24/06.jpg",
+      "out/tech/2026-10-24/07.jpg"
+    ]
   }
 ]
