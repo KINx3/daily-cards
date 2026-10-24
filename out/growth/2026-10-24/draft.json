@@ -1,0 +1,63 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-10-24",
+    "dateLabel": "2026.10.24",
+    "weekday": 6,
+    "type": "book",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] book 2026-10-24",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "BOOK",
+        "heading": "에센셜리즘",
+        "subheading": "그렉 맥커운",
+        "body": "더 적게, 그러나 더 좋게 사는 절제의 기술"
+      },
+      {
+        "kind": "item",
+        "heading": "에센셜리즘",
+        "subheading": "그렉 맥커운",
+        "body": "더 적게, 그러나 더 좋게 사는 절제의 기술"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 1",
+        "heading": "거의 모든 것은 소음이다",
+        "body": "『에센셜리즘』 — 더 적게, 그러나 더 좋게 사는 절제의 기술"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 2",
+        "heading": "'분명한 예스'가 아니면 노다",
+        "body": "『에센셜리즘』 — 더 적게, 그러나 더 좋게 사는 절제의 기술"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 3",
+        "heading": "선택하지 않으면 남이 대신 선택한다",
+        "body": "『에센셜리즘』 — 더 적게, 그러나 더 좋게 사는 절제의 기술"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] book 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
