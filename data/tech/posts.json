@@ -1573,5 +1573,20 @@
       "out/tech/2026-10-24/06.jpg",
       "out/tech/2026-10-24/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-pike"
+    ],
+    "images": [
+      "out/tech/2026-10-25/01.jpg",
+      "out/tech/2026-10-25/02.jpg",
+      "out/tech/2026-10-25/03.jpg"
+    ]
   }
 ]
