@@ -1,0 +1,63 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-25",
+    "dateLabel": "2026.10.25",
+    "weekday": 0,
+    "type": "schedule",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] schedule 2026-10-25",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "NEXT WEEK",
+        "heading": "다음 주\n방영 일정",
+        "subheading": "인기작 기준",
+        "body": "다음 주 방영작을\n요일별로 정리했습니다."
+      },
+      {
+        "kind": "schedule",
+        "heading": "월요일",
+        "subheading": "10. 26.",
+        "body": "I'm Dating a Dark Summon 4화\nHello, I am a Witch and  4화\nSo What's Wrong with Get 5화\nPSYREN 4화"
+      },
+      {
+        "kind": "schedule",
+        "heading": "화요일",
+        "subheading": "10. 27.",
+        "body": "BLEACH: Thousand-Year Bl 10화\nNia Liston: The Merciles 4화\nThe Cold Sato-san is Onl 4화"
+      },
+      {
+        "kind": "schedule",
+        "heading": "수요일",
+        "subheading": "10. 28.",
+        "body": "The Laid-Off Cheat-Grant 4화\nThe Detective Is Already 4화"
+      },
+      {
+        "kind": "schedule",
+        "heading": "목요일",
+        "subheading": "10. 29.",
+        "body": "Reincarnated as a Sword  5화\nA Returner's Magic Shoul 4화\nThe Ramparts of Ice Seas 5화"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] schedule 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
