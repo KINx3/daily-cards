@@ -1324,5 +1324,23 @@
       "out/growth/2026-10-25/02.jpg",
       "out/growth/2026-10-25/03.jpg"
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-titans"
+    ],
+    "images": [
+      "out/growth/2026-10-27/01.jpg",
+      "out/growth/2026-10-27/02.jpg",
+      "out/growth/2026-10-27/03.jpg",
+      "out/growth/2026-10-27/04.jpg",
+      "out/growth/2026-10-27/05.jpg",
+      "out/growth/2026-10-27/06.jpg"
+    ]
   }
 ]
