@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-10-28",
+    "dateLabel": "2026.10.28",
+    "weekday": 3,
+    "type": "habit",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] habit 2026-10-28",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "HABIT",
+        "heading": "수면 루틴",
+        "subheading": "오늘부터 실천",
+        "body": "기상 시간을 고정하는 게 취침 시간 고정보다 강력하다. 자기 전 1시간 화면 대신 조도 낮추기."
+      },
+      {
+        "kind": "news",
+        "badge": "HOW",
+        "heading": "수면 루틴",
+        "body": "기상 시간을 고정하는 게 취침 시간 고정보다 강력하다. 자기 전 1시간 화면 대신 조도 낮추기."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] habit 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}

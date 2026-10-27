@@ -1342,5 +1342,20 @@
       "out/growth/2026-10-27/05.jpg",
       "out/growth/2026-10-27/06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-sleep"
+    ],
+    "images": [
+      "out/growth/2026-10-28/01.jpg",
+      "out/growth/2026-10-28/02.jpg",
+      "out/growth/2026-10-28/03.jpg"
+    ]
   }
 ]
