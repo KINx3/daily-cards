@@ -1620,5 +1620,20 @@
       "out/tech/2026-10-28/06.jpg",
       "out/tech/2026-10-28/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "slot": 1,
+    "type": "concept",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "c-rag"
+    ],
+    "images": [
+      "out/tech/2026-10-29/01.jpg",
+      "out/tech/2026-10-29/02.jpg",
+      "out/tech/2026-10-29/03.jpg"
+    ]
   }
 ]

@@ -1,0 +1,45 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-10-29",
+    "dateLabel": "2026.10.29",
+    "weekday": 4,
+    "type": "concept",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] concept 2026-10-29",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "CONCEPT",
+        "heading": "RAG",
+        "subheading": "한 장 정리",
+        "body": "개념의 핵심만\n빠르게 정리했습니다."
+      },
+      {
+        "kind": "news",
+        "badge": "WHAT",
+        "heading": "RAG",
+        "body": "검색 증강 생성. LLM이 답하기 전에 외부 문서를 검색해 컨텍스트로 넣는 패턴. 할루시네이션 줄이고 최신·사내 지식 반영."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] concept 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
