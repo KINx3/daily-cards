@@ -1,0 +1,55 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-29",
+    "dateLabel": "2026.10.29",
+    "weekday": 4,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-10-29",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "오늘의 명대사",
+        "heading": "한 문장이\n오래 남을 때",
+        "subheading": "빈란드 사가",
+        "body": "작품 속 한 문장을\n오늘의 카드로 전합니다.",
+        "imageKey": "m101348"
+      },
+      {
+        "kind": "quote",
+        "heading": "토르즈",
+        "subheading": "빈란드 사가",
+        "body": "진정한 전사에게 검은 필요 없다.",
+        "imageKey": "m101348"
+      },
+      {
+        "kind": "item",
+        "heading": "빈란드 사가",
+        "subheading": "VINLAND SAGA",
+        "meta": "TV · 24화 · WIT STUDIO · 평점 87",
+        "body": "Action · Adventure · Drama",
+        "imageKey": "m101348"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}

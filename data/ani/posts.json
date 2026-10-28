@@ -1504,5 +1504,22 @@
       "out/ani/2026-10-28/06.jpg",
       "out/ani/2026-10-28/07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-vinland-thors",
+      "m101348"
+    ],
+    "images": [
+      "out/ani/2026-10-29/01.jpg",
+      "out/ani/2026-10-29/02.jpg",
+      "out/ani/2026-10-29/03.jpg",
+      "out/ani/2026-10-29/04.jpg"
+    ]
   }
 ]
