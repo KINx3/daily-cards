@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-10-29",
+    "dateLabel": "2026.10.29",
+    "weekday": 4,
+    "type": "mindset",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] mindset 2026-10-29",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "MINDSET",
+        "heading": "프리모텀",
+        "subheading": "생각의 도구",
+        "body": "시작 전에 '이 일이 실패했다고 치고' 원인을 미리 적어보는 기법. 낙관에 가려진 리스크가 드러난다."
+      },
+      {
+        "kind": "news",
+        "badge": "WHAT",
+        "heading": "프리모텀",
+        "body": "시작 전에 '이 일이 실패했다고 치고' 원인을 미리 적어보는 기법. 낙관에 가려진 리스크가 드러난다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] mindset 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}

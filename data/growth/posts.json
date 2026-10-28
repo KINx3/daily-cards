@@ -1357,5 +1357,20 @@
       "out/growth/2026-10-28/02.jpg",
       "out/growth/2026-10-28/03.jpg"
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-premortem"
+    ],
+    "images": [
+      "out/growth/2026-10-29/01.jpg",
+      "out/growth/2026-10-29/02.jpg",
+      "out/growth/2026-10-29/03.jpg"
+    ]
   }
 ]
