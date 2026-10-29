@@ -1,0 +1,47 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-30",
+    "dateLabel": "2026.10.30",
+    "weekday": 5,
+    "type": "seasonal",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] seasonal 2026-10-30",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "이번 분기 신작\n카드뉴스 테스트",
+        "subheading": "2026.10.30 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m207329"
+      },
+      {
+        "kind": "item",
+        "heading": "The Laid-Off Cheat-Granting Mage Enjoys a Seco",
+        "meta": "TV · P.A.WORKS · 평점 73",
+        "body": "Adventure · Comedy · Fantasy · Slice of Life",
+        "imageKey": "m207329"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] seasonal 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
