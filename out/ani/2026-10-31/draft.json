@@ -1,0 +1,64 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-10-31",
+    "dateLabel": "2026.10.31",
+    "weekday": 6,
+    "type": "classic",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] classic 2026-10-31",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "명작 추천\n카드뉴스 테스트",
+        "subheading": "2026.10.31 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m11061"
+      },
+      {
+        "kind": "item",
+        "heading": "헌터×헌터 (2011)",
+        "subheading": "Hunter x Hunter (2011)",
+        "meta": "TV · 148화 · MADHOUSE · 평점 89",
+        "body": "Action · Adventure · Fantasy",
+        "imageKey": "m11061"
+      },
+      {
+        "kind": "item",
+        "heading": "늑대아이",
+        "subheading": "Wolf Children",
+        "meta": "MOVIE · 1화 · MADHOUSE · 평점 83",
+        "body": "Drama · Fantasy · Romance · Slice of Life",
+        "imageKey": "m12355"
+      },
+      {
+        "kind": "item",
+        "heading": "카우보이 비밥",
+        "subheading": "Cowboy Bebop",
+        "meta": "TV · 26화 · Sunrise · 평점 86",
+        "body": "Action · Adventure · Drama · Sci-Fi",
+        "imageKey": "m1"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] classic 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
