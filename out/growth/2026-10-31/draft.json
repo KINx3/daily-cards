@@ -1,0 +1,63 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-10-31",
+    "dateLabel": "2026.10.31",
+    "weekday": 6,
+    "type": "book",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] book 2026-10-31",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "BOOK",
+        "heading": "원씽 The One Thing",
+        "subheading": "게리 켈러·제이 파파산",
+        "body": "복잡한 세상을 이기는 단 하나의 질문"
+      },
+      {
+        "kind": "item",
+        "heading": "원씽 The One Thing",
+        "subheading": "게리 켈러·제이 파파산",
+        "body": "복잡한 세상을 이기는 단 하나의 질문"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 1",
+        "heading": "'이것 하나를 하면 나머지가 쉬워지는 일'을 찾아라",
+        "body": "『원씽 The One Thing』 — 복잡한 세상을 이기는 단 하나의 질문"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 2",
+        "heading": "멀티태스킹은 거짓말이다",
+        "body": "『원씽 The One Thing』 — 복잡한 세상을 이기는 단 하나의 질문"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 3",
+        "heading": "성공은 도미노처럼 순차적으로 쌓인다",
+        "body": "『원씽 The One Thing』 — 복잡한 세상을 이기는 단 하나의 질문"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] book 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
