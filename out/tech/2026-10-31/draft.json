@@ -1,0 +1,74 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-10-31",
+    "dateLabel": "2026.10.31",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-10-31",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "gpu-unlock",
+        "subheading": "Zagitta/gpu-unlock",
+        "meta": "C · ★ 13,393",
+        "body": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput"
+      },
+      {
+        "kind": "item",
+        "heading": "nxnative",
+        "subheading": "seedds/nxnative",
+        "meta": "Python · ★ 10,079",
+        "body": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)"
+      },
+      {
+        "kind": "item",
+        "heading": "aerial-tv",
+        "subheading": "pengchujin/aerial-tv",
+        "meta": "Kotlin · ★ 8,013",
+        "body": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+      },
+      {
+        "kind": "item",
+        "heading": "everything",
+        "subheading": "HeyPuter/everything",
+        "meta": "JavaScript · ★ 5,887",
+        "body": "We're rebuilding and open-sourcing the world’s software from scratch."
+      },
+      {
+        "kind": "item",
+        "heading": "cn-math-taxonomy",
+        "subheading": "xiaoyang111222/cn-math-taxonomy",
+        "meta": "Python · ★ 5,474",
+        "body": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
