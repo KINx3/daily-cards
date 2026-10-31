@@ -1677,5 +1677,20 @@
       "out/tech/2026-10-31/06.jpg",
       "out/tech/2026-10-31/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-01",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-kernighan"
+    ],
+    "images": [
+      "out/tech/2026-11-01/01.jpg",
+      "out/tech/2026-11-01/02.jpg",
+      "out/tech/2026-11-01/03.jpg"
+    ]
   }
 ]

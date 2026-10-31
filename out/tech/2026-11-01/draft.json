@@ -1,0 +1,45 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-01",
+    "dateLabel": "2026.11.01",
+    "weekday": 0,
+    "type": "devquote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] devquote 2026-11-01",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "DEV QUOTE",
+        "heading": "일요일의\n개발자 명언",
+        "subheading": "브라이언 커니핸",
+        "body": "오늘의 개발자 명언을\n소개합니다."
+      },
+      {
+        "kind": "quote",
+        "heading": "브라이언 커니핸",
+        "subheading": "The Elements of Programming Style",
+        "body": "디버깅은 코드를 짜는 것보다 두 배 어렵다.\n최대한 영리하게 짠 코드는, 정의상 당신이 디버깅할 수 없다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] devquote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
