@@ -1,0 +1,80 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-02",
+    "dateLabel": "2026.11.02",
+    "weekday": 1,
+    "type": "trending",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] trending 2026-11-02",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "주간 트렌딩\n카드뉴스 테스트",
+        "subheading": "2026.11.02 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m219282"
+      },
+      {
+        "kind": "item",
+        "badge": "1위",
+        "heading": "Bocchi the Rock!: Hoshi no Ashiato",
+        "meta": "MOVIE · 1화 · CloverWorks",
+        "body": "Music · Slice of Life",
+        "imageKey": "m219282"
+      },
+      {
+        "kind": "item",
+        "badge": "2위",
+        "heading": "Black Clover Season 2",
+        "meta": "TV · Studio Pierrot · 평점 87",
+        "body": "Action · Adventure · Comedy · Fantasy",
+        "imageKey": "m195604"
+      },
+      {
+        "kind": "item",
+        "badge": "3위",
+        "heading": "Full Clearing Another World under a Goddess wi",
+        "meta": "TV · HORNETS · 평점 65",
+        "body": "Adventure · Fantasy",
+        "imageKey": "m205896"
+      },
+      {
+        "kind": "item",
+        "badge": "4위",
+        "heading": "The Apothecary Diaries Season 3",
+        "meta": "TV · 12화 · OLM · 평점 85",
+        "body": "Drama · Mystery",
+        "imageKey": "m195516"
+      },
+      {
+        "kind": "item",
+        "badge": "5위",
+        "heading": "Cyberpunk: Edgerunners 2",
+        "meta": "ONA · 10화 · TRIGGER · 평점 83",
+        "body": "Action · Drama · Sci-Fi",
+        "imageKey": "m195539"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] trending 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
