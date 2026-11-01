@@ -1420,5 +1420,20 @@
       "out/growth/2026-11-01/02.jpg",
       "out/growth/2026-11-01/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-duckworth"
+    ],
+    "images": [
+      "out/growth/2026-11-02/01.jpg",
+      "out/growth/2026-11-02/02.jpg",
+      "out/growth/2026-11-02/03.jpg"
+    ]
   }
 ]
