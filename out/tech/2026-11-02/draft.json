@@ -1,0 +1,75 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-02",
+    "dateLabel": "2026.11.02",
+    "weekday": 1,
+    "type": "technews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] technews 2026-11-02",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "WEEKLY",
+        "heading": "이번 주\n해커뉴스 베스트",
+        "subheading": "2026.11.02 기준",
+        "body": "이번 주 해커뉴스에서\n가장 뜨거웠던 이야기들.",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "badge": "TOP 01",
+        "heading": "Patrick Stewart has died",
+        "body": "3297 points · 댓글 753",
+        "meta": "Hacker News · nytimes.com"
+      },
+      {
+        "kind": "news",
+        "badge": "TOP 02",
+        "heading": "Binance-hacker-1029 – $5.6B stolen from Binanc",
+        "body": "1755 points · 댓글 1254",
+        "meta": "Hacker News · arkm.com"
+      },
+      {
+        "kind": "news",
+        "badge": "TOP 03",
+        "heading": "We're releasing the weights of Mistral Large 4",
+        "body": "1713 points · 댓글 438",
+        "meta": "Hacker News · mistral.ai"
+      },
+      {
+        "kind": "news",
+        "badge": "TOP 04",
+        "heading": "Anthropic S-1",
+        "body": "1709 points · 댓글 1679",
+        "meta": "Hacker News · sec.gov"
+      },
+      {
+        "kind": "news",
+        "badge": "TOP 05",
+        "heading": "HackerTube: YouTube built from videos recommen",
+        "body": "1707 points · 댓글 451",
+        "meta": "Hacker News · karpathy.bearblog.dev"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] technews 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
