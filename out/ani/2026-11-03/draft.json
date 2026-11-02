@@ -1,0 +1,64 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-03",
+    "dateLabel": "2026.11.03",
+    "weekday": 2,
+    "type": "classic",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] classic 2026-11-03",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "명작 추천\n카드뉴스 테스트",
+        "subheading": "2026.11.03 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m2236"
+      },
+      {
+        "kind": "item",
+        "heading": "시간을 달리는 소녀",
+        "subheading": "The Girl Who Leapt Through Time",
+        "meta": "MOVIE · 1화 · MADHOUSE · 평점 78",
+        "body": "Drama · Romance · Sci-Fi",
+        "imageKey": "m2236"
+      },
+      {
+        "kind": "item",
+        "heading": "장송의 프리렌",
+        "subheading": "Frieren: Beyond Journey’s End",
+        "meta": "TV · 28화 · MADHOUSE · 평점 91",
+        "body": "Adventure · Drama · Fantasy",
+        "imageKey": "m154587"
+      },
+      {
+        "kind": "item",
+        "heading": "케이온!",
+        "subheading": "K-ON!",
+        "meta": "TV · 13화 · Kyoto Animation · 평점 78",
+        "body": "Comedy · Music · Slice of Life",
+        "imageKey": "m5680"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] classic 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
