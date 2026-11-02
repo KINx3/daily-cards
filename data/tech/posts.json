@@ -1725,5 +1725,26 @@
       "out/tech/2026-11-02/06.jpg",
       "out/tech/2026-11-02/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:deepseek-ai/dsh-superagent-prototype",
+      "gh:unclebob/ub-mode",
+      "gh:heydamir/unslop",
+      "gh:rddmwmddr/android-ad-cleaner"
+    ],
+    "images": [
+      "out/tech/2026-11-03/01.jpg",
+      "out/tech/2026-11-03/02.jpg",
+      "out/tech/2026-11-03/03.jpg",
+      "out/tech/2026-11-03/04.jpg",
+      "out/tech/2026-11-03/05.jpg",
+      "out/tech/2026-11-03/06.jpg"
+    ]
   }
 ]

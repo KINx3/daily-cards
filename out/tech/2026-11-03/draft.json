@@ -1,0 +1,67 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-03",
+    "dateLabel": "2026.11.03",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-11-03",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "dsh-superagent-prototype",
+        "subheading": "deepseek-ai/dsh-superagent-prototype",
+        "meta": "TypeScript · ★ 12,688",
+        "body": "Towards a More Autonomous Agent System"
+      },
+      {
+        "kind": "item",
+        "heading": "ub-mode",
+        "subheading": "unclebob/ub-mode",
+        "meta": "★ 6,517",
+        "body": "최근 스타 급상승 리포지토리"
+      },
+      {
+        "kind": "item",
+        "heading": "unslop",
+        "subheading": "heydamir/unslop",
+        "meta": "JavaScript · ★ 6,006",
+        "body": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
+      },
+      {
+        "kind": "item",
+        "heading": "android-ad-cleaner",
+        "subheading": "rddmwmddr/android-ad-cleaner",
+        "meta": "Python · ★ 5,889",
+        "body": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
