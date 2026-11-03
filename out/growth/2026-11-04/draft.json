@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-04",
+    "dateLabel": "2026.11.04",
+    "weekday": 3,
+    "type": "habit",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] habit 2026-11-04",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "HABIT",
+        "heading": "싱글태스킹",
+        "subheading": "오늘부터 실천",
+        "body": "한 번에 한 가지만. 전환할 때마다 주의 잔류물이 남는다. 탭 하나, 문서 하나, 일 하나."
+      },
+      {
+        "kind": "news",
+        "badge": "HOW",
+        "heading": "싱글태스킹",
+        "body": "한 번에 한 가지만. 전환할 때마다 주의 잔류물이 남는다. 탭 하나, 문서 하나, 일 하나."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] habit 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
