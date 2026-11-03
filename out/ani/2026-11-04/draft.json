@@ -1,0 +1,75 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-04",
+    "dateLabel": "2026.11.04",
+    "weekday": 3,
+    "type": "news",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] news 2026-11-04",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "WEEKLY NEWS",
+        "heading": "이번 주\n애니 뉴스 다이제스트",
+        "subheading": "2026.11.04 기준",
+        "body": "이번 주 애니 소식을\n간추렸습니다.",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "Cyberpunk Edgerunners 2 Anime Streams New Musi",
+        "body": "Jack-Amin Ibrahim directs new music video about Weak Kingsley, Avida",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "New Girls Band Cry Anime Film's Teaser Unveils",
+        "body": "Returning cast & staff, stage production also announced",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "The Iceblade Sorcerer Shall Rule the World Sea",
+        "body": "Yūki Wakai, Toshiyuki Morikawa, Tetsu Inada, Daiki Hamano, Riona Imaizumi join anime's cast from episode 5 on Thursday",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "Crunchyroll Adds Gunma-chan Anime's English Du",
+        "body": "Anime based on Gunma Prefecture's mascot character premiered in October 2021",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "We Are Aliens Film Wins Award at Hawai'i Int'l",
+        "body": "Film won Kau Ka Hōkū Award, honoring international filmmaker's 1st/2nd feature",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] news 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
