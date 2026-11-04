@@ -1779,5 +1779,20 @@
       "out/tech/2026-11-04/06.jpg",
       "out/tech/2026-11-04/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "slot": 1,
+    "type": "concept",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "c-cache"
+    ],
+    "images": [
+      "out/tech/2026-11-05/01.jpg",
+      "out/tech/2026-11-05/02.jpg",
+      "out/tech/2026-11-05/03.jpg"
+    ]
   }
 ]

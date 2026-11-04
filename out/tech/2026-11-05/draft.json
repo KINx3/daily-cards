@@ -1,0 +1,45 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-05",
+    "dateLabel": "2026.11.05",
+    "weekday": 4,
+    "type": "concept",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] concept 2026-11-05",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "CONCEPT",
+        "heading": "캐시",
+        "subheading": "한 장 정리",
+        "body": "개념의 핵심만\n빠르게 정리했습니다."
+      },
+      {
+        "kind": "news",
+        "badge": "WHAT",
+        "heading": "캐시",
+        "body": "비싼 연산·조회 결과를 가까운 곳에 복사해두고 재사용. 속도의 핵심이지만 '언제 버릴까'(무효화)가 어렵다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] concept 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
