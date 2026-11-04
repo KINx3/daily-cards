@@ -1,0 +1,55 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-05",
+    "dateLabel": "2026.11.05",
+    "weekday": 4,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-11-05",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "오늘의 명대사",
+        "heading": "한 문장이\n오래 남을 때",
+        "subheading": "너의 이름은.",
+        "body": "작품 속 한 문장을\n오늘의 카드로 전합니다.",
+        "imageKey": "m21519"
+      },
+      {
+        "kind": "quote",
+        "heading": "타치바나 타키",
+        "subheading": "너의 이름은.",
+        "body": "아직 만난 적 없는 너를, 찾고 있어.",
+        "imageKey": "m21519"
+      },
+      {
+        "kind": "item",
+        "heading": "너의 이름은.",
+        "subheading": "Kimi no Na wa.",
+        "meta": "MOVIE · 1화 · CoMix Wave · 평점 85",
+        "body": "Drama · Romance · Supernatural",
+        "imageKey": "m21519"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}

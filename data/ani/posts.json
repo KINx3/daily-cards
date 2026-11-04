@@ -1644,5 +1644,22 @@
       "out/ani/2026-11-04/06.jpg",
       "out/ani/2026-11-04/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-yourname",
+      "m21519"
+    ],
+    "images": [
+      "out/ani/2026-11-05/01.jpg",
+      "out/ani/2026-11-05/02.jpg",
+      "out/ani/2026-11-05/03.jpg",
+      "out/ani/2026-11-05/04.jpg"
+    ]
   }
 ]
