@@ -1,0 +1,57 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-06",
+    "dateLabel": "2026.11.06",
+    "weekday": 5,
+    "type": "tools",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] tools 2026-11-06",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "TOOLS",
+        "heading": "써볼 만한\n개발 도구",
+        "subheading": "이번 주 3선",
+        "body": "이번 주 써볼 만한\n개발 도구를 골랐습니다."
+      },
+      {
+        "kind": "item",
+        "heading": "Linear",
+        "subheading": "빠른 이슈 트래커",
+        "body": "지라의 안티테제. 키보드 중심, 밀리초 반응속도. 스타트업 이슈 관리의 사실상 표준이 된 툴."
+      },
+      {
+        "kind": "item",
+        "heading": "Playwright",
+        "subheading": "브라우저 자동화·E2E",
+        "body": "크롬·파폭·사파리를 한 API로. 테스트, 스크래핑, 스크린샷 자동화까지. 셀레니움의 확실한 후계자."
+      },
+      {
+        "kind": "item",
+        "heading": "Sentry",
+        "subheading": "에러 트래킹",
+        "body": "프로덕션 에러를 스택트레이스·유저 컨텍스트와 함께 수집. '유저가 말해주기 전에' 버그를 아는 방법."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] tools 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
