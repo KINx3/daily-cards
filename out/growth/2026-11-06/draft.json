@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-06",
+    "dateLabel": "2026.11.06",
+    "weekday": 5,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-11-06",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "MONDAY BOOST",
+        "heading": "오늘을 바꾸는\n한 문장",
+        "subheading": "요한 볼프강 폰 괴테 (전승)",
+        "body": "오늘 하루를 붙잡아 줄\n문장을 준비했습니다."
+      },
+      {
+        "kind": "quote",
+        "heading": "요한 볼프강 폰 괴테 (전승)",
+        "subheading": "",
+        "body": "아는 것만으로는 충분하지 않다. 적용해야 한다.\n의지만으로는 충분하지 않다. 실행해야 한다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
