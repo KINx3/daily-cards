@@ -1834,5 +1834,20 @@
       "out/tech/2026-11-07/05.jpg",
       "out/tech/2026-11-07/06.jpg"
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-gates"
+    ],
+    "images": [
+      "out/tech/2026-11-08/01.jpg",
+      "out/tech/2026-11-08/02.jpg",
+      "out/tech/2026-11-08/03.jpg"
+    ]
   }
 ]
