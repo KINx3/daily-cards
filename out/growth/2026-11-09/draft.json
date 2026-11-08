@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-09",
+    "dateLabel": "2026.11.09",
+    "weekday": 1,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-11-09",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "MONDAY BOOST",
+        "heading": "오늘을 바꾸는\n한 문장",
+        "subheading": "레프 톨스토이 (전승)",
+        "body": "오늘 하루를 붙잡아 줄\n문장을 준비했습니다."
+      },
+      {
+        "kind": "quote",
+        "heading": "레프 톨스토이 (전승)",
+        "subheading": "",
+        "body": "모두가 세상을 바꾸려 하지만,\n아무도 자신을 바꾸려 하지 않는다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}

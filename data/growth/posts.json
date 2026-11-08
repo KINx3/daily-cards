@@ -1531,5 +1531,20 @@
       "out/growth/2026-11-08/02.jpg",
       "out/growth/2026-11-08/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-09",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-tolstoy"
+    ],
+    "images": [
+      "out/growth/2026-11-09/01.jpg",
+      "out/growth/2026-11-09/02.jpg",
+      "out/growth/2026-11-09/03.jpg"
+    ]
   }
 ]
