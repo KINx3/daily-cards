@@ -1,0 +1,60 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-10",
+    "dateLabel": "2026.11.10",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-11-10",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "Lichii",
+        "subheading": "zortos293/Lichii",
+        "meta": "C++ · ★ 7,468",
+        "body": "VERY experimental Nintendo Switch 2 emulator"
+      },
+      {
+        "kind": "item",
+        "heading": "ai-pose-gallery-zh",
+        "subheading": "anhao/ai-pose-gallery-zh",
+        "meta": "TypeScript · ★ 6,545",
+        "body": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+      },
+      {
+        "kind": "item",
+        "heading": "day-trader-skill",
+        "subheading": "Jakeschincariol/day-trader-skill",
+        "meta": "Python · ★ 6,379",
+        "body": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}

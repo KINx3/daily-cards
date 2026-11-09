@@ -1882,5 +1882,24 @@
       "out/tech/2026-11-09/06.jpg",
       "out/tech/2026-11-09/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-10",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:zortos293/Lichii",
+      "gh:anhao/ai-pose-gallery-zh",
+      "gh:Jakeschincariol/day-trader-skill"
+    ],
+    "images": [
+      "out/tech/2026-11-10/01.jpg",
+      "out/tech/2026-11-10/02.jpg",
+      "out/tech/2026-11-10/03.jpg",
+      "out/tech/2026-11-10/04.jpg",
+      "out/tech/2026-11-10/05.jpg"
+    ]
   }
 ]
