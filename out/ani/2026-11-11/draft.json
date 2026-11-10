@@ -1,0 +1,75 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-11",
+    "dateLabel": "2026.11.11",
+    "weekday": 3,
+    "type": "news",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] news 2026-11-11",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "WEEKLY NEWS",
+        "heading": "이번 주\n애니 뉴스 다이제스트",
+        "subheading": "2026.11.11 기준",
+        "body": "이번 주 애니 소식을\n간추렸습니다.",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "Crunchyroll Streams Suikoden Anime",
+        "body": "1st 6 episodes are now streaming with new episodes premiering on Tuesdays",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "Devils' Crest Anime Confirms Half-Year Run",
+        "body": "Anime debuted worldwide on Prime Video on November 6",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Millennium Family TV Anime Casts Mutsumi Tamur",
+        "body": "Tamura voices Benfield family's youngest child Arthur",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "Japanese Animation TV Ranking, October 26-Nove",
+        "body": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "STEEL BALL RUN JoJo's Bizarre Adventure Anime'",
+        "body": "Weekly episodes now debuting as part of \"2nd & 3rd stages\" that started on September 25",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] news 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
