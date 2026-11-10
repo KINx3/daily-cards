@@ -1,0 +1,75 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-11",
+    "dateLabel": "2026.11.11",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] ainews 2026-11-11",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "AI NEWS",
+        "heading": "이번 주\nAI 뉴스 다이제스트",
+        "subheading": "2026.11.11 기준",
+        "body": "오늘의 AI 소식을\n카드로 정리했습니다.",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "Nvidia CEO Jensen Huang&#8217;s affair with al",
+        "body": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "Google broadens its AI hardware portfolio with",
+        "body": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.  ",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Meta&#8217;s AI agent Muse lands on Apple Watc",
+        "body": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "Adobe brings AI agents and new creative tools ",
+        "body": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "Anthropic sets IPO price range of $70 to $78 p",
+        "body": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis. ",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] ainews 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
