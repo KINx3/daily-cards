@@ -1564,5 +1564,20 @@
       "out/growth/2026-11-10/05.jpg",
       "out/growth/2026-11-10/06.jpg"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "slot": 1,
+    "type": "habit",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "h-2min"
+    ],
+    "images": [
+      "out/growth/2026-11-11/01.jpg",
+      "out/growth/2026-11-11/02.jpg",
+      "out/growth/2026-11-11/03.jpg"
+    ]
   }
 ]
