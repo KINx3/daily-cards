@@ -1934,5 +1934,20 @@
       "out/tech/2026-11-11/06.jpg",
       "out/tech/2026-11-11/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "slot": 1,
+    "type": "concept",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "c-embedding"
+    ],
+    "images": [
+      "out/tech/2026-11-12/01.jpg",
+      "out/tech/2026-11-12/02.jpg",
+      "out/tech/2026-11-12/03.jpg"
+    ]
   }
 ]
