@@ -1,0 +1,55 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-12",
+    "dateLabel": "2026.11.12",
+    "weekday": 4,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-11-12",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "오늘의 명대사",
+        "heading": "한 문장이\n오래 남을 때",
+        "subheading": "스즈미야 하루히의 우울",
+        "body": "작품 속 한 문장을\n오늘의 카드로 전합니다.",
+        "imageKey": "m849"
+      },
+      {
+        "kind": "quote",
+        "heading": "스즈미야 하루히",
+        "subheading": "스즈미야 하루히의 우울",
+        "body": "단순한 인간에게는 흥미 없습니다.",
+        "imageKey": "m849"
+      },
+      {
+        "kind": "item",
+        "heading": "스즈미야 하루히의 우울",
+        "subheading": "Suzumiya Haruhi no Yuuutsu",
+        "meta": "TV · 14화 · Kyoto Animation · 평점 76",
+        "body": "Comedy · Mystery · Sci-Fi · Slice of Life",
+        "imageKey": "m849"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
