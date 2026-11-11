@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-12",
+    "dateLabel": "2026.11.12",
+    "weekday": 4,
+    "type": "mindset",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] mindset 2026-11-12",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "MINDSET",
+        "heading": "피드백 루프",
+        "subheading": "생각의 도구",
+        "body": "측정 없이 개선 없다. 행동→측정→조정의 루프를 짧게 돌릴수록 성장이 빨라진다. 주간 회고가 가장 쉬운 루프."
+      },
+      {
+        "kind": "news",
+        "badge": "WHAT",
+        "heading": "피드백 루프",
+        "body": "측정 없이 개선 없다. 행동→측정→조정의 루프를 짧게 돌릴수록 성장이 빨라진다. 주간 회고가 가장 쉬운 루프."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] mindset 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
