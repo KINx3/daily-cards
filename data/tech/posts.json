@@ -1949,5 +1949,24 @@
       "out/tech/2026-11-12/02.jpg",
       "out/tech/2026-11-12/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-tailscale",
+      "t-bruno",
+      "t-jq"
+    ],
+    "images": [
+      "out/tech/2026-11-13/01.jpg",
+      "out/tech/2026-11-13/02.jpg",
+      "out/tech/2026-11-13/03.jpg",
+      "out/tech/2026-11-13/04.jpg",
+      "out/tech/2026-11-13/05.jpg"
+    ]
   }
 ]
