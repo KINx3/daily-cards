@@ -1594,5 +1594,20 @@
       "out/growth/2026-11-12/02.jpg",
       "out/growth/2026-11-12/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-brucelee"
+    ],
+    "images": [
+      "out/growth/2026-11-13/01.jpg",
+      "out/growth/2026-11-13/02.jpg",
+      "out/growth/2026-11-13/03.jpg"
+    ]
   }
 ]

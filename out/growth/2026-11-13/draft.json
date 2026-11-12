@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-13",
+    "dateLabel": "2026.11.13",
+    "weekday": 5,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-11-13",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "MONDAY BOOST",
+        "heading": "오늘을 바꾸는\n한 문장",
+        "subheading": "브루스 리",
+        "body": "오늘 하루를 붙잡아 줄\n문장을 준비했습니다."
+      },
+      {
+        "kind": "quote",
+        "heading": "브루스 리",
+        "subheading": "",
+        "body": "만 가지 발차기를 한 번씩 연습한 사람은 두렵지 않다.\n한 가지 발차기를 만 번 연습한 사람이 두렵다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
