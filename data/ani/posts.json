@@ -1803,5 +1803,20 @@
       "out/ani/2026-11-12/03.jpg",
       "out/ani/2026-11-12/04.jpg"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "slot": 1,
+    "type": "seasonal",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m189123"
+    ],
+    "images": [
+      "out/ani/2026-11-13/01.jpg",
+      "out/ani/2026-11-13/02.jpg",
+      "out/ani/2026-11-13/03.jpg"
+    ]
   }
 ]
