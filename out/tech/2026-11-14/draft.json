@@ -1,0 +1,67 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-14",
+    "dateLabel": "2026.11.14",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-11-14",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "HGhub",
+        "subheading": "Minireel/HGhub",
+        "meta": "★ 8,806",
+        "body": "YellowFruit third-party client"
+      },
+      {
+        "kind": "item",
+        "heading": "misterdownloadmanager",
+        "subheading": "anefzaoui/misterdownloadmanager",
+        "meta": "Rust · ★ 8,669",
+        "body": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux"
+      },
+      {
+        "kind": "item",
+        "heading": "agent_skills",
+        "subheading": "janestreet/agent_skills",
+        "meta": "★ 8,149",
+        "body": "Agent skills"
+      },
+      {
+        "kind": "item",
+        "heading": "rea-video",
+        "subheading": "JuneYaooo/rea-video",
+        "meta": "Python · ★ 7,871",
+        "body": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
