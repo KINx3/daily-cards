@@ -1,0 +1,63 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-14",
+    "dateLabel": "2026.11.14",
+    "weekday": 6,
+    "type": "book",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] book 2026-11-14",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "BOOK",
+        "heading": "미라클 모닝",
+        "subheading": "할 엘로드",
+        "body": "하루를 바꾸는 아침 6가지 의식"
+      },
+      {
+        "kind": "item",
+        "heading": "미라클 모닝",
+        "subheading": "할 엘로드",
+        "body": "하루를 바꾸는 아침 6가지 의식"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 1",
+        "heading": "아침 첫 시간의 주도권이 하루를 결정한다",
+        "body": "『미라클 모닝』 — 하루를 바꾸는 아침 6가지 의식"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 2",
+        "heading": "침묵·확언·시각화·운동·독서·쓰기(SAVERS)",
+        "body": "『미라클 모닝』 — 하루를 바꾸는 아침 6가지 의식"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 3",
+        "heading": "기상 직후 6분 버전부터 시작해도 된다",
+        "body": "『미라클 모닝』 — 하루를 바꾸는 아침 6가지 의식"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] book 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
