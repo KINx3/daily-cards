@@ -1989,5 +1989,20 @@
       "out/tech/2026-11-14/05.jpg",
       "out/tech/2026-11-14/06.jpg"
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "slot": 1,
+    "type": "devquote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "dq-karlton"
+    ],
+    "images": [
+      "out/tech/2026-11-15/01.jpg",
+      "out/tech/2026-11-15/02.jpg",
+      "out/tech/2026-11-15/03.jpg"
+    ]
   }
 ]
