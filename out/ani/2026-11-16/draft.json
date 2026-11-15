@@ -1,0 +1,80 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-16",
+    "dateLabel": "2026.11.16",
+    "weekday": 1,
+    "type": "trending",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] trending 2026-11-16",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "FIXTURE",
+        "heading": "주간 트렌딩\n카드뉴스 테스트",
+        "subheading": "2026.11.16 기준",
+        "body": "이번 카드에서 소개할\n작품들을 담았습니다.",
+        "imageKey": "m191788"
+      },
+      {
+        "kind": "item",
+        "badge": "1위",
+        "heading": "Aoashi Season 2",
+        "meta": "TV · 24화 · TMS Entertainment · 평점 81",
+        "body": "Sports",
+        "imageKey": "m191788"
+      },
+      {
+        "kind": "item",
+        "badge": "2위",
+        "heading": "ONE PIECE",
+        "meta": "TV · Toei Animation · 평점 87",
+        "body": "Action · Adventure · Comedy · Drama",
+        "imageKey": "m21"
+      },
+      {
+        "kind": "item",
+        "badge": "3위",
+        "heading": "Even the Student Council Has Its Holes!",
+        "meta": "TV · 12화 · Passione · 평점 74",
+        "body": "Comedy · Ecchi · Slice of Life",
+        "imageKey": "m191656"
+      },
+      {
+        "kind": "item",
+        "badge": "4위",
+        "heading": "As a Reincarnated Aristocrat, I'll Use My Appr",
+        "meta": "TV · GeyeG Pictures · 평점 68",
+        "body": "Adventure · Fantasy",
+        "imageKey": "m185756"
+      },
+      {
+        "kind": "item",
+        "badge": "5위",
+        "heading": "Even Though I'm a Super Timid Noble Girl, I Ac",
+        "meta": "TV · 12화 · Jumondou · 평점 67",
+        "body": "Comedy · Fantasy · Romance",
+        "imageKey": "m200455"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] trending 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}

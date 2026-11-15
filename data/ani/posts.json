@@ -1854,5 +1854,28 @@
       "out/ani/2026-11-15/06.jpg",
       "out/ani/2026-11-15/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "slot": 1,
+    "type": "trending",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m191788",
+      "m21",
+      "m191656",
+      "m185756",
+      "m200455"
+    ],
+    "images": [
+      "out/ani/2026-11-16/01.jpg",
+      "out/ani/2026-11-16/02.jpg",
+      "out/ani/2026-11-16/03.jpg",
+      "out/ani/2026-11-16/04.jpg",
+      "out/ani/2026-11-16/05.jpg",
+      "out/ani/2026-11-16/06.jpg",
+      "out/ani/2026-11-16/07.jpg"
+    ]
   }
 ]
