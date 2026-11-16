@@ -2037,5 +2037,24 @@
       "out/tech/2026-11-16/06.jpg",
       "out/tech/2026-11-16/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:libracoder/kiri",
+      "gh:huamidev/GestaltX",
+      "gh:patch-gg/pixelfx"
+    ],
+    "images": [
+      "out/tech/2026-11-17/01.jpg",
+      "out/tech/2026-11-17/02.jpg",
+      "out/tech/2026-11-17/03.jpg",
+      "out/tech/2026-11-17/04.jpg",
+      "out/tech/2026-11-17/05.jpg"
+    ]
   }
 ]

@@ -1,0 +1,60 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-17",
+    "dateLabel": "2026.11.17",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-11-17",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "kiri",
+        "subheading": "libracoder/kiri",
+        "meta": "Rust · ★ 8,624",
+        "body": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative"
+      },
+      {
+        "kind": "item",
+        "heading": "GestaltX",
+        "subheading": "huamidev/GestaltX",
+        "meta": "Swift · ★ 7,870",
+        "body": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups."
+      },
+      {
+        "kind": "item",
+        "heading": "pixelfx",
+        "subheading": "patch-gg/pixelfx",
+        "meta": "JavaScript · ★ 7,740",
+        "body": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
