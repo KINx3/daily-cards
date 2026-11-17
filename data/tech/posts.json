@@ -2056,5 +2056,38 @@
       "out/tech/2026-11-17/04.jpg",
       "out/tech/2026-11-17/05.jpg"
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "slot": 1,
+    "type": "ainews",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "https://techcrunch.com/?p=3189001",
+      "https://techcrunch.com/?p=3189612",
+      "https://techcrunch.com/?p=3189535",
+      "https://techcrunch.com/?p=3189496",
+      "https://techcrunch.com/?p=3189502",
+      "https://techcrunch.com/?p=3189498",
+      "https://techcrunch.com/?p=3188450",
+      "https://techcrunch.com/?p=3189440",
+      "https://techcrunch.com/?p=3189451",
+      "https://techcrunch.com/?p=3189442",
+      "https://techcrunch.com/?p=3189147",
+      "https://techcrunch.com/?p=3189297",
+      "https://techcrunch.com/?p=3189019",
+      "https://techcrunch.com/?p=3189115",
+      "https://techcrunch.com/?p=3189047"
+    ],
+    "images": [
+      "out/tech/2026-11-18/01.jpg",
+      "out/tech/2026-11-18/02.jpg",
+      "out/tech/2026-11-18/03.jpg",
+      "out/tech/2026-11-18/04.jpg",
+      "out/tech/2026-11-18/05.jpg",
+      "out/tech/2026-11-18/06.jpg",
+      "out/tech/2026-11-18/07.jpg"
+    ]
   }
 ]

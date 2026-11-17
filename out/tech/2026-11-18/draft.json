@@ -1,0 +1,74 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-18",
+    "dateLabel": "2026.11.18",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] ainews 2026-11-18",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "AI NEWS",
+        "heading": "이번 주\nAI 뉴스 다이제스트",
+        "subheading": "2026.11.18 기준",
+        "body": "오늘의 AI 소식을\n카드로 정리했습니다."
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "As decision model use skyrockets, is customiza",
+        "body": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities. ",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "Pedestal AI raises $4.7 million to agentify th",
+        "body": "The company uses agentic AI to make supply chains faster and more reliable.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Proton&#8217;s Lumo, a privacy-focused alterna",
+        "body": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "AI models can be tricked into identifying civi",
+        "body": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled. ",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "Jensen Huang says he would be &#8216;honored&#",
+        "body": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] ainews 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
