@@ -1,0 +1,75 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-18",
+    "dateLabel": "2026.11.18",
+    "weekday": 3,
+    "type": "news",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] news 2026-11-18",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "WEEKLY NEWS",
+        "heading": "이번 주\n애니 뉴스 다이제스트",
+        "subheading": "2026.11.18 기준",
+        "body": "이번 주 애니 소식을\n간추렸습니다.",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "Mistress Kanan is Devilishly Easy Season 2's 1",
+        "body": "Returning cast, staff for Kanan-sama wa Akumade Choroi 2 EASY also confirmed",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "Josemaru Short Anime's 3rd Teaser Reveals More",
+        "body": "Mariya Ise, Hikaru Tōno, Nana Enomoto join cast",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "The Eternal Fool's Words of Wisdom Anime's New",
+        "body": "Rie Kugimiya joins cast as Aileen; Nako Misaki × sajou no hana, Arcana Project perform theme songs",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "The Days of Diamond Manga Gets TV Anime",
+        "body": "Takakazu Nagatomo to direct anime of Ōhashi Hirai's manga at Lapin Track",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "OceanVeil Streams English Dub for Hands Off: S",
+        "body": "Brittany Lauda, Sean Flaherty star in dub available on November 27",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] news 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
