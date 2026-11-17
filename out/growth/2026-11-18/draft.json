@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-18",
+    "dateLabel": "2026.11.18",
+    "weekday": 3,
+    "type": "habit",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] habit 2026-11-18",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "HABIT",
+        "heading": "습관 쌓기",
+        "subheading": "오늘부터 실천",
+        "body": "'양치 후에 스쿼트 10개'처럼 기존 습관 뒤에 새 습관을 붙인다. 이미 자동화된 행동이 방아쇠가 된다."
+      },
+      {
+        "kind": "news",
+        "badge": "HOW",
+        "heading": "습관 쌓기",
+        "body": "'양치 후에 스쿼트 10개'처럼 기존 습관 뒤에 새 습관을 붙인다. 이미 자동화된 행동이 방아쇠가 된다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] habit 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
