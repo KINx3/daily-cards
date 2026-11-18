@@ -1928,5 +1928,22 @@
       "out/ani/2026-11-18/06.jpg",
       "out/ani/2026-11-18/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-kny-rengoku",
+      "m101922"
+    ],
+    "images": [
+      "out/ani/2026-11-19/01.jpg",
+      "out/ani/2026-11-19/02.jpg",
+      "out/ani/2026-11-19/03.jpg",
+      "out/ani/2026-11-19/04.jpg"
+    ]
   }
 ]
