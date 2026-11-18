@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-19",
+    "dateLabel": "2026.11.19",
+    "weekday": 4,
+    "type": "mindset",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] mindset 2026-11-19",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "MINDSET",
+        "heading": "후회 최소화 프레임",
+        "subheading": "생각의 도구",
+        "body": "80세의 내가 돌아본다면? 단기 두려움 대신 장기 후회를 기준으로 결정하는 프레임. 큰 결정일수록 유효하다."
+      },
+      {
+        "kind": "news",
+        "badge": "WHAT",
+        "heading": "후회 최소화 프레임",
+        "body": "80세의 내가 돌아본다면? 단기 두려움 대신 장기 후회를 기준으로 결정하는 프레임. 큰 결정일수록 유효하다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] mindset 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}

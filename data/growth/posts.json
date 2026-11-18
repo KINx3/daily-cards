@@ -1690,5 +1690,20 @@
       "out/growth/2026-11-18/02.jpg",
       "out/growth/2026-11-18/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-regret-min"
+    ],
+    "images": [
+      "out/growth/2026-11-19/01.jpg",
+      "out/growth/2026-11-19/02.jpg",
+      "out/growth/2026-11-19/03.jpg"
+    ]
   }
 ]
