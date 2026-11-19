@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-20",
+    "dateLabel": "2026.11.20",
+    "weekday": 5,
+    "type": "quote",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] quote 2026-11-20",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "MONDAY BOOST",
+        "heading": "오늘을 바꾸는\n한 문장",
+        "subheading": "헬렌 켈러",
+        "body": "오늘 하루를 붙잡아 줄\n문장을 준비했습니다."
+      },
+      {
+        "kind": "quote",
+        "heading": "헬렌 켈러",
+        "subheading": "Optimism (1903)",
+        "body": "낙관은 성취로 이끄는 믿음이다.\n희망과 자신감 없이는 아무것도 이룰 수 없다."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] quote 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}

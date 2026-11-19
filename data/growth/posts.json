@@ -1705,5 +1705,20 @@
       "out/growth/2026-11-19/02.jpg",
       "out/growth/2026-11-19/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-keller"
+    ],
+    "images": [
+      "out/growth/2026-11-20/01.jpg",
+      "out/growth/2026-11-20/02.jpg",
+      "out/growth/2026-11-20/03.jpg"
+    ]
   }
 ]
