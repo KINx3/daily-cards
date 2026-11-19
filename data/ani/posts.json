@@ -1945,5 +1945,20 @@
       "out/ani/2026-11-19/03.jpg",
       "out/ani/2026-11-19/04.jpg"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "slot": 1,
+    "type": "seasonal",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m210482"
+    ],
+    "images": [
+      "out/ani/2026-11-20/01.jpg",
+      "out/ani/2026-11-20/02.jpg",
+      "out/ani/2026-11-20/03.jpg"
+    ]
   }
 ]
