@@ -2104,5 +2104,24 @@
       "out/tech/2026-11-19/02.jpg",
       "out/tech/2026-11-19/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-tailscale",
+      "t-direnv",
+      "t-linear"
+    ],
+    "images": [
+      "out/tech/2026-11-20/01.jpg",
+      "out/tech/2026-11-20/02.jpg",
+      "out/tech/2026-11-20/03.jpg",
+      "out/tech/2026-11-20/04.jpg",
+      "out/tech/2026-11-20/05.jpg"
+    ]
   }
 ]
