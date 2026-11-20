@@ -1,0 +1,74 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-21",
+    "dateLabel": "2026.11.21",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-11-21",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "GestaltX",
+        "subheading": "huami1314/GestaltX",
+        "meta": "Swift · ★ 8,628",
+        "body": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups."
+      },
+      {
+        "kind": "item",
+        "heading": "Claude-Cage",
+        "subheading": "Lee-xeo/Claude-Cage",
+        "meta": "Go · ★ 7,068",
+        "body": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。"
+      },
+      {
+        "kind": "item",
+        "heading": "rust-anything",
+        "subheading": "erkamyaman/rust-anything",
+        "meta": "Rust · ★ 6,370",
+        "body": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries "
+      },
+      {
+        "kind": "item",
+        "heading": "agent-autoloop",
+        "subheading": "KKKKhazix/agent-autoloop",
+        "meta": "TypeScript · ★ 6,116",
+        "body": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
+      },
+      {
+        "kind": "item",
+        "heading": "Wireless-Device-Battery-Monitor",
+        "subheading": "krisgfx9/Wireless-Device-Battery-Monitor",
+        "meta": "C++ · ★ 5,152",
+        "body": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software ne"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
