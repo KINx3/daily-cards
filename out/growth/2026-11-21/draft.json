@@ -1,0 +1,63 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-21",
+    "dateLabel": "2026.11.21",
+    "weekday": 6,
+    "type": "book",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] book 2026-11-21",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "BOOK",
+        "heading": "아티스트 웨이",
+        "subheading": "줄리아 캐머런",
+        "body": "창조성을 회복하는 12주 프로그램"
+      },
+      {
+        "kind": "item",
+        "heading": "아티스트 웨이",
+        "subheading": "줄리아 캐머런",
+        "body": "창조성을 회복하는 12주 프로그램"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 1",
+        "heading": "매일 아침 3쪽 모닝 페이지를 써라",
+        "body": "『아티스트 웨이』 — 창조성을 회복하는 12주 프로그램"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 2",
+        "heading": "매주 자신과의 아티스트 데이트를 잡아라",
+        "body": "『아티스트 웨이』 — 창조성을 회복하는 12주 프로그램"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 3",
+        "heading": "창조성은 재능이 아니라 회복하는 것",
+        "body": "『아티스트 웨이』 — 창조성을 회복하는 12주 프로그램"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] book 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}

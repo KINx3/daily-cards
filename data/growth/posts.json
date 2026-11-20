@@ -1720,5 +1720,23 @@
       "out/growth/2026-11-20/02.jpg",
       "out/growth/2026-11-20/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-artist-way"
+    ],
+    "images": [
+      "out/growth/2026-11-21/01.jpg",
+      "out/growth/2026-11-21/02.jpg",
+      "out/growth/2026-11-21/03.jpg",
+      "out/growth/2026-11-21/04.jpg",
+      "out/growth/2026-11-21/05.jpg",
+      "out/growth/2026-11-21/06.jpg"
+    ]
   }
 ]
