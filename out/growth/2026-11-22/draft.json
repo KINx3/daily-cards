@@ -1,0 +1,45 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-22",
+    "dateLabel": "2026.11.22",
+    "weekday": 0,
+    "type": "habit",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] habit 2026-11-22",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "HABIT",
+        "heading": "이프-덴 플래닝",
+        "subheading": "오늘부터 실천",
+        "body": "'만약 X 상황이면 Y를 한다'로 미리 정해둔다. '퇴근 후 피곤하면 → 운동복만 갈아입는다'. 결정을 현장에서 하지 않는 것이 핵심."
+      },
+      {
+        "kind": "news",
+        "badge": "HOW",
+        "heading": "이프-덴 플래닝",
+        "body": "'만약 X 상황이면 Y를 한다'로 미리 정해둔다. '퇴근 후 피곤하면 → 운동복만 갈아입는다'. 결정을 현장에서 하지 않는 것이 핵심."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] habit 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}
