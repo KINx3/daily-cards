@@ -1753,5 +1753,20 @@
       "out/growth/2026-11-22/02.jpg",
       "out/growth/2026-11-22/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gq-drucker"
+    ],
+    "images": [
+      "out/growth/2026-11-23/01.jpg",
+      "out/growth/2026-11-23/02.jpg",
+      "out/growth/2026-11-23/03.jpg"
+    ]
   }
 ]
