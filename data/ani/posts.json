@@ -1995,5 +1995,28 @@
       "out/ani/2026-11-22/05.jpg",
       "out/ani/2026-11-22/06.jpg"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "slot": 1,
+    "type": "trending",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m212888",
+      "m195604",
+      "m186541",
+      "m205896",
+      "m189123"
+    ],
+    "images": [
+      "out/ani/2026-11-23/01.jpg",
+      "out/ani/2026-11-23/02.jpg",
+      "out/ani/2026-11-23/03.jpg",
+      "out/ani/2026-11-23/04.jpg",
+      "out/ani/2026-11-23/05.jpg",
+      "out/ani/2026-11-23/06.jpg",
+      "out/ani/2026-11-23/07.jpg"
+    ]
   }
 ]
