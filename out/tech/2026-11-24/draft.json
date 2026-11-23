@@ -1,0 +1,74 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-24",
+    "dateLabel": "2026.11.24",
+    "weekday": 2,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-11-24",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "Leonida",
+        "subheading": "ItsNotRexed/Leonida",
+        "meta": "Python · ★ 31,788",
+        "body": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6"
+      },
+      {
+        "kind": "item",
+        "heading": "phonebox",
+        "subheading": "ersinkoc/phonebox",
+        "meta": "JavaScript · ★ 5,420",
+        "body": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system "
+      },
+      {
+        "kind": "item",
+        "heading": "chat-demo",
+        "subheading": "deepseek-ai/chat-demo",
+        "meta": "TypeScript · ★ 5,342",
+        "body": "Chat Demo"
+      },
+      {
+        "kind": "item",
+        "heading": "NX2navi",
+        "subheading": "tangerineturtle1/NX2navi",
+        "meta": "C · ★ 4,351",
+        "body": "최근 스타 급상승 리포지토리"
+      },
+      {
+        "kind": "item",
+        "heading": "sheeridVerify",
+        "subheading": "JenkinWoo/sheeridVerify",
+        "meta": "JavaScript · ★ 4,252",
+        "body": "최근 스타 급상승 리포지토리"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}

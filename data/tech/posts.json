@@ -2194,5 +2194,28 @@
       "out/tech/2026-11-23/06.jpg",
       "out/tech/2026-11-23/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:ItsNotRexed/Leonida",
+      "gh:ersinkoc/phonebox",
+      "gh:deepseek-ai/chat-demo",
+      "gh:tangerineturtle1/NX2navi",
+      "gh:JenkinWoo/sheeridVerify"
+    ],
+    "images": [
+      "out/tech/2026-11-24/01.jpg",
+      "out/tech/2026-11-24/02.jpg",
+      "out/tech/2026-11-24/03.jpg",
+      "out/tech/2026-11-24/04.jpg",
+      "out/tech/2026-11-24/05.jpg",
+      "out/tech/2026-11-24/06.jpg",
+      "out/tech/2026-11-24/07.jpg"
+    ]
   }
 ]
