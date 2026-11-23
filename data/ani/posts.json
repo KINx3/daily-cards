@@ -2018,5 +2018,24 @@
       "out/ani/2026-11-23/06.jpg",
       "out/ani/2026-11-23/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "slot": 1,
+    "type": "classic",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m2001",
+      "m9989",
+      "m4181"
+    ],
+    "images": [
+      "out/ani/2026-11-24/01.jpg",
+      "out/ani/2026-11-24/02.jpg",
+      "out/ani/2026-11-24/03.jpg",
+      "out/ani/2026-11-24/04.jpg",
+      "out/ani/2026-11-24/05.jpg"
+    ]
   }
 ]
