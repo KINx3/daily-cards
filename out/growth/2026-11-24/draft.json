@@ -1,0 +1,63 @@
+{
+  "topic": "growth",
+  "plan": {
+    "dateISO": "2026-11-24",
+    "dateLabel": "2026.11.24",
+    "weekday": 2,
+    "type": "book",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] book 2026-11-24",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "BOOK",
+        "heading": "퓨처 셀프",
+        "subheading": "벤저민 하디",
+        "body": "미래의 나와 연결될수록 현재가 달라진다"
+      },
+      {
+        "kind": "item",
+        "heading": "퓨처 셀프",
+        "subheading": "벤저민 하디",
+        "body": "미래의 나와 연결될수록 현재가 달라진다"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 1",
+        "heading": "미래의 나를 구체적으로 그릴수록 현재 선택이 바뀐다",
+        "body": "『퓨처 셀프』 — 미래의 나와 연결될수록 현재가 달라진다"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 2",
+        "heading": "목표는 미래 정체성에서 역산하라",
+        "body": "『퓨처 셀프』 — 미래의 나와 연결될수록 현재가 달라진다"
+      },
+      {
+        "kind": "news",
+        "badge": "핵심 3",
+        "heading": "현재의 나는 미래의 나의 조상이다",
+        "body": "『퓨처 셀프』 — 미래의 나와 연결될수록 현재가 달라진다"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n성장 카드 한 장",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] book 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "자기계발",
+      "동기부여",
+      "성장",
+      "습관",
+      "독서",
+      "책추천",
+      "마인드셋",
+      "갓생"
+    ]
+  }
+}

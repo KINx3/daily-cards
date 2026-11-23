@@ -1768,5 +1768,23 @@
       "out/growth/2026-11-23/02.jpg",
       "out/growth/2026-11-23/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "slot": 1,
+    "type": "book",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "b-future-self"
+    ],
+    "images": [
+      "out/growth/2026-11-24/01.jpg",
+      "out/growth/2026-11-24/02.jpg",
+      "out/growth/2026-11-24/03.jpg",
+      "out/growth/2026-11-24/04.jpg",
+      "out/growth/2026-11-24/05.jpg",
+      "out/growth/2026-11-24/06.jpg"
+    ]
   }
 ]
