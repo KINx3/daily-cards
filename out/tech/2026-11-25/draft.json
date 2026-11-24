@@ -1,0 +1,74 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-25",
+    "dateLabel": "2026.11.25",
+    "weekday": 3,
+    "type": "ainews",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] ainews 2026-11-25",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "AI NEWS",
+        "heading": "이번 주\nAI 뉴스 다이제스트",
+        "subheading": "2026.11.25 기준",
+        "body": "오늘의 AI 소식을\n카드로 정리했습니다."
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "Anthropic shares fall below IPO price, a worry",
+        "body": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "UK warns AI-driven cyberattacks are exposing y",
+        "body": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Meta brings its Muse AI assistant directly int",
+        "body": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent. ",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "Tidal to ban and remove millions of AI-generat",
+        "body": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "Why a Crusoe investor is betting on solar and ",
+        "body": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+        "meta": "TechCrunch"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] ainews 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
