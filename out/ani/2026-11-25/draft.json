@@ -1,0 +1,75 @@
+{
+  "topic": "ani",
+  "plan": {
+    "dateISO": "2026-11-25",
+    "dateLabel": "2026.11.25",
+    "weekday": 3,
+    "type": "news",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] news 2026-11-25",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "WEEKLY NEWS",
+        "heading": "이번 주\n애니 뉴스 다이제스트",
+        "subheading": "2026.11.25 기준",
+        "body": "이번 주 애니 소식을\n간추렸습니다.",
+        "imageKey": "newscover"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 01",
+        "heading": "HIDIVE to Premiere Murciélago Anime at Anime F",
+        "body": "Fort Worth convention to host world premiere on December 5 before January 2027 TV debut",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 02",
+        "heading": "Twisted-Wonderland: Episode of Savanaclaw Anim",
+        "body": "Savanaclaw dorm members perform \"DIADEM\" ending song",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 03",
+        "heading": "Witch on the Holy Night Anime Film's Sequel Co",
+        "body": "1st film earned 516 million yen in 1st 4 days",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 04",
+        "heading": "All You Need Is Kill, Kaguya!, Grotesqqque, Mo",
+        "body": "Jinsei, Last Blossom, 2nd Gundam Hathaway film, Ribbon Hero, Super Mario Galaxy Movie, Avatar Aang also eligible",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "news",
+        "badge": "NEWS 05",
+        "heading": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyō to",
+        "body": "Kaori Maeda, Yūko Natsuyoshi, more star in romcom debuting in 2027",
+        "meta": "Anime News Network"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n애니 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] news 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "애니",
+      "애니추천",
+      "카드뉴스",
+      "애니메이션",
+      "애니뉴스",
+      "오늘의애니",
+      "만화",
+      "otaku"
+    ]
+  }
+}
