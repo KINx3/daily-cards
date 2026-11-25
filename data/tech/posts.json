@@ -2250,5 +2250,20 @@
       "out/tech/2026-11-25/06.jpg",
       "out/tech/2026-11-25/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "slot": 1,
+    "type": "concept",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "c-finetuning"
+    ],
+    "images": [
+      "out/tech/2026-11-26/01.jpg",
+      "out/tech/2026-11-26/02.jpg",
+      "out/tech/2026-11-26/03.jpg"
+    ]
   }
 ]

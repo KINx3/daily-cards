@@ -1,0 +1,45 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-26",
+    "dateLabel": "2026.11.26",
+    "weekday": 4,
+    "type": "concept",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] concept 2026-11-26",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "CONCEPT",
+        "heading": "파인튜닝 vs RAG",
+        "subheading": "한 장 정리",
+        "body": "개념의 핵심만\n빠르게 정리했습니다."
+      },
+      {
+        "kind": "news",
+        "badge": "WHAT",
+        "heading": "파인튜닝 vs RAG",
+        "body": "모델 가중치를 추가 학습(파인튜닝) vs 검색으로 지식 주입(RAG). 스타일·형식은 파인튜닝, 사실·최신 지식은 RAG가 정석."
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] concept 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}
