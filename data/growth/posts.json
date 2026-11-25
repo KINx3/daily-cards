@@ -1801,5 +1801,20 @@
       "out/growth/2026-11-25/02.jpg",
       "out/growth/2026-11-25/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "slot": 1,
+    "type": "mindset",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "m-system-goal"
+    ],
+    "images": [
+      "out/growth/2026-11-26/01.jpg",
+      "out/growth/2026-11-26/02.jpg",
+      "out/growth/2026-11-26/03.jpg"
+    ]
   }
 ]
