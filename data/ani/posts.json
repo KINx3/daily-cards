@@ -2070,5 +2070,22 @@
       "out/ani/2026-11-25/06.jpg",
       "out/ani/2026-11-25/07.jpg"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "slot": 1,
+    "type": "quote",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "q-madoka",
+      "m9756"
+    ],
+    "images": [
+      "out/ani/2026-11-26/01.jpg",
+      "out/ani/2026-11-26/02.jpg",
+      "out/ani/2026-11-26/03.jpg",
+      "out/ani/2026-11-26/04.jpg"
+    ]
   }
 ]
