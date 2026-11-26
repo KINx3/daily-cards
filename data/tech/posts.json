@@ -2265,5 +2265,24 @@
       "out/tech/2026-11-26/02.jpg",
       "out/tech/2026-11-26/03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "slot": 1,
+    "type": "tools",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "t-ripgrep",
+      "t-tailscale",
+      "t-playwright"
+    ],
+    "images": [
+      "out/tech/2026-11-27/01.jpg",
+      "out/tech/2026-11-27/02.jpg",
+      "out/tech/2026-11-27/03.jpg",
+      "out/tech/2026-11-27/04.jpg",
+      "out/tech/2026-11-27/05.jpg"
+    ]
   }
 ]
