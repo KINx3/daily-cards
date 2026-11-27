@@ -1,0 +1,74 @@
+{
+  "topic": "tech",
+  "plan": {
+    "dateISO": "2026-11-28",
+    "dateLabel": "2026.11.28",
+    "weekday": 6,
+    "type": "repos",
+    "mode": "review"
+  },
+  "mode": "review",
+  "draft": {
+    "title": "[fixture] repos 2026-11-28",
+    "slides": [
+      {
+        "kind": "cover",
+        "badge": "GITHUB",
+        "heading": "이번 주\n주목할 리포",
+        "subheading": "스타 급상승 기준",
+        "body": "스타가 몰리는 새 리포들을\n한 장씩 살펴봅니다."
+      },
+      {
+        "kind": "item",
+        "heading": "VIctory",
+        "subheading": "Marvisak/VIctory",
+        "meta": "Rust · ★ 13,728",
+        "body": "An attempt at running GTA VI on PC"
+      },
+      {
+        "kind": "item",
+        "heading": "xcl",
+        "subheading": "xcl-dev/xcl",
+        "meta": "Rust · ★ 8,701",
+        "body": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders "
+      },
+      {
+        "kind": "item",
+        "heading": "portwatch-vi",
+        "subheading": "4lwayz/portwatch-vi",
+        "meta": "JavaScript · ★ 6,549",
+        "body": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily."
+      },
+      {
+        "kind": "item",
+        "heading": "ung220z-tool",
+        "subheading": "Hut-hzf/ung220z-tool",
+        "meta": "Python · ★ 5,859",
+        "body": "ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。"
+      },
+      {
+        "kind": "item",
+        "heading": "linger",
+        "subheading": "simplexai-labs/linger",
+        "meta": "TypeScript · ★ 5,084",
+        "body": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday c"
+      },
+      {
+        "kind": "outro",
+        "heading": "매일 저녁 6시,\n테크 소식을 카드로",
+        "body": "픽스처 모드로 생성된 테스트 초안입니다."
+      }
+    ],
+    "caption": "⚠️ writer 실패로 자동 생성된 픽스처 초안입니다. 검토 후 직접 수정하세요.\n\n[fixture] repos 파이프라인 테스트 초안입니다.",
+    "hashtags": [
+      "개발자",
+      "테크뉴스",
+      "AI",
+      "프로그래밍",
+      "코딩",
+      "개발",
+      "IT",
+      "기술트렌드"
+    ]
+  }
+}

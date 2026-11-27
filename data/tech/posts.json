@@ -2284,5 +2284,28 @@
       "out/tech/2026-11-27/04.jpg",
       "out/tech/2026-11-27/05.jpg"
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "slot": 1,
+    "type": "repos",
+    "mode": "review",
+    "igMediaId": null,
+    "featured": [
+      "gh:Marvisak/VIctory",
+      "gh:xcl-dev/xcl",
+      "gh:4lwayz/portwatch-vi",
+      "gh:Hut-hzf/ung220z-tool",
+      "gh:simplexai-labs/linger"
+    ],
+    "images": [
+      "out/tech/2026-11-28/01.jpg",
+      "out/tech/2026-11-28/02.jpg",
+      "out/tech/2026-11-28/03.jpg",
+      "out/tech/2026-11-28/04.jpg",
+      "out/tech/2026-11-28/05.jpg",
+      "out/tech/2026-11-28/06.jpg",
+      "out/tech/2026-11-28/07.jpg"
+    ]
   }
 ]
